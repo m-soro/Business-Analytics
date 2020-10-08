@@ -28,10 +28,22 @@ The aim of this whole project is mostly to show you the Udacity process, but it 
 ## 5. Weather Data in SQL
 ## 6. Interview 3 - Uncommon Bold
 ## 7. [Project Introduction](blob:https://classroom.udacity.com/9ea58902-3fda-4c4f-b3e6-d53612343732)
-      This project is aimed at analysis using data visualization in Tableau. Watch the video here to learn what your project is all about!
+      >This project is aimed at analysis using data visualization in Tableau. Watch the video here to learn what your project is all about!
 ## 8. Project Overview
+
       Project description
 
-      A large part of working with data is being able to interpret data visualizations and explain your insights to others. To give you some practice with this, we’ve selected a few Tableau dashboards for you to explore. The links are below, under "Choose from these Dashboards." Choose one of these dashboards, whichever one interests you the most, and find three insights in the visualizations. For each insight, provide a static image that shares what you found. Write a short report explaining each observation and how you found the information to reach your conclusion from the dashboard. Altogether (including images), your report should be 1-2 pages.
+      A large part of working with data is being able to interpret data visualizations and explain your insights to others. To give you some practice with this, we’ve selected a few Tableau dashboards for you to explore.
+
+      The links are below, under "Choose from these Dashboards." Choose one of these dashboards, whichever one interests you the most, and find three insights in the visualizations.
+
+      For each insight:
+
+      - [ ] Provide a static image that shares what you found.
+      - [ ] Write a short report explaining each observation and
+      - [ ] How you found the information to reach your conclusion from the dashboard.
+      - [ ]Altogether (including images), your report should be 1-2 pages.
+
+      [LinkedIn Top Skills](https://public.tableau.com/profile/matt.chambers#!/vizhome/LinkedInTopSkills2016-MakeoverMonday/LinkedInTopSkills2016-MakeoverMonday)
 
 [Project Rubric](https://review.udacity.com/#!/rubrics/1063/view)

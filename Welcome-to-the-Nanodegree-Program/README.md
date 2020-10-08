@@ -42,7 +42,7 @@ For each insight:
 - [ ] Provide a static image that shares what you found.
 - [ ] Write a short report explaining each observation and
 - [ ] How you found the information to reach your conclusion from the dashboard.
-- [ ]Altogether (including images), your report should be 1-2 pages.
+- [ ] Altogether (including images), your report should be 1-2 pages.
 
 [LinkedIn Top Skills](https://public.tableau.com/profile/matt.chambers#!/vizhome/LinkedInTopSkills2016-MakeoverMonday/LinkedInTopSkills2016-MakeoverMonday)
 

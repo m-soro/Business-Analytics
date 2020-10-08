@@ -8,7 +8,7 @@ In this program, you’ll learn foundational data skills that apply across funct
 
 
 
-### Welcome to the Program
+## Welcome to the Program
 Meet your instructors and learn how to optimize your classroom. Learn how people use data to answer questions, and find your own insights from a data dashboard.
 
 #### PROJECT - Interpret a Data Visualization
@@ -16,7 +16,7 @@ Meet your instructors and learn how to optimize your classroom. Learn how people
 
 
 
-### Introduction to Data
+## Introduction to Data
 Learn how to use statistics and visuals to find and communicate insights. Develop Excel skills to manipulate, analyze, and visualize data in a spreadsheet. Build Excel models to analyze possible business outcomes.
 
 #### PROJECT - Analyze NYSE Data
@@ -24,7 +24,7 @@ Learn how to use statistics and visuals to find and communicate insights. Develo
 
 
 
-### SQL for Data Analysis
+## SQL for Data Analysis
 Learn to use Structured Query Language (SQL) to extract and analyze data stored in databases.
 
 #### PROJECT - Query a Digital Music Store Database
@@ -32,7 +32,7 @@ Learn to use Structured Query Language (SQL) to extract and analyze data stored 
 
 
 
-### Data Visualization
+## Data Visualization
 Learn to apply design and visualization principles to create impactful data visualizations, build data dashboards, and tell stories with data.
 
 #### PROJECT- Build Data Dashboards

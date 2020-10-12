@@ -144,7 +144,7 @@ There is a lot going on in this video - here is a recap of the big ideas.
 If you aren't familiar with spreadsheets, this will be covered in detail in future lessons. Spreadsheets are a common way to hold data. They are composed of rows and columns. Rows run horizontally, while columns run vertically. Each column in a spreadsheet commonly holds a specific variable, while each row is commonly called an instance or individual.
 
 The example used in the video is shown below.
-![image](Misc/image1.png)
+![image](../Misc/image1.png)
 
 **Before Collecting Data**
 Before collecting data, we usually start with a question, or many questions, that we would like to answer. The purpose of data is to help us in answering these questions.

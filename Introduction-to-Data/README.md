@@ -340,6 +340,7 @@ n
 ​	 x
 i
 ​![image](../Misc/image4.png)
+​
 
 Instead of writing out all of the above, we commonly write \bar{x}
 x
@@ -371,3 +372,39 @@ i
 ​	 . The x_ix
 i
 ​	  is missing here in front of the summation.
+
+![image](../Misc/image5.png)
+
+## Notation Recap
+**Notation** is an essential tool for communicating mathematical ideas. We have introduced the fundamentals of notation in this lesson that will allow you to read, write, and communicate with others using your new skills!
+
+**Notation and Random Variables**
+As a quick recap, capital letters signify random variables. When we look at individual instances of a particular random variable, we identify these as lowercase letters with subscripts attach themselves to each specific observation.
+
+For example, we might have X be the amount of time an individual spends on our website. Our first visitor arrives and spends 10 minutes on our website, and we would say \bold{x_1}x
+1
+​	  is 10 minutes.
+
+We might imagine the random variables as columns in our dataset, while a particular value would be notated with the lower case letters.
+
+![image](../Misc/image6.png)
+
+**Notation for the Mean**
+We took our notation even farther by introducing the notation for summation \sum∑. Using this we were able to calculate the mean as:
+
+\bold{\frac{1}{n}\sum\limits_{i=1}^nx_i}
+n
+1
+​	  
+i=1
+∑
+n
+​	 x
+i
+​	 
+
+In the next section, you will see this notation used to assist in your understanding of calculating various measures of spread. Notation can take time to fully grasp. Understanding notation not only helps in conveying mathematical ideas, but also in writing computer programs - if you decide you want to learn that too! Soon you will analyze data using spreadsheets. When that happens, many of these operations will be hidden by the functions you will be using. But until we get to spreadsheets, it is important to understand how mathematical ideas are commonly communicated. This isn't easy, but you can do it!
+
+# Lesson 2: Descriptive Statistics II
+
+## [What are Measures of Spread](https://www.youtube.com/watch?v=zb76Z_viYLY)

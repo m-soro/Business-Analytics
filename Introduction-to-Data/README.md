@@ -7,6 +7,7 @@
 **Quantitative** data takes on numeric values that allow us to perform mathematical operations (like the number of dogs).
 
 **Continuous vs. Discrete**
+
 We can think of quantitative data as being either continuous or discrete.
 
 **Continuous data can be split into smaller and smaller units, and still a smaller unit exists**. An example of this is the age of the dog - we can measure the units of the age in years, months, days, hours, seconds, but there are still smaller units that could be associated with the age.
@@ -41,6 +42,7 @@ We can divide categorical data further into two types: Ordinal and Nominal.
 |               | Letter Grade, Survey Rating | Gender, Marital Status, Breakfast Items               |
 
 **Quantitative vs. Categorical**
+
 Some of these can be a bit tricky - notice even though zip codes are a number, they aren’t really a quantitative variable. If we add two zip codes together, we do not obtain any useful information from this new value. Therefore, this is a categorical variable.
 
 ***Height, Age, the Number of Pages in a Book and Annual Income all take on values that we can add, subtract and perform other operations with to gain useful insight. Hence, these are*** **quantitative**.
@@ -49,16 +51,19 @@ Some of these can be a bit tricky - notice even though zip codes are a number, t
 
 
 **Continuous vs. Discrete**
+
 To consider if we have continuous or discrete data, we should see if we can split our data into smaller and smaller units. Consider time - we could measure an event in years, months, days, hours, minutes, or seconds, and even at seconds we know there are smaller units we could measure time in. Therefore, we know this data type is continuous. Height, age, and income are all examples of continuous data. Alternatively, the number of pages in a book, dogs I count outside a coffee shop, or trees in a yard are discrete data. We would not want to split our dogs in half.
 
 Continuous data types are those that can take on decimal values, where discrete data types are those that are countable.
 
 **Ordinal vs. Nominal**
+
 In looking at categorical variables, we found Gender, Marital Status, Zip Code and your Breakfast items are nominal variables where there is no order ranking associated with this type of data. Whether you ate cereal, toast, eggs, or only coffee for breakfast; there is no rank ordering associated with your breakfast.
 
 Alternatively, the Letter Grade or Survey Ratings have a rank ordering associated with it, as ordinal data. If you receive an A, this is higher than an A-. An A- is ranked higher than a B+, and so on... Ordinal variables frequently occur on rating scales from very poor to very good. In many cases we turn these ordinal variables into numbers, as we can more easily analyze them, but more on this later!
 
 **Final Words**
+
 In this section, we looked at the different data types we might work with in the world around us. When we work with data in the real world, it might not be very clean - sometimes there are typos or missing values. When this is the case, simply having some expertise regarding the data and knowing the data type can assist in our ability to ‘clean’ this data. Understanding data types can also assist in our ability to build visuals to best explain the data. But more on this very soon!
 
 
@@ -75,6 +80,7 @@ There are four main aspects to analyzing Quantitative data.
 4. Outliers
 
 **Analyzing Categorical Data**
+
 Though not discussed in the video, analyzing categorical data has fewer parts to consider. Categorical data is analyzed usually by looking at the counts or proportion of individuals that fall into each group. For example if we were looking at the breeds of the dogs, we would care about how many dogs are of each breed, or what proportion of dogs are of each breed type.
 
 ### Measures of Center
@@ -87,9 +93,11 @@ In this video, we focused on the calculation of the mean. The mean is ***often c
 The median splits our data so that 50% of our values are lower and 50% are higher. We found in this video that how we calculate the median depends on if we have an even number of observations or an odd number of observations.
 
 **Median for Odd Values**
+
 If we have an odd number of observations, the median is simply the number in the direct middle. For example, if we have 7 observations, the median is the fourth value when our numbers are ordered from smallest to largest. If we have 9 observations, the median is the fifth value.
 
 **Median for Even Values**
+
 If we have an even number of observations, the median is the average of the two values in the middle. For example, if we have 8 observations, we average the fourth and fifth values together when our numbers are ordered from smallest to largest.
 
 In order to compute the median we **MUST sort our values first**.
@@ -102,6 +110,7 @@ The mode is the most frequently observed value in our dataset.
 There might be multiple modes for a particular dataset, or no mode at all.
 
 **No Mode**
+
 If all observations in our dataset are observed with the same frequency, there is no mode. If we have the dataset:
 
 1, 1, 2, 2, 3, 3, 4, 4
@@ -109,6 +118,7 @@ If all observations in our dataset are observed with the same frequency, there i
 There is no mode, because all observations occur the same number of times.
 
 **Many Modes**
+
 If two (or more) numbers share the maximum value, then there is more than one mode. If we have the dataset:
 
 1, 2, 3, 3, 3, 4, 5, 6, 6, 6, 7, 8, 9
@@ -118,6 +128,7 @@ There are two modes 3 and 6, because these values share the maximum frequencies 
 ### [What is Notation?](https://www.youtube.com/watch?v=MaHV5cKfcmE)
 
 **Notation**
+
 Notation is a common language used to communicate mathematical ideas. Think of notation as a universal language used by academic and industry professionals to convey mathematical ideas. In the next videos, you might see things that seem confusing. Use the quizzes to assist with your understanding of the concepts.
 
 You likely already know some notation. Plus, minus, multiply, division, and equal signs all have mathematical symbols that you are likely familiar with. Each of these symbols replaces an idea for how numbers interact with one another. In the coming concepts, you will be introduced to some additional ideas related to notation. Though you will not need to use notation to complete the project, it does have the following properties:
@@ -133,18 +144,22 @@ You likely already know some notation. Plus, minus, multiply, division, and equa
 ### [Random Variales](https://www.youtube.com/watch?v=8NxTW1u4s-Y)
 
 **Example to Introduce Notation**
+
 There is a lot going on in this video - here is a recap of the big ideas.
 
 **Rows and Columns**
+
 If you aren't familiar with spreadsheets, this will be covered in detail in future lessons. Spreadsheets are a common way to hold data. They are composed of rows and columns. Rows run horizontally, while columns run vertically. Each column in a spreadsheet commonly holds a specific variable, while each row is commonly called an instance or individual.
 
 The example used in the video is shown below.
-![image](../Misc/image1.png)
+![image](../Misc/001.png)
 
 **Before Collecting Data**
+
 Before collecting data, we usually start with a question, or many questions, that we would like to answer. The purpose of data is to help us in answering these questions.
 
 **Random Variables**
+
 A random variable is a placeholder for the possible values of some process (mostly... the term 'some process' is a bit ambiguous). As was stated before, notation is useful in that it helps us take complex ideas and simplify (often to a single letter or single symbol). We see random variables represented by **capital letters (X, Y, or Z are common ways to represent a random variable)**.
 
 We might have the random variable X, which is a holder for the possible values of the amount of time someone spends on our site. Or the random variable Y, which is a holder for the possible values of whether or not an individual purchases a product.
@@ -154,9 +169,11 @@ X is 'a holder' of the values that could possibly occur for the amount of time s
 ### [Capital vs. Lower](https://www.youtube.com/watch?v=KFIt2OC3wCI)
 
 **Capital vs. Lower Case Letters**
+
 **Random variables are represented by capital letters. Once we observe an outcome of these random variables, we notate it as a lower case of the same letter**.
 
 **Example 1**
+
 For example, the amount of time someone spends on our site is a random variable (we are not sure what the outcome will be for any particular visitor), and we would notate this with X. Then when the first person visits the website, if they spend 5 minutes, we have now observed this outcome of our random variable. We would notate any outcome as a lowercase letter with a subscript associated with the order that we observed the outcome.
 
 If 5 individuals visit our website, the first spends 10 minutes, the second spends 20 minutes, the third spends 45 mins, the fourth spends 12 minutes, and the fifth spends 8 minutes; we can notate this problem in the following way:
@@ -178,6 +195,7 @@ X is the amount of time an individual spends on the website.
 The capital **X** is associated with this idea of a random variable, while the observations of the random variable take on lowercase **x** values.
 
 **Example 2**
+
 Taking this one step further, we could ask:
 
 What is the probability someone spends more than 20 minutes in our website?
@@ -191,6 +209,7 @@ Here P stands for probability, while the parentheses encompass the statement for
 We could find this in the above example by noticing that only one of the 5 observations exceeds 20. So, we would say there is a 1 (the 45) in 5 or 20% chance that an individual spends more than 20 minutes on our website (based on this dataset).
 
 **Example 3**
+
 If we asked: What is the probability of an individual spending 20 or more minutes on our website? We could notate this as:
 
 **P(X \geq≥ 20)?**
@@ -198,6 +217,7 @@ If we asked: What is the probability of an individual spending 20 or more minute
 We could then find this by noticing there are two out of the five individuals that spent 20 or more minutes on the website. So this probability is 2 out of 5 or 40%.
 
 **Notation for Calculating the Mean**
+
 We know that the mean is calculated as the sum of all our values divided by the number of values in our dataset.
 
 In our current notation, adding all of our values together can be extremely tedious. If we want to add 3 values of some random variable together, we would use the notation:
@@ -230,11 +250,13 @@ To extend this to add one hundred, one thousand, or one million values would be 
 
 
 ### Aggregations
-An aggregation is a way to turn multiple numbers into fewer numbers (commonly one number).
+
+**An aggregation is a way to turn multiple numbers into fewer numbers (commonly one number)**.
 
 [Summation](https://www.youtube.com/watch?v=ADx1x2ljFB4) is a common aggregation. The notation used to sum our values is a greek symbol called sigma \SigmaΣ.
 
 **Example 1**
+
 Imagine we are looking at the amount of time individuals spend on our website. We collect data from nine individuals:
 
 \bold{x_1}x
@@ -296,6 +318,7 @@ i
 ​	  = 10 + 20 + 45 = 75
 
 **Example 2**
+
 Now, imagine we want to sum the last three values together.
 
 \bold{x_7} + \bold{x_8} + \bold{x_9}x
@@ -319,15 +342,17 @@ i
 Notice, our notation starts at the seventh observation (i=7i=7) and ends at 9 (the number at the top of our summation).
 
 **Other Aggregations**
+
 The **\SigmaΣ sign** is used for aggregating using **summation**, but we might choose to aggregate in other ways. Summing is one of the most common ways to need to aggregate. However, we might need to aggregate in alternative ways. If we wanted to multiply all of our values together we would use a **product sign \PiΠ** , capital Greek letter pi. The way we **aggregate continuous values** is with something known as **integration (a common technique in calculus), which uses the following symbol \int∫** which is just a long s. We will not be using integrals or products for quizzes in this class, but you may see them in the future!
 
-![image](../Misc/image2.png)
-![image](../Misc/image3.png)
+![image](../Misc/002.png)
+![image](../Misc/003.png)
 
 ## [Notation for the Mean](https://www.youtube.com/watch?v=3EF15AoRxyM)
 Pay attention to 1:15
 
 **Final Steps for Calculating the Mean**
+
 To finalize our calculation of the mean, we introduce n as the total number of values in our dataset. We can use this notation both at the top of our summation, as well as for the value that we divide by when calculating the mean.
 
 \frac{1}{n}\sum\limits_{i=1}^nx_i
@@ -339,7 +364,7 @@ i=1
 n
 ​	 x
 i
-​![image](../Misc/image4.png)
+​![image](../Misc/004.png)
 ​
 
 Instead of writing out all of the above, we commonly write \bar{x}
@@ -373,12 +398,16 @@ i
 i
 ​	  is missing here in front of the summation.
 
-![image](../Misc/image5.png)
+![image](../Misc/005.png)
 
 ## Notation Recap
-**Notation** is an essential tool for communicating mathematical ideas. We have introduced the fundamentals of notation in this lesson that will allow you to read, write, and communicate with others using your new skills!
+
+**Notation**
+
+Notation is an essential tool for communicating mathematical ideas. We have introduced the fundamentals of notation in this lesson that will allow you to read, write, and communicate with others using your new skills!
 
 **Notation and Random Variables**
+
 As a quick recap, capital letters signify random variables. When we look at individual instances of a particular random variable, we identify these as lowercase letters with subscripts attach themselves to each specific observation.
 
 For example, we might have X be the amount of time an individual spends on our website. Our first visitor arrives and spends 10 minutes on our website, and we would say \bold{x_1}x
@@ -387,9 +416,10 @@ For example, we might have X be the amount of time an individual spends on our w
 
 We might imagine the random variables as columns in our dataset, while a particular value would be notated with the lower case letters.
 
-![image](../Misc/image6.png)
+![image](../Misc/006.png)
 
 **Notation for the Mean**
+
 We took our notation even farther by introducing the notation for summation \sum∑. Using this we were able to calculate the mean as:
 
 \bold{\frac{1}{n}\sum\limits_{i=1}^nx_i}
@@ -405,11 +435,14 @@ i
 
 In the next section, you will see this notation used to assist in your understanding of calculating various measures of spread. Notation can take time to fully grasp. Understanding notation not only helps in conveying mathematical ideas, but also in writing computer programs - if you decide you want to learn that too! Soon you will analyze data using spreadsheets. When that happens, many of these operations will be hidden by the functions you will be using. But until we get to spreadsheets, it is important to understand how mathematical ideas are commonly communicated. This isn't easy, but you can do it!
 
+----
+
 # Lesson 2: Descriptive Statistics II
 
 ## [What are Measures of Spread](https://www.youtube.com/watch?v=zb76Z_viYLY)
 
 **Measures of Spread**
+
 Measures of Spread are used to provide us an idea of how spread out our data are from one another. Common measures of spread include:
 
 1. Range
@@ -422,6 +455,7 @@ Throughout this lesson you will learn how to calculate these, as well as why we 
 ### [Histograms](https://www.youtube.com/watch?v=4t10RgUv2Fc)
 
 **Histograms**
+
 Histograms are super useful to understanding the different aspects of quantitative data. In the upcoming concepts, you will see histograms used all the time to help you understand the four aspects we outlined earlier regarding a quantitative variable:
 
 - center
@@ -432,6 +466,7 @@ Histograms are super useful to understanding the different aspects of quantitati
 ## [Introduction to Five Number Summary](https://www.youtube.com/watch?v=gzUN5zKLHjQ)
 
 Calculating the 5 Number Summary
+
 **The five number summary consist of 5 values:**
 
 1. Minimum: The smallest number in the dataset.
@@ -443,9 +478,11 @@ Calculating the 5 Number Summary
 In the above video we saw that calculating each of these values was essentially just finding the median of a bunch of different dataset. Because we are essentially calculating a bunch of medians, the calculation depends on whether we have an odd or even number of values.
 
 **Range**
+
 The range is then calculated as the difference between the maximum and the minimum.
 
 **IQR**
+
 The interquartile range is calculated as the difference between **Q3** and **Q1**.
 
 In the upcoming sections, you will practice this with Katie and on your own.
@@ -453,8 +490,38 @@ In the upcoming sections, you will practice this with Katie and on your own.
 ## [Introduction to Standard Deviation and Variance](https://www.youtube.com/watch?v=IbwUJ3ORZ5s)
 
 **Standard Deviation and Variance**
+
 The **standard deviation** is one of the most common measures for talking about the spread of data. It is defined as the **average distance of each observation from the mean**.
 
 In the above video we saw this as how far individuals were from the average distance from work (the example distances shown are examples from the full data set, the mean of just those 4 numbers is 38.5. The mean of 18 shown later in the video is the mean of the full data set which is not shown in the video). In the next video, you will see exactly how this is calculated.
 
-![image](../Misc/image7.png)
+![image](../Misc/007.png)
+
+## [Standard Deviation Calculation](https://www.youtube.com/watch?v=H5zA1A-XPoY)
+
+1. Find the Mean
+![image](../Misc/008.png)
+
+2. Look at the distance from each observation from the mean
+![image](../Misc/009.png)
+
+3. Then Average it
+![image](../Misc/010.png)
+
+**But zero is not a good measure of spread!**
+
+***So we need to make all the values positive, the way we do this when calculating standard deviation is by squaring it***
+![image](../Misc/011.png)
+
+***Average this to find the averaged squared distance from the mean***
+![image](../Misc/012.png)
+
+This is called the **Variance** -- The average squared difference of each observation form the mean. **However, this is the averaged of squared values**, which we only did to get positive values in the first place.
+
+The units of the variance are the square of the original units of your data.
+
+**To get the Standard Deviation:**
+Get the square root of the ending value:
+![image](../Misc/013.png)
+
+This is called the **Standard Deviation** -- on average, how far each point in our dataset is from the mean.

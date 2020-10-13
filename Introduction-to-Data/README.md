@@ -525,3 +525,72 @@ Get the square root of the ending value:
 ![image](../Misc/013.png)
 
 This is called the **Standard Deviation** -- on average, how far each point in our dataset is from the mean.
+
+## Other Measures of Spread
+
+### 5 Number Summary
+
+In the previous sections, we have seen how to calculate the values associated with the five number summary (min, Q1, Q2, Q3, max), as well as the measures of spread associated with these values (range and IQR).
+
+For datasets that are **not symmetric**, the five number summary and a corresponding box plot are a great way to get started with understanding the spread of your data. **Although I still prefer a histogram in most cases, box plots can be easier to compare two or more groups**. You will see this in the quizzes towards the end of this lesson.
+
+**Variance and Standard Deviation**
+
+Two additional **measures of spread** that are used all the time are the variance and standard deviation. At first glance, the variance and standard deviation can seem overwhelming. If you do not understand the expressions below, don't panic! In this section, I just want to give you an overview of what the next sections will cover. We will walk through each of these parts thoroughly in the next few sections, but the big picture goal is to generally understand the following:
+
+1. How the mean, variance and standard deviation are calculated.
+2. Why the measures of variance and standard deviation make sense to capture the spread of our data.
+3. Fields where you might see these values used.
+4. Why we might use the standard deviation or variance as opposed to the values associated with the 5 number summary for a particular dataset.
+
+**Calculation**
+
+We **calculate the variance** in the following way:
+![image](../Misc/014.png)
+
+The variance is the **average squared difference of each observation from the mean**.
+
+To calculate the variance of a set of 10 values in a spreadsheet application, with our 10 data points in column A, we would create a new column B by typing in something like **=A1-AVERAGE(A$1:A$10)** and copying this down for all 10 rows. This would find us the difference between each data point and the mean average of all the data. Then we create a new column C having the square of these differences, using the formula **=B1^2** in cell C1, and copying that down for all rows. Then in the cell below this new column, cell C11, type in **=SUM(C1:C10)**. This adds up all these values in column C. Finally in cell C12, we divide this sum by the number of data points we have, in this case ten: **=C11/10**. This cell C12 now contains the variance for our 10 data points.
+
+More detailed guidance on using spreadsheets like this may be included in a future lesson in your program.
+
+The **standard deviation is the square root of the variance**. Therefore, the formula for the standard deviation is the following:
+
+![image](../Misc/015.png)
+
+In the same spreadsheet as above, to find the standard deviation of our same set of 10 data values, we would use another cell like C13 to take the square root of our variance measure, by typing in **=sqrt(C12)**.
+
+The standard deviation is a measurement that has the same units as our original data, while the units of the variance are the square of the units in our original data. For example, if the units in our original data were dollars, then units of the standard deviation would also be dollars, while the units of the variance would be dollars squared.
+
+Again, this section is designed as background knowledge for the following sections. If it doesn't make sense on this first pass, do not worry. You will be guided in future sections in performing these calculations, and building your intuition, as you work through an example using the salary data. Then we will provide context about why these calculations are important, and where you might see them!
+
+### [Why the Standard Deviation?](https://www.youtube.com/watch?v=XlTBvjQ2t8w)
+
+### [Important Final Points](https://www.youtube.com/watch?v=vXUgp2375j4)
+
+**Important Final Points**
+
+1. The variance is used to compare the spread of two different groups. A set of data with higher variance is more spread out than a dataset with lower variance. Be careful though, there might just be an outlier (or outliers) that is increasing the variance, when most of the data are actually very close.
+
+
+2. When comparing the spread between two datasets, the units of each must be the same.
+
+
+3. When data are related to money or the economy, higher variance (or standard deviation) is associated with higher risk.
+
+
+4. The standard deviation is used more often in practice than the variance, because it shares the units of the original dataset.
+
+**Use in the World**
+
+The standard deviation is associated with risk in finance, assists in determining the significance of drugs in medical studies, and measures the error of our results for predicting anything from the amount of rainfall we can expect tomorrow to your predicted commute time tomorrow.
+
+These applications are beyond the scope of this lesson as they pertain to specific fields, but know that understanding the spread of a particular set of data is extremely important to many areas. In this lesson you mastered the calculation of the most common measures of spread.
+
+**Little tidbits from the quizzes**
+
+* Additionally, the range isn't directly associated with the standard deviation, so we can't make a claim that is always true like the final option.
+
+* Since the standard deviation is a measure of spread, a zero value suggests that all of our data points are the same value.
+
+* Besides the mean return of an investment, we should also consider the spread associated with the return. But just because the standard deviation associated with each investment is the same, this does not mean the max you could make for each investment is the same.

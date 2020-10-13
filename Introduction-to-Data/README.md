@@ -626,3 +626,26 @@ If you aren't sure if your data are normally distributed, there are plots called
 **Supporting Materials**
  * [Kolmogorov-Smirnov test](https://video.udacity-data.com/topher/2019/November/5dc5c71b_kolmogorovsmirnov-test-wikipedia/kolmogorovsmirnov-test-wikipedia.pdf)
  * [Normal quantile plots](https://video.udacity-data.com/topher/2019/November/5dc5e50d_q-q-plots-university-of-virginia-library-research-data-services-sciences/q-q-plots-university-of-virginia-library-research-data-services-sciences.pdf)
+
+### Image Summary Quiz
+
+**Image Summary**
+In the below image, we have three box-plots. Each box-plot is for a different Iris flower: `setosa`, `versicolor`, or `virginica`. On the y-axis, we are given the sepal length. Notice that `virginica` has an outlier towards the bottom of the plot. Therefore, the minimum is not given by the bottom line here; rather, it is provided by this point.
+
+![image](../Misc/034.png)
+
+![image](../Misc/035.png)
+
+![image](../Misc/036.png)
+
+![image](../Misc/037.png)
+
+![image](../Misc/038.png)
+
+![image](../Misc/039.png)
+
+Example of Bi-modal distribution
+
+![image](../Misc/040.png)
+
+Notice it has two areas where there are peaks in our dataset.

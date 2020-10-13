@@ -71,8 +71,8 @@ Four Aspects for Quantitative Data
 
 There are four main aspects to analyzing Quantitative data.
 
-1. [Measures of Center](#Measures of Center)
-2. [Measures of Spread](#Measures of Spread)
+1. [Measures of Center](#measures-of-center)
+2. [Measures of Spread](#measures-of-spread)
 3. The Shape of the data.
 4. Outliers
 

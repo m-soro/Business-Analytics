@@ -323,8 +323,8 @@ Measures of Spread are used to provide us an idea of how spread out our data are
 
 1. [Range](#range)
 2. [Interquartile Range (IQR)](#iqr)
-3. Standard Deviation
-4. Variance
+3. [Standard Deviation](#standard-deviation)
+4. [Variance](#)
 
 Throughout this lesson you will learn how to calculate these, as well as why we would use one measure of spread over another.
 
@@ -367,6 +367,8 @@ In the upcoming sections, you will practice this with Katie and on your own.
 
 **Standard Deviation and Variance**
 
+### Standard Deviation
+
 The **standard deviation** is one of the most common measures for talking about the spread of data. It is defined as the **average distance of each observation from the mean**.
 
 In the above video we saw this as how far individuals were from the average distance from work (the example distances shown are examples from the full data set, the mean of just those 4 numbers is 38.5. The mean of 18 shown later in the video is the mean of the full data set which is not shown in the video). In the next video, you will see exactly how this is calculated.
@@ -396,6 +398,8 @@ In the above video we saw this as how far individuals were from the average dist
 ***Average this to find the averaged squared distance from the mean***
 
 ![image](../Misc/012.png)
+
+### Variance
 
 This is called the **Variance** -- The average squared difference of each observation form the mean. **However, this is the averaged of squared values**, which we only did to get positive values in the first place.
 

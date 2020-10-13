@@ -357,7 +357,7 @@ In the above video we saw that calculating each of these values was essentially 
 
 The range is then calculated as the difference between the maximum and the minimum.
 
-## IQR
+### IQR
 
 The interquartile range is calculated as the difference between **Q3** and **Q1**.
 

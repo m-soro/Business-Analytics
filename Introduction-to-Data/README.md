@@ -6,7 +6,7 @@
 
 **Quantitative** data takes on numeric values that allow us to perform mathematical operations (like the number of dogs).
 
-**Continuous vs. Discrete**
+**[Continuous vs. Discrete](https://www.youtube.com/watch?v=BzgZebZD9kk&feature=emb_logo)**
 
 We can think of quantitative data as being either continuous or discrete.
 
@@ -14,20 +14,16 @@ We can think of quantitative data as being either continuous or discrete.
 
 **Discrete data only takes on countable values**. The number of dogs we interact with is an example of a discrete data type.
 
-[link](https://www.youtube.com/watch?v=BzgZebZD9kk&feature=emb_logo)
-
 ----
 
 **Categorical** are used to label a group or set of items (like dog breeds - Collies, Labs, Poodles, etc.).
 
-**Categorical Ordinal vs. Categorical Nominal**
+**[Categorical Ordinal vs. Categorical Nominal](https://www.youtube.com/watch?v=k5bLaPGY2Vw&feature=emb_logo)**
 We can divide categorical data further into two types: Ordinal and Nominal.
 
 **Categorical Ordinal** data take on a **ranked ordering** (like a ranked interaction on a scale from Very Poor to Very Good with the dogs).
 
 **Categorical Nominal** data **do not have an order or ranking** (like the breeds of the dog).
-
-[link](https://www.youtube.com/watch?v=k5bLaPGY2Vw&feature=emb_logo)
 
 ----
 
@@ -75,8 +71,8 @@ Four Aspects for Quantitative Data
 
 There are four main aspects to analyzing Quantitative data.
 
-1. Measures of Center
-2. Measures of Spread
+1. [Measures of Center](## Measures of Center)
+2. [Measures of Spread](## Measures of Spread)
 3. The Shape of the data.
 4. Outliers
 
@@ -84,7 +80,7 @@ There are four main aspects to analyzing Quantitative data.
 
 Though not discussed in the video, analyzing categorical data has fewer parts to consider. Categorical data is analyzed usually by looking at the counts or proportion of individuals that fall into each group. For example if we were looking at the breeds of the dogs, we would care about how many dogs are of each breed, or what proportion of dogs are of each breed type.
 
-### Measures of Center
+## Measures of Center
 There are three measures of center:
 
 1. [The Mean](https://www.youtube.com/watch?v=1nzZxmJ8xvU&feature=emb_logo)
@@ -321,7 +317,7 @@ In the next section, you will see this notation used to assist in your understan
 
 ## [What are Measures of Spread](https://www.youtube.com/watch?v=zb76Z_viYLY)
 
-**Measures of Spread**
+## Measures of Spread
 
 Measures of Spread are used to provide us an idea of how spread out our data are from one another. Common measures of spread include:
 

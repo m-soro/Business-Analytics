@@ -353,7 +353,7 @@ Calculating the 5 Number Summary
 
 In the above video we saw that calculating each of these values was essentially just finding the median of a bunch of different dataset. Because we are essentially calculating a bunch of medians, the calculation depends on whether we have an odd or even number of values.
 
-## Range
+### Range
 
 The range is then calculated as the difference between the maximum and the minimum.
 

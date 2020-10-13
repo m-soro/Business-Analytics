@@ -324,7 +324,7 @@ Measures of Spread are used to provide us an idea of how spread out our data are
 1. [Range](#range)
 2. [Interquartile Range (IQR)](#iqr)
 3. [Standard Deviation](#standard-deviation)
-4. [Variance](#)
+4. [Variance](#variance)
 
 Throughout this lesson you will learn how to calculate these, as well as why we would use one measure of spread over another.
 

@@ -60,7 +60,7 @@ Alternatively, the Letter Grade or Survey Ratings have a rank ordering associate
 
 **Final Words**
 
-In this section, we looked at the different data types we might work with in the world around us. When we work with data in the real world, it might not be very clean - sometimes there are typos or missing values. When this is the case, simply having some expertise regarding the data and knowing the data type can assist in our ability to ‘clean’ this data. Understanding data types can also assist in our ability to build visuals to best explain the data. But more on this very soon!
+> In this section, we looked at the different data types we might work with in the world around us. When we work with data in the real world, it might not be very clean - sometimes there are typos or missing values. When this is the case, simply having some expertise regarding the data and knowing the data type can assist in our ability to ‘clean’ this data. Understanding data types can also assist in our ability to build visuals to best explain the data. But more on this very soon!
 
 
 ## Introduction to Summary Statistics
@@ -126,7 +126,7 @@ There are two modes 3 and 6, because these values share the maximum frequencies 
 
 **Notation**
 
-Notation is a common language used to communicate mathematical ideas. Think of notation as a universal language used by academic and industry professionals to convey mathematical ideas. In the next videos, you might see things that seem confusing. Use the quizzes to assist with your understanding of the concepts.
+> Notation is a common language used to communicate mathematical ideas. Think of notation as a universal language used by academic and industry professionals to convey mathematical ideas.
 
 You likely already know some notation. Plus, minus, multiply, division, and equal signs all have mathematical symbols that you are likely familiar with. Each of these symbols replaces an idea for how numbers interact with one another. In the coming concepts, you will be introduced to some additional ideas related to notation. Though you will not need to use notation to complete the project, it does have the following properties:
 
@@ -142,7 +142,7 @@ You likely already know some notation. Plus, minus, multiply, division, and equa
 
 **Example to Introduce Notation**
 
-There is a lot going on in this video - here is a recap of the big ideas.
+> There is a lot going on in this video - here is a recap of the big ideas.
 
 **Rows and Columns**
 
@@ -223,7 +223,7 @@ To extend this to add one hundred, one thousand, or one million values would be 
 
 **An aggregation is a way to turn multiple numbers into fewer numbers (commonly one number)**.
 
-[Summation](https://www.youtube.com/watch?v=ADx1x2ljFB4) is a common aggregation. The notation used to sum our values is a greek symbol called sigma \SigmaΣ.
+[Summation](https://www.youtube.com/watch?v=ADx1x2ljFB4) is a common aggregation. The notation used to sum our values is a greek symbol called sigma Σ.
 
 **Example 1**
 
@@ -321,8 +321,8 @@ In the next section, you will see this notation used to assist in your understan
 
 Measures of Spread are used to provide us an idea of how spread out our data are from one another. Common measures of spread include:
 
-1. Range
-2. Interquartile Range (IQR)
+1. [Range](#range)
+2. [Interquartile Range (IQR)](#iqr)
 3. Standard Deviation
 4. Variance
 
@@ -353,11 +353,11 @@ Calculating the 5 Number Summary
 
 In the above video we saw that calculating each of these values was essentially just finding the median of a bunch of different dataset. Because we are essentially calculating a bunch of medians, the calculation depends on whether we have an odd or even number of values.
 
-**Range**
+## Range
 
 The range is then calculated as the difference between the maximum and the minimum.
 
-**IQR**
+## IQR
 
 The interquartile range is calculated as the difference between **Q3** and **Q1**.
 

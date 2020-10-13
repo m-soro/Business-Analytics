@@ -72,6 +72,7 @@ In this section, we looked at the different data types we might work with in the
 ### Analyzing Quantitative Data
 
 Four Aspects for Quantitative Data
+
 There are four main aspects to analyzing Quantitative data.
 
 1. Measures of Center
@@ -180,17 +181,7 @@ If 5 individuals visit our website, the first spends 10 minutes, the second spen
 
 X is the amount of time an individual spends on the website.
 
-\bold{x_1}x
-1
-​	  = 10,       \bold{x_2}x
-2
-​	  = 20       \bold{x_3}x
-3
-​	  = 45       \bold{x_4}x
-4
-​	  = 12       \bold{x_5}x
-5
-​	  = 8.
+![image](../Misc/026.png)
 
 The capital **X** is associated with this idea of a random variable, while the observations of the random variable take on lowercase **x** values.
 
@@ -222,28 +213,11 @@ We know that the mean is calculated as the sum of all our values divided by the 
 
 In our current notation, adding all of our values together can be extremely tedious. If we want to add 3 values of some random variable together, we would use the notation:
 
-\bold{x_1} + \bold{x_2} + \bold{x_3}x
-1
-​	 +x
-2
-​	 +x
-3
-​	 
+​![image](../Misc/024.png)	 
 
 If we want to add 6 values together, we would use the notation:
 
-\bold{x_1} + \bold{x_2} + \bold{x_3} + \bold{x_4} + \bold{x_5} + \bold{x_6}x
-1
-​	 +x
-2
-​	 +x
-3
-​	 +x
-4
-​	 +x
-5
-​	 +x
-6
+![image](../Misc/025.png)
 ​
 
 To extend this to add one hundred, one thousand, or one million values would be ridiculous! How can we make this easier to communicate?!
@@ -259,93 +233,39 @@ To extend this to add one hundred, one thousand, or one million values would be 
 
 Imagine we are looking at the amount of time individuals spend on our website. We collect data from nine individuals:
 
-\bold{x_1}x
-1
-​	  = 10,       \bold{x_2}x
-2
-​	  = 20       \bold{x_3}x
-3
-​	  = 45       \bold{x_4}x
-4
-​	  = 12       \bold{x_5}x
-5
-​	  = 8       \bold{x_6}x
-6
-​	  = 12,       \bold{x_7}x
-7
-​	  = 3       \bold{x_8}x
-8
-​	  = 68       \bold{x_9}x
-9
-​	  = 5
+![image](../Misc/017.png)
 
 If we want to sum the first three values together in our previous notation, we write:
 
-\bold{x_1} + \bold{x_2} + \bold{x_3}x
-1
-​	 +x
-2
-​	 +x
-3
-​	 
+![image](../Misc/018.png)
 
 In our new notation, we can write:
 
-\sum\limits_{i = 1}^3 x_i
-i=1
-∑
-3
-​	 x
-i
-​	 .
-
+![image](../Misc/019.png)
 Notice, our notation starts at the first observation (i=1i=1) and ends at 3 (the number at the top of our summation).
 
 So all of the following are equal to one another:
 
-\sum\limits_{i = 1}^3 x_i
-i=1
-∑
-3
-​	 x
-i
-​	  = \bold{x_1} + \bold{x_2} + \bold{x_3}x
-1
-​	 +x
-2
-​	 +x
-3
-​	  = 10 + 20 + 45 = 75
+![image](../Misc/020.png)
 
 **Example 2**
 
 Now, imagine we want to sum the last three values together.
 
-\bold{x_7} + \bold{x_8} + \bold{x_9}x
-7
-​	 +x
-8
-​	 +x
-9
+![image](../Misc/021.png)
 ​	 
-
 In our new notation, we can write:
 
-\sum\limits_{i = 7}^9 x_i
-i=7
-∑
-9
-​	 x
-i
-​	 .
+![image](../Misc/022.png)
 
 Notice, our notation starts at the seventh observation (i=7i=7) and ends at 9 (the number at the top of our summation).
 
 **Other Aggregations**
 
-The **\SigmaΣ sign** is used for aggregating using **summation**, but we might choose to aggregate in other ways. Summing is one of the most common ways to need to aggregate. However, we might need to aggregate in alternative ways. If we wanted to multiply all of our values together we would use a **product sign \PiΠ** , capital Greek letter pi. The way we **aggregate continuous values** is with something known as **integration (a common technique in calculus), which uses the following symbol \int∫** which is just a long s. We will not be using integrals or products for quizzes in this class, but you may see them in the future!
+The **Σ** is used for aggregating using **summation**, but we might choose to aggregate in other ways. Summing is one of the most common ways to need to aggregate. However, we might need to aggregate in alternative ways. If we wanted to multiply all of our values together we would use a **Π** , capital Greek letter pi. The way we **aggregate continuous values** is with something known as **integration (a common technique in calculus), which uses the following symbol ∫** which is just a long s. We will not be using integrals or products for quizzes in this class, but you may see them in the future!
 
 ![image](../Misc/002.png)
+
 ![image](../Misc/003.png)
 
 ## [Notation for the Mean](https://www.youtube.com/watch?v=3EF15AoRxyM)
@@ -355,48 +275,17 @@ Pay attention to 1:15
 
 To finalize our calculation of the mean, we introduce n as the total number of values in our dataset. We can use this notation both at the top of our summation, as well as for the value that we divide by when calculating the mean.
 
-\frac{1}{n}\sum\limits_{i=1}^nx_i
-n
-1
-​	  
-i=1
-∑
-n
-​	 x
-i
-​![image](../Misc/004.png)
-​
+![image](../Misc/023.png)
 
-Instead of writing out all of the above, we commonly write \bar{x}
-x
-¯
-  to represent the mean of a dataset. Although, similar to the first video, we could use any variable. Therefore, we might also write \bar{y}
-y
-¯
-​	 , or any other letter.
+​
+Instead of writing out all of the above, we commonly write x bar
+  to represent the mean of a dataset. Although, similar to the first video, we could use any variable. Therefore, we might also write y bar, or any other letter.
+
+![image](../Misc/004.png)  
 
 We also could index using any other letter, not just ii. We could just as easily use jj, kk, or mm to index each of our data values. The quizzes on the next concept will help reinforce this idea.
 
-Notice
-At second 0:12, this should say \sum\limits_{i=1}^5 x_i = x_1 + x_2 + x_3 + x_4 + x_5
-i=1
-∑
-5
-​	 x
-i
-​	 =x
-1
-​	 +x
-2
-​	 +x
-3
-​	 +x
-4
-​	 +x
-5
-​	 . The x_ix
-i
-​	  is missing here in front of the summation.
+
 
 ![image](../Misc/005.png)
 
@@ -420,18 +309,9 @@ We might imagine the random variables as columns in our dataset, while a particu
 
 **Notation for the Mean**
 
-We took our notation even farther by introducing the notation for summation \sum∑. Using this we were able to calculate the mean as:
+We took our notation even farther by introducing the notation for summation ∑. Using this we were able to calculate the mean as:
 
-\bold{\frac{1}{n}\sum\limits_{i=1}^nx_i}
-n
-1
-​	  
-i=1
-∑
-n
-​	 x
-i
-​	 
+![image](../Misc/016.png)
 
 In the next section, you will see this notation used to assist in your understanding of calculating various measures of spread. Notation can take time to fully grasp. Understanding notation not only helps in conveying mathematical ideas, but also in writing computer programs - if you decide you want to learn that too! Soon you will analyze data using spreadsheets. When that happens, many of these operations will be hidden by the functions you will be using. But until we get to spreadsheets, it is important to understand how mathematical ideas are commonly communicated. This isn't easy, but you can do it!
 
@@ -500,20 +380,25 @@ In the above video we saw this as how far individuals were from the average dist
 ## [Standard Deviation Calculation](https://www.youtube.com/watch?v=H5zA1A-XPoY)
 
 1. Find the Mean
+
 ![image](../Misc/008.png)
 
 2. Look at the distance from each observation from the mean
+
 ![image](../Misc/009.png)
 
 3. Then Average it
+
 ![image](../Misc/010.png)
 
 **But zero is not a good measure of spread!**
 
 ***So we need to make all the values positive, the way we do this when calculating standard deviation is by squaring it***
+
 ![image](../Misc/011.png)
 
 ***Average this to find the averaged squared distance from the mean***
+
 ![image](../Misc/012.png)
 
 This is called the **Variance** -- The average squared difference of each observation form the mean. **However, this is the averaged of squared values**, which we only did to get positive values in the first place.
@@ -522,6 +407,7 @@ The units of the variance are the square of the original units of your data.
 
 **To get the Standard Deviation:**
 Get the square root of the ending value:
+
 ![image](../Misc/013.png)
 
 This is called the **Standard Deviation** -- on average, how far each point in our dataset is from the mean.

@@ -248,7 +248,7 @@ So all of the following are equal to one another:
 
 Now, imagine we want to sum the last three values together.
 
-
+![image](../Misc/021.png)
 ​	 
 In our new notation, we can write:
 

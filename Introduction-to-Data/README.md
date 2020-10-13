@@ -559,6 +559,8 @@ From a histogram we can quickly identify the shape of our data, which helps infl
 
 3. Symmetric (frequently normally distributed)
 
+**The skew is the direction of the longer whisker.**
+
 ![image](../Misc/031.png)
 
 ![image](../Misc/033.png)
@@ -644,8 +646,12 @@ In the below image, we have three box-plots. Each box-plot is for a different Ir
 
 ![image](../Misc/039.png)
 
-Example of Bi-modal distribution
+**Example of Bi-modal distribution**
 
 ![image](../Misc/040.png)
 
-Notice it has two areas where there are peaks in our dataset.
+**Notice it has two areas where there are peaks in our dataset.**
+
+![image](../Misc/041.png)
+
+![image](../Misc/042.png)

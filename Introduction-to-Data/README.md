@@ -480,3 +480,98 @@ These applications are beyond the scope of this lesson as they pertain to specif
 * Since the standard deviation is a measure of spread, a zero value suggests that all of our data points are the same value.
 
 * Besides the mean return of an investment, we should also consider the spread associated with the return. But just because the standard deviation associated with each investment is the same, this does not mean the max you could make for each investment is the same.
+
+**Real World Example from Quizzes**
+
+![image](../Misc/027.png)
+
+![image](../Misc/028.png)
+
+![image](../Misc/029.png)
+
+**Useful insight**
+
+> The above example is a simplified version of the real world, but does point out something useful that you may have heard before. Notice if you were not fully invested in either Investment 1 or fully invested in Investment 2, but instead you were diversified across both investment options, you could earn more than either investment individually. This is the benefit of diversifying your portfolio for long term gains. For short term gains, you might not need or want to diversify. You could get lucky and hit short term gains associated with the upswings (12%, 10%, or 7%) of Investment 2. However, you might also get unlucky, and hit a down term and earn nothing or even lose money on your investment using this same strategy.
+
+## Measures of Center and Spread Summary
+
+**Variable Types**
+
+We have covered a lot up to this point! We started with identifying data types as either **categorical** or **quantitative**. We then learned, we could identify **quantitative** variables as either **continuous** or **discrete**. We also found we could identify **categorical** variables as either **ordinal** or **nominal**.
+
+**Categorical Variables**
+
+When analyzing categorical variables, we commonly just look at the count or percent of a group that falls into each level of a category. For example, if we had two levels of a dog category: lab and not lab. We might say, 32% of the dogs were lab (percent), or we might say 32 of the 100 dogs I saw were labs (count).
+
+However, the 4 aspects associated with describing quantitative variables are not used to describe categorical variables.
+
+**Quantitative Variables**
+
+Then we learned there are four main aspects used to describe quantitative variables:
+
+1. Measures of Center
+2. Measures of Spread
+3. Shape of the Distribution
+4. Outliers
+
+We looked at calculating **measures of Center**
+
+1. Means
+2. Medians
+3. Modes
+
+We also looked at calculating **measures of Spread**
+
+1. Range
+2. Interquartile Range
+3. Standard Deviation
+4. Variance
+
+**Calculating Variance**
+
+![image](../Misc/030.png)
+
+The reason for this is beyond the scope of what we have covered thus far, but you can find an explanation [here](https://stats.stackexchange.com/questions/3931/intuitive-explanation-for-dividing-by-n-1-when-calculating-standard-deviation).
+
+You can commonly find answers to your questions with a quick Google search. Now is a great time to get started with this practice! This answer should make more sense at the completion of this lesson.
+
+**Standard Deviation vs. Variance**
+
+The standard deviation is the square root of the variance. In practice, you usually use the standard deviation rather than the variance. The reason for this is because the standard deviation shares the same units with our original data, while the variance has squared units.
+
+### What Next?
+
+In the next sections, we will be looking at the last two aspects of quantitative variables: **shape** and **outliers**. What we know about measures of center and measures of spread will assist in your understanding of these final two aspects.
+
+### [Shape](https://www.youtube.com/watch?v=UnN99AAYf8k)
+
+**Histograms**
+
+We learned how to build a histogram in this video, as this is the most popular visual for quantitative data.
+
+**Shape**
+
+From a histogram we can quickly identify the shape of our data, which helps influence all of the measures we learned in the previous concepts. We learned that the distribution of our data is frequently associated with one of the three shapes:
+
+1. Right-skewed
+
+2. Left-skewed
+
+3. Symmetric (frequently normally distributed)
+
+![image](../Misc/031.png)
+
+![image](../Misc/033.png)
+
+![image](../Misc/032.png)
+
+The mode of a distribution is essentially the tallest bar in a histogram. There may be multiple modes depending on the number of peaks in our histogram.
+
+### [The Shape of Data in Real World](https://www.youtube.com/watch?v=HmipezTjTDY)
+
+References
+These are the references used to pull the applications of each shape.
+
+* [Quora](https://www.quora.com/What-are-some-real-world-examples-of-normally-distributed-quantities)
+* [University of Texas](https://www.utdallas.edu/~scniu/OPRE-6301/documents/Important_Probability_Distributions.pdf)
+* [Stack Exchange](https://stats.stackexchange.com/questions/89179/real-life-examples-of-distributions-with-negative-skewness)

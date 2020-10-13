@@ -652,7 +652,7 @@ In the below image, we have three box-plots. Each box-plot is for a different Ir
 
 **Notice it has two areas where there are peaks in our dataset.**
 
-[Notes](../Misc/041.png)
+![image](../Misc/041.png)
 
 ![image](../Misc/042.png)
 

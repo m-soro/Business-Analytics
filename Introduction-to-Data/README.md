@@ -575,3 +575,54 @@ These are the references used to pull the applications of each shape.
 * [Quora](https://www.quora.com/What-are-some-real-world-examples-of-normally-distributed-quantities)
 * [University of Texas](https://www.utdallas.edu/~scniu/OPRE-6301/documents/Important_Probability_Distributions.pdf)
 * [Stack Exchange](https://stats.stackexchange.com/questions/89179/real-life-examples-of-distributions-with-negative-skewness)
+
+**Little tidbits from the quizzes**
+
+* Remember right-skewed distributions have a tail towards larger values. How, do you think a few large values influences the mean?
+
+* Remember left-skewed distributions have a tail towards smaller values. How, do you think a few small values influences the mean?
+
+* The mean is pulled by the tail of the distribution.
+
+## [Outliers](https://www.youtube.com/watch?v=HKIsvkZUZfo)
+
+**Outliers**
+We learned that **outliers** are points that fall very far from the rest of our data points. This influences measures like the mean and standard deviation much more than measures associated with the five number summary.
+
+**Identifying Outliers**
+There are a number of different techniques for identifying outliers. A full paper on this topic is provided [here](http://d-scholarship.pitt.edu/7948/1/Seo.pdf). In general, I usually just look at a picture and see if something looks suspicious!
+
+### [Working with Outliers](https://www.youtube.com/watch?v=4RnQjtJB8t8)
+
+**Common Techniques**
+When outliers are present we should consider the following points.
+
+1. Noting they exist and the impact on summary statistics.
+
+2. If typo - remove or fix
+
+3. Understanding why they exist, and the impact on questions we are trying to answer about our data.
+
+4. Reporting the 5 number summary values is often a better indication than measures like the mean and standard deviation when we have outliers.
+
+5. Be careful in reporting. Know how to ask the right questions.
+
+### [Outliers Advice](https://www.youtube.com/watch?v=BhhDoTgYQmI)
+
+Below are my guidelines for working with any column (random variable) in your dataset.
+
+1. Plot your data to identify if you have outliers.
+
+2. Handle outliers accordingly via the methods above.
+
+3. If no outliers and your data follow a normal distribution - use the mean and standard deviation to describe your dataset, and report that the data are normally distributed.
+
+**Side note**
+
+If you aren't sure if your data are normally distributed, there are plots called [normal quantile plots](http://data.library.virginia.edu/understanding-q-q-plots/) and statistical methods like the [Kolmogorov-Smirnov test](https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov_test) that are aimed to help you understand whether or not your data are normally distributed. Implementing this test is beyond the scope of this class, but can be used as a fun fact.
+
+4. If you have skewed data or outliers, use the five number summary to summarize your data and report the outliers.
+
+**Supporting Materials**
+ * [Kolmogorov-Smirnov test](https://video.udacity-data.com/topher/2019/November/5dc5c71b_kolmogorovsmirnov-test-wikipedia/kolmogorovsmirnov-test-wikipedia.pdf)
+ * [Normal quantile plots](https://video.udacity-data.com/topher/2019/November/5dc5e50d_q-q-plots-university-of-virginia-library-research-data-services-sciences/q-q-plots-university-of-virginia-library-research-data-services-sciences.pdf)

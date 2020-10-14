@@ -438,6 +438,8 @@ The variance is the **average squared difference of each observation from the me
 
 To calculate the variance of a set of 10 values in a spreadsheet application, with our 10 data points in column A, we would create a new column B by typing in something like **=A1-AVERAGE(A$1:A$10)** and copying this down for all 10 rows. This would find us the difference between each data point and the mean average of all the data. Then we create a new column C having the square of these differences, using the formula **=B1^2** in cell C1, and copying that down for all rows. Then in the cell below this new column, cell C11, type in **=SUM(C1:C10)**. This adds up all these values in column C. Finally in cell C12, we divide this sum by the number of data points we have, in this case ten: **=C11/10**. This cell C12 now contains the variance for our 10 data points.
 
+![Calculating Standard Deviation and Variance](../Misc/Standard-Deviation-and-Variance.numbers)
+
 More detailed guidance on using spreadsheets like this may be included in a future lesson in your program.
 
 The **standard deviation is the square root of the variance**. Therefore, the formula for the standard deviation is the following:
@@ -773,3 +775,31 @@ We looked at specific examples that allowed us to identify the
 ![image](../Misc/045.png)
 
 ![image](../Misc/046.png)
+
+![image](../Misc/047.png)
+
+### [Recap](https://www.youtube.com/watch?v=Fe7Gta2SfLA)
+
+**Descriptive vs. Inferential Statistics**
+
+In this section, we learned about how Inferential Statistics differs from Descriptive Statistics.
+
+**Descriptive Statistics**
+
+Descriptive statistics is about describing our collected data using the measures discussed throughout this lesson: measures of center, measures of spread, shape of our distribution, and outliers. We can also use plots of our data to gain a better understanding.
+
+**Inferential Statistics**
+
+Inferential Statistics is about using our collected data to draw conclusions to a larger population. Performing inferential statistics well requires that we take a sample that accurately represents our population of interest.
+
+A common way to collect data is via a survey. However, surveys may be extremely biased depending on the types of questions that are asked, and the way the questions are asked. This is a topic you should think about when tackling the first project.
+
+We looked at specific examples that allowed us to identify the
+
+1. Population - our entire group of interest.
+2. Parameter - numeric summary about a population
+3. Sample - subset of the population
+4. Statistic - numeric summary about a sample
+
+**Looking Ahead**
+Though we will not be diving deep into inferential statistics within this course, you are now aware of the difference between these two branches of statistics. If you have ever conducted a hypothesis test or built a confidence interval, you have performed inferential statistics. The way we perform inferential statistics is changing as technology evolves. Many career paths involving `Machine Learning` and `Artificial Intelligence` are aimed at using collected data to draw conclusions about entire populations at an individual level.

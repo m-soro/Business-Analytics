@@ -149,7 +149,7 @@ You likely already know some notation. Plus, minus, multiply, division, and equa
 If you aren't familiar with spreadsheets, this will be covered in detail in future lessons. Spreadsheets are a common way to hold data. They are composed of rows and columns. Rows run horizontally, while columns run vertically. Each column in a spreadsheet commonly holds a specific variable, while each row is commonly called an instance or individual.
 
 The example used in the video is shown below.
-![image](../Misc/001.png)
+![image](../../Misc/001.png)
 
 **Before Collecting Data**
 

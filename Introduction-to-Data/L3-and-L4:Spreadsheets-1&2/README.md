@@ -25,3 +25,7 @@
 ## Spreadsheets 2
 
 [substitute](./Misc/substitute.xlsx)
+
+![image](./Misc/007.png)
+
+![image](./Misc/008.png)

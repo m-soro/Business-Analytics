@@ -177,7 +177,7 @@ If 5 individuals visit our website, the first spends 10 minutes, the second spen
 
 X is the amount of time an individual spends on the website.
 
-![image](../Misc/026.png)
+![image](../../Misc/026.png)
 
 The capital **X** is associated with this idea of a random variable, while the observations of the random variable take on lowercase **x** values.
 
@@ -209,11 +209,11 @@ We know that the mean is calculated as the sum of all our values divided by the 
 
 In our current notation, adding all of our values together can be extremely tedious. If we want to add 3 values of some random variable together, we would use the notation:
 
-​![image](../Misc/024.png)	 
+​![image](../../Misc/024.png)	 
 
 If we want to add 6 values together, we would use the notation:
 
-![image](../Misc/025.png)
+![image](../../Misc/025.png)
 ​
 
 To extend this to add one hundred, one thousand, or one million values would be ridiculous! How can we make this easier to communicate?!
@@ -229,30 +229,30 @@ To extend this to add one hundred, one thousand, or one million values would be 
 
 Imagine we are looking at the amount of time individuals spend on our website. We collect data from nine individuals:
 
-![image](../Misc/017.png)
+![image](../../Misc/017.png)
 
 If we want to sum the first three values together in our previous notation, we write:
 
-![image](../Misc/018.png)
+![image](../../Misc/018.png)
 
 In our new notation, we can write:
 
-![image](../Misc/019.png)
+![image](../../Misc/019.png)
 Notice, our notation starts at the first observation (i=1i=1) and ends at 3 (the number at the top of our summation).
 
 So all of the following are equal to one another:
 
-![image](../Misc/020.png)
+![image](../../Misc/020.png)
 
 **Example 2**
 
 Now, imagine we want to sum the last three values together.
 
-![image](../Misc/021.png)
+![image](../../Misc/021.png)
 ​	 
 In our new notation, we can write:
 
-![image](../Misc/022.png)
+![image](../../Misc/022.png)
 
 Notice, our notation starts at the seventh observation (i=7i=7) and ends at 9 (the number at the top of our summation).
 
@@ -260,9 +260,9 @@ Notice, our notation starts at the seventh observation (i=7i=7) and ends at 9 (t
 
 The **Σ** is used for aggregating using **summation**, but we might choose to aggregate in other ways. Summing is one of the most common ways to need to aggregate. However, we might need to aggregate in alternative ways. If we wanted to multiply all of our values together we would use a **Π** , capital Greek letter pi. The way we **aggregate continuous values** is with something known as **integration (a common technique in calculus), which uses the following symbol ∫** which is just a long s. We will not be using integrals or products for quizzes in this class, but you may see them in the future!
 
-![image](../Misc/002.png)
+![image](../../Misc/002.png)
 
-![image](../Misc/003.png)
+![image](../../Misc/003.png)
 
 ## [Notation for the Mean](https://www.youtube.com/watch?v=3EF15AoRxyM)
 Pay attention to 1:15
@@ -271,19 +271,19 @@ Pay attention to 1:15
 
 To finalize our calculation of the mean, we introduce n as the total number of values in our dataset. We can use this notation both at the top of our summation, as well as for the value that we divide by when calculating the mean.
 
-![image](../Misc/023.png)
+![image](../../Misc/023.png)
 
 ​
 Instead of writing out all of the above, we commonly write x bar
   to represent the mean of a dataset. Although, similar to the first video, we could use any variable. Therefore, we might also write y bar, or any other letter.
 
-![image](../Misc/004.png)  
+![image](../../Misc/004.png)  
 
 We also could index using any other letter, not just ii. We could just as easily use jj, kk, or mm to index each of our data values. The quizzes on the next concept will help reinforce this idea.
 
 
 
-![image](../Misc/005.png)
+![image](../../Misc/005.png)
 
 ## Notation Recap
 
@@ -301,13 +301,13 @@ For example, we might have X be the amount of time an individual spends on our w
 
 We might imagine the random variables as columns in our dataset, while a particular value would be notated with the lower case letters.
 
-![image](../Misc/006.png)
+![image](../../Misc/006.png)
 
 **Notation for the Mean**
 
 We took our notation even farther by introducing the notation for summation ∑. Using this we were able to calculate the mean as:
 
-![image](../Misc/016.png)
+![image](../../Misc/016.png)
 
 In the next section, you will see this notation used to assist in your understanding of calculating various measures of spread. Notation can take time to fully grasp. Understanding notation not only helps in conveying mathematical ideas, but also in writing computer programs - if you decide you want to learn that too! Soon you will analyze data using spreadsheets. When that happens, many of these operations will be hidden by the functions you will be using. But until we get to spreadsheets, it is important to understand how mathematical ideas are commonly communicated. This isn't easy, but you can do it!
 
@@ -373,31 +373,31 @@ The **standard deviation** is one of the most common measures for talking about 
 
 In the above video we saw this as how far individuals were from the average distance from work (the example distances shown are examples from the full data set, the mean of just those 4 numbers is 38.5. The mean of 18 shown later in the video is the mean of the full data set which is not shown in the video). In the next video, you will see exactly how this is calculated.
 
-![image](../Misc/007.png)
+![image](../../Misc/007.png)
 
 ## [Standard Deviation Calculation](https://www.youtube.com/watch?v=H5zA1A-XPoY)
 
 1. Find the Mean
 
-![image](../Misc/008.png)
+![image](../../Misc/008.png)
 
 2. Look at the distance from each observation from the mean
 
-![image](../Misc/009.png)
+![image](../../Misc/009.png)
 
 3. Then Average it
 
-![image](../Misc/010.png)
+![image](../../Misc/010.png)
 
 **But zero is not a good measure of spread!**
 
 ***So we need to make all the values positive, the way we do this when calculating standard deviation is by squaring it***
 
-![image](../Misc/011.png)
+![image](../../Misc/011.png)
 
 ***Average this to find the averaged squared distance from the mean***
 
-![image](../Misc/012.png)
+![image](../../Misc/012.png)
 
 ### Variance
 
@@ -408,7 +408,7 @@ The units of the variance are the square of the original units of your data.
 **To get the Standard Deviation:**
 Get the square root of the ending value:
 
-![image](../Misc/013.png)
+![image](../../Misc/013.png)
 
 This is called the **Standard Deviation** -- on average, how far each point in our dataset is from the mean.
 
@@ -432,7 +432,7 @@ Two additional **measures of spread** that are used all the time are the varianc
 **Calculation**
 
 We **calculate the variance** in the following way:
-![image](../Misc/014.png)
+![image](../../Misc/014.png)
 
 The variance is the **average squared difference of each observation from the mean**.
 
@@ -444,7 +444,7 @@ More detailed guidance on using spreadsheets like this may be included in a futu
 
 The **standard deviation is the square root of the variance**. Therefore, the formula for the standard deviation is the following:
 
-![image](../Misc/015.png)
+![image](../../Misc/015.png)
 
 In the same spreadsheet as above, to find the standard deviation of our same set of 10 data values, we would use another cell like C13 to take the square root of our variance measure, by typing in **=sqrt(C12)**.
 
@@ -485,11 +485,11 @@ These applications are beyond the scope of this lesson as they pertain to specif
 
 **Real World Example from Quizzes**
 
-![image](../Misc/027.png)
+![image](../../Misc/027.png)
 
-![image](../Misc/028.png)
+![image](../../Misc/028.png)
 
-![image](../Misc/029.png)
+![image](../../Misc/029.png)
 
 **Useful insight**
 
@@ -531,7 +531,7 @@ We also looked at calculating **measures of Spread**
 
 **Calculating Variance**
 
-![image](../Misc/030.png)
+![image](../../Misc/030.png)
 
 The reason for this is beyond the scope of what we have covered thus far, but you can find an explanation [here](https://stats.stackexchange.com/questions/3931/intuitive-explanation-for-dividing-by-n-1-when-calculating-standard-deviation).
 
@@ -563,11 +563,11 @@ From a histogram we can quickly identify the shape of our data, which helps infl
 
 **The skew is the direction of the longer whisker.**
 
-![image](../Misc/031.png)
+![image](../../Misc/031.png)
 
-![image](../Misc/033.png)
+![image](../../Misc/033.png)
 
-![image](../Misc/032.png)
+![image](../../Misc/032.png)
 
 The mode of a distribution is essentially the tallest bar in a histogram. There may be multiple modes depending on the number of peaks in our histogram.
 
@@ -636,27 +636,27 @@ If you aren't sure if your data are normally distributed, there are plots called
 **Image Summary**
 In the below image, we have three box-plots. Each box-plot is for a different Iris flower: `setosa`, `versicolor`, or `virginica`. On the y-axis, we are given the sepal length. Notice that `virginica` has an outlier towards the bottom of the plot. Therefore, the minimum is not given by the bottom line here; rather, it is provided by this point.
 
-![image](../Misc/034.png)
+![image](../../Misc/034.png)
 
-![image](../Misc/035.png)
+![image](../../Misc/035.png)
 
-![image](../Misc/036.png)
+![image](../../Misc/036.png)
 
-![image](../Misc/037.png)
+![image](../../Misc/037.png)
 
-![image](../Misc/038.png)
+![image](../../Misc/038.png)
 
-![image](../Misc/039.png)
+![image](../../Misc/039.png)
 
 **Example of Bi-modal distribution**
 
-![image](../Misc/040.png)
+![image](../../Misc/040.png)
 
 **Notice it has two areas where there are peaks in our dataset.**
 
-![image](../Misc/041.png)
+![image](../../Misc/041.png)
 
-![image](../Misc/042.png)
+![image](../../Misc/042.png)
 
 ### What Measures of Spread & Center Should We Use?
 
@@ -666,7 +666,7 @@ In the below image, we have three box-plots. Each box-plot is for a different Ir
 
 > However, with symmetric data, the mean and standard deviation are commonly used, as we can understand what proportion of points might fall 1, 2, or 3 standard deviations away based on the empirical rule associated with normal distributions.
 
-![image](../Misc/043.png)
+![image](../../Misc/043.png)
 
 You can read more about this [here](https://www.mathsisfun.com/data/standard-normal-distribution.html).
 
@@ -770,13 +770,13 @@ We looked at specific examples that allowed us to identify the
 3. Sample - subset of the population
 4. Statistic numeric summary about a sample
 
-![image](../Misc/044.png)
+![image](../../Misc/044.png)
 
-![image](../Misc/045.png)
+![image](../../Misc/045.png)
 
-![image](../Misc/046.png)
+![image](../../Misc/046.png)
 
-![image](../Misc/047.png)
+![image](../../Misc/047.png)
 
 ### [Recap](https://www.youtube.com/watch?v=Fe7Gta2SfLA)
 

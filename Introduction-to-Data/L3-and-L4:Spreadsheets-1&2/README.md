@@ -29,3 +29,5 @@
 ![image](./Misc/007.png)
 
 ![image](./Misc/008.png)
+
+[extract-text](./Misc/extract-text.xlsx)

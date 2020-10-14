@@ -438,7 +438,7 @@ The variance is the **average squared difference of each observation from the me
 
 To calculate the variance of a set of 10 values in a spreadsheet application, with our 10 data points in column A, we would create a new column B by typing in something like **=A1-AVERAGE(A$1:A$10)** and copying this down for all 10 rows. This would find us the difference between each data point and the mean average of all the data. Then we create a new column C having the square of these differences, using the formula **=B1^2** in cell C1, and copying that down for all rows. Then in the cell below this new column, cell C11, type in **=SUM(C1:C10)**. This adds up all these values in column C. Finally in cell C12, we divide this sum by the number of data points we have, in this case ten: **=C11/10**. This cell C12 now contains the variance for our 10 data points.
 
-![Calculating Standard Deviation and Variance](../Misc/Standard-Deviation-and-Variance.numbers)
+![Calculating Standard Deviation and Variance](../Misc/Standard-Deviation-and-Variance.xlsx)
 
 More detailed guidance on using spreadsheets like this may be included in a future lesson in your program.
 

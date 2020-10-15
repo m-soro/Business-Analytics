@@ -1,0 +1,382 @@
+﻿Team,Player,Salary,Position
+New York Yankees,"Acevedo, Juan","900,000",Pitcher
+New York Yankees,"Anderson, Jason","300,000",Pitcher
+New York Yankees,"Clemens, Roger","10,100,000",Pitcher
+New York Yankees,"Contreras, Jose","5,500,000",Pitcher
+New York Yankees,"Flaherty, John","750,000",Catcher
+New York Yankees,"Giambi, Jason","11,428,571",First Baseman
+New York Yankees,"Hammond, Chris","2,200,000",Pitcher
+New York Yankees,"Hitchcock, Sterling","6,000,000",Pitcher
+New York Yankees,"Jeter, Derek","15,600,000",Shortstop
+New York Yankees,"Johnson, Nick","364,100",First Baseman
+New York Yankees,"Karsay, Steve","5,000,000",Pitcher
+New York Yankees,"Latham, Chris","400,000",Outfielder
+New York Yankees,"Liever, Jon","550,000",Pitcher
+New York Yankees,"Matsui, Hideki","6,000,000",Outfielder
+New York Yankees,"Mondesi, Raul","13,000,000",Outfielder
+New York Yankees,"Mussina, Mike","12,000,000",Pitcher
+New York Yankees,"Osuna, Antonio","2,400,000",Pitcher
+New York Yankees,"Pettitte, Andy","11,500,000",Pitcher
+New York Yankees,"Posada, Jorge","8,000,000",Catcher
+New York Yankees,"Rivera, Mariano","10,500,000",Pitcher
+New York Yankees,"Soriano, Alfonso","800,000",Second Baseman
+New York Yankees,"Trammell, Bubba","2,500,000",Outfielder
+New York Yankees,"Ventura, Robin","5,000,000",Third Baseman
+New York Yankees,"Weaver, Jeff","4,150,000",Pitcher
+New York Yankees,"Wells, David","3,250,000",Pitcher
+New York Yankees,"Williams, Bernie","12,357,143",Outfielder
+New York Yankees,"Wilson, Enrique","700,000",Shortstop
+New York Yankees,"Zeile, Todd","1,500,000",Third Baseman
+Anaheim Angels,"Anderson, Garret","5,350,000",Outfielder
+Anaheim Angels,"Appier, Kevin","11,500,000",Pitcher
+Anaheim Angels,"Callaway, Mickey","302,500",Pitcher
+Anaheim Angels,"Donnelly, Brendan","325,000",Pitcher
+Anaheim Angels,"Eckstein, David","425,000",Shortstop
+Anaheim Angels,"Erstad, Darin","7,250,000",Outfielder
+Anaheim Angels,"Fullmer, Brad","1,000,000",First Baseman
+Anaheim Angels,"Gil, Benji","725,000",Shortstop
+Anaheim Angels,"Glaus, Troy","7,250,000",Third Baseman
+Anaheim Angels,"Kennedy, Adam","2,270,000",Second Baseman
+Anaheim Angels,"Lackey, John","315,000",Pitcher
+Anaheim Angels,"Molina, Benjie","1,425,000",Catcher
+Anaheim Angels,"Molina, Jose","320,000",Catcher
+Anaheim Angels,"Ortiz, Ramon","2,266,667",Pitcher
+Anaheim Angels,"Owens, Eric","925,000",Outfielder
+Anaheim Angels,"Percival, Troy","7,833,333",Pitcher
+Anaheim Angels,"Ramirez, Julio","300,000",Outfielder
+Anaheim Angels,"Rodriquez, Francisco","312,500",Pitcher
+Anaheim Angels,"Salmon, Tim","9,900,000",Outfielder
+Anaheim Angels,"Schoeneweis, Scott","1,425,000",Pitcher
+Anaheim Angels,"Sele, Aaron","8,166,667",Pitcher
+Anaheim Angels,"Shields, Scot","305,000",Pitcher
+Anaheim Angels,"Spiezio, Scott","4,250,000",First Baseman
+Anaheim Angels,"Washburn, Jarrod","3,875,000",Pitcher
+Anaheim Angels,"Weber, Ben","375,000",Pitcher
+Anaheim Angels,"Wise, Matt","302,500",Pitcher
+Anaheim Angels,"Wooten, Shawn","337,500",Catcher
+Boston Red Sox,"Burkett, John","5,500,000",Pitcher
+Boston Red Sox,"Damon, Johnny","7,500,000",Outfielder
+Boston Red Sox,"Embree, Alan","3,000,000",Pitcher
+Boston Red Sox,"Fossum, Casey","324,500",Pitcher
+Boston Red Sox,"Fox, Chad","500,000",Pitcher
+Boston Red Sox,"Garciaparra, Nomar","11,000,000",Shortstop
+Boston Red Sox,"Giambi, Jeremy","2,000,000",Outfielder
+Boston Red Sox,"Gonzalez, Dicky","300,000",Pitcher
+Boston Red Sox,"Hillenbrand, Shea","407,500",Third Baseman
+Boston Red Sox,"Howry, Bobby","1,700,000",Pitcher
+Boston Red Sox,"Jackson, Damian","625,000",Shortstop
+Boston Red Sox,"Lowe, Derek","3,625,000",Pitcher
+Boston Red Sox,"Lyon, Brandon","309,500",Pitcher
+Boston Red Sox,"Martinez, Pedro","15,500,000",Pitcher
+Boston Red Sox,"Mendoza, Ramiro","2,900,000",Pitcher
+Boston Red Sox,"Millar, Kevin","2,000,000",First Baseman
+Boston Red Sox,"Mirabelli, Doug","805,000",Catcher
+Boston Red Sox,"Mueller, Bill","2,100,000",Third Baseman
+Boston Red Sox,"Nixon, Trot","4,000,000",Outfielder
+Boston Red Sox,"Ortiz, David","1,250,000",First Baseman
+Boston Red Sox,"Person, Robert","300,000",Pitcher
+Boston Red Sox,"Ramirez, Manny","20,000,000",Outfielder
+Boston Red Sox,"Timlin, Mike","1,850,000",Pitcher
+Boston Red Sox,"Varitek, Jason","4,700,000",Catcher
+Boston Red Sox,"Wakefield, Tim","4,000,000",Pitcher
+Boston Red Sox,"Walker, Todd","3,450,000",Second Baseman
+Boston Red Sox,"White, Matt","300,000",Pitcher
+Cleveland Indians,"Anderson, Brian","1,500,000",Pitcher
+Cleveland Indians,"Baez, Danys","5,125,000",Pitcher
+Cleveland Indians,"Bard, Josh","302,100",Catcher
+Cleveland Indians,"Bere, Jason","1,000,000",Pitcher
+Cleveland Indians,"Blake, Casey","330,000",Third Baseman
+Cleveland Indians,"Bradley, Milton","314,300",Outfielder
+Cleveland Indians,"Broussard, Benjamin","303,000",First Baseman
+Cleveland Indians,"Burks, Ellis","7,166,667",Outfielder
+Cleveland Indians,"Davis, Jason","301,100",Pitcher
+Cleveland Indians,"Garcia, Karim","900,000",Outfielder
+Cleveland Indians,"Gutierrez, Ricky","3,916,667",Shortstop
+Cleveland Indians,"Hafner, Travis","302,200",First Baseman
+Cleveland Indians,"Laker, Tim","400,000",Catcher
+Cleveland Indians,"Lawton, Matt","6,750,000",Outfielder
+Cleveland Indians,"Lee, Cliff","300,900",Pitcher
+Cleveland Indians,"McDonald, John","314,400",Shortstop
+Cleveland Indians,"Mulholland, Terry","500,000",Pitcher
+Cleveland Indians,"Myette, Aaron","307,500",Pitcher
+Cleveland Indians,"Phillips, Brandon","300,900",Shortstop
+Cleveland Indians,"Riske, David","314,000",Pitcher
+Cleveland Indians,"Rodriguez, Ricardo","302,400",Pitcher
+Cleveland Indians,"Sabathia, CC","1,100,000",Pitcher
+Cleveland Indians,"Sadler, Carl","303,200",Pitcher
+Cleveland Indians,"Santiago, Jose","600,000",Pitcher
+Cleveland Indians,"Selby, Bill","325,000",Second Baseman
+Cleveland Indians,"Spencer, Shane","600,000",Outfielder
+Cleveland Indians,"Traber, Billy","300,000",Pitcher
+Cleveland Indians,"Vizquel, Omar","5,500,000",Shortstop
+Cleveland Indians,"Westbrook, Jake","305,500",Pitcher
+Cleveland Indians,"Wickman, Bob","6,000,000",Pitcher
+Cleveland Indians,"Wohlers, Mark","2,600,000",Pitcher
+Toronto Blue Jays ,"Berg, Dave","700,000",Shortstop
+Toronto Blue Jays ,"Bordick, Mike","1,000,000",Shortstop
+Toronto Blue Jays ,"Catalanotto, Frank","2,200,000",Outfielder
+Toronto Blue Jays ,"Creek, Doug","700,000",Pitcher
+Toronto Blue Jays ,"Delgado, Carlos","18,700,000",First Baseman
+Toronto Blue Jays ,"Escobar, Kelvim","3,900,000",Pitcher
+Toronto Blue Jays ,"File, Bob","310,000",Pitcher
+Toronto Blue Jays ,"Halladay, Roy","3,825,000",Pitcher
+Toronto Blue Jays ,"Hendrickson, Mark","302,000",Pitcher
+Toronto Blue Jays ,"Hinske, Eric","600,000",Third Baseman
+Toronto Blue Jays ,"Huckaby, Ken","313,000",Catcher
+Toronto Blue Jays ,"Hudson, Orlando","313,000",Second Baseman
+Toronto Blue Jays ,"Lidle, Cory","5,350,000",Pitcher
+Toronto Blue Jays ,"Linton, Doug","350,000",Pitcher
+Toronto Blue Jays ,"Lopez, Aquilino","300,000",Pitcher
+Toronto Blue Jays ,"Miller, Trever","305,000",Pitcher
+Toronto Blue Jays ,"Myers, Greg","800,000",Catcher
+Toronto Blue Jays ,"Phelps, Josh","320,000",First Baseman
+Toronto Blue Jays ,"Politte, Cliff","845,000",Pitcher
+Toronto Blue Jays ,"Stewart, Shannon","6,200,000",Outfielder
+Toronto Blue Jays ,"Sturtze, Tanyon","1,000,000",Pitcher
+Toronto Blue Jays ,"Tam, Jeff","600,000",Pitcher
+Toronto Blue Jays ,"Walker, Pete","425,000",Pitcher
+Toronto Blue Jays ,"Wells, Vernon","520,000",Outfielder
+Toronto Blue Jays ,"Werth, Jayson","300,000",Catcher
+Toronto Blue Jays ,"Wilson, Tom","316,000",Catcher
+Toronto Blue Jays ,"Woodward, Chris","775,000",Shortstop
+Baltimore Orioles,"Batista, Tony","6,400,000",Third Baseman
+Baltimore Orioles,"Bauer, Rick","325,000",Pitcher
+Baltimore Orioles,"Bedard, Erik","300,000",Pitcher
+Baltimore Orioles,"Belle, Albert","13,000,000",Outfielder
+Baltimore Orioles,"Conine, Jeff","4,250,000",Outfielder
+Baltimore Orioles,"Cordova, Marty","3,100,000",Outfielder
+Baltimore Orioles,"Cruz, Deivi","1,000,000",Shortstop
+Baltimore Orioles,"Daal, Omar","3,000,000",Pitcher
+Baltimore Orioles,"Erickson, Scott","7,030,000",Pitcher
+Baltimore Orioles,"Fordyce, Brook","3,500,000",Catcher
+Baltimore Orioles,"Gibbons, Jay","375,000",First Baseman
+Baltimore Orioles,"Gil, Geronimo","330,000",Catcher
+Baltimore Orioles,"Groom, Buddy","3,000,000",Pitcher
+Baltimore Orioles,"Hairston, Jerry","1,550,000",Shortstop
+Baltimore Orioles,"Helling, Rick","1,000,000",Pitcher
+Baltimore Orioles,"Hentgen, Pat","1,200,000",Pitcher
+Baltimore Orioles,"Johson, Jason","2,900,000",Pitcher
+Baltimore Orioles,"Julio, Jorge","350,000",Pitcher
+Baltimore Orioles,"Leon, Jose","305,000",Third Baseman
+Baltimore Orioles,"Ligtenberg, Kerry","1,200,000",Pitcher
+Baltimore Orioles,"Lopez, Rodrigo","325,000",Pitcher
+Baltimore Orioles,"Matthews, Gary","900,000",Outfielder
+Baltimore Orioles,"Mora, Melvin","1,725,000",Outfielder
+Baltimore Orioles,"Morban, Jose","300,000",Shortstop
+Baltimore Orioles,"Ponson, Sidney","4,250,000",Pitcher
+Baltimore Orioles,"Roberts, Willis","3,500,000",Pitcher
+Baltimore Orioles,"Ryan, BJ","762,500",Pitcher
+Baltimore Orioles,"Segui, David","7,000,000",First Baseman
+Baltimore Orioles,"Surhoff, BJ","1,000,000",First Baseman
+Tampa Bay Devil Rays,"Abernathy, Brent","300,000",Second Baseman
+Tampa Bay Devil Rays,"Anderson, Marlon","600,000",Second Baseman
+Tampa Bay Devil Rays,"Baldelli, Rocco","300,000",Outfielder
+Tampa Bay Devil Rays,"Bierbrodt, Nick","300,000",Pitcher
+Tampa Bay Devil Rays,"Carter, Lance","300,000",Pitcher
+Tampa Bay Devil Rays,"Colome, Jesus","300,000",Pitcher
+Tampa Bay Devil Rays,"Crawford, Carl","300,000",Outfielder
+Tampa Bay Devil Rays,"Grieve, Ben","5,500,000",Outfielder
+Tampa Bay Devil Rays,"Hall, Toby","300,000",Catcher
+Tampa Bay Devil Rays,"Harper, Travis","325,000",Pitcher
+Tampa Bay Devil Rays,"Huff, Aubrey","325,000",Third Baseman
+Tampa Bay Devil Rays,"Kennedy, Joe","300,000",Pitcher
+Tampa Bay Devil Rays,"Lee, Travis","500,000",First Baseman
+Tampa Bay Devil Rays,"Martin, Al","300,000",Outfielder
+Tampa Bay Devil Rays,"McClung, Seth","300,000",Pitcher
+Tampa Bay Devil Rays,"Ordonez, Rey","6,500,000",Shortstop
+Tampa Bay Devil Rays,"Parque, Jim","400,000",Pitcher
+Tampa Bay Devil Rays,"Parris, Steve","400,000",Pitcher
+Tampa Bay Devil Rays,"Rolls, Damian","300,000",Third Baseman
+Tampa Bay Devil Rays,"Seay, Bobby","300,000",Pitcher
+Tampa Bay Devil Rays,"Shumpert, Terry","300,000",Second Baseman
+Tampa Bay Devil Rays,"Sosa, Jorge","300,000",Pitcher
+Tampa Bay Devil Rays,"Valentin, Javier","300,000",Catcher
+Tampa Bay Devil Rays,"Venafro, Mike","300,000",Pitcher
+Tampa Bay Devil Rays,"Zambrano, Victor","300,000",Pitcher
+Kansas City Royals,"Affeldt, Jeremy","313,000",Pitcher
+Kansas City Royals,"Asencio, Miguel","314,000",Pitcher
+Kansas City Royals,"Beltran, Carlos","6,000,000",Outfielder
+Kansas City Royals,"Berger, Grandon","304,000",Outfielder
+Kansas City Royals,"Berroa, Angel","302,000",Shortstop
+Kansas City Royals,"Brown, Dermal","309,500",Outfielder
+Kansas City Royals,"Bukvich, Ryan","304,500",Pitcher
+Kansas City Royals,"Carrasco, DJ","300,000",Pitcher
+Kansas City Royals,"Difelice, Mike","625,000",Catcher
+Kansas City Royals,"Febles, Carlos","775,000",Second Baseman
+Kansas City Royals,"George, Chris","303,500",Pitcher
+Kansas City Royals,"Grimsley, Jason","2,000,000",Pitcher
+Kansas City Royals,"Harvey, Ken","300,000",First Baseman
+Kansas City Royals,"Hernandez, Runelvys","305,500",Pitcher
+Kansas City Royals,"Ibanez, Raul","3,000,000",Outfielder
+Kansas City Royals,"Johnson, Rontrez","300,000",Outfielder
+Kansas City Royals,"Lopez, Albie","1,500,000",Pitcher
+Kansas City Royals,"Lopez, Mendy","300,000",Shortstop
+Kansas City Royals,"MacDougal, Mike","301,000",Pitcher
+Kansas City Royals,"May, Darrell","450,000",Pitcher
+Kansas City Royals,"Mayne, Brent","2,750,000",Catcher
+Kansas City Royals,"Randa, Joe","4,500,000",Third Baseman
+Kansas City Royals,"Relaford, Desi","900,000",Shortstop
+Kansas City Royals,"Sweeney, Mike","11,000,000",First Baseman
+Kansas City Royals,"Tucker, Michael","2,750,000",Outfielder
+Kansas City Royals,"Wilson, Kris","311,000",Pitcher
+Minnesota Twins,"Cuddyer, Michael","302,500",Outfielder
+Minnesota Twins,"Fetters, Mike","500,000",Pitcher
+Minnesota Twins,"Fiore, Tony","330,000",Pitcher
+Minnesota Twins,"Gomez, Chris","500,000",Shortstop
+Minnesota Twins,"Guardado, Eddie","2,700,000",Pitcher
+Minnesota Twins,"Guzman, Cristian","2,525,000",Shortstop
+Minnesota Twins,"Hawkins, Latroy","3,000,000",Pitcher
+Minnesota Twins,"Hocking, Denny","1,000,000",Second Baseman
+Minnesota Twins,"Hunter, Torii","4,750,000",Outfielder
+Minnesota Twins,"Jones, Jacque","2,750,000",Outfielder
+Minnesota Twins,"Kielty, Bobby","325,000",Outfielder
+Minnesota Twins,"Koskie, Corey","3,400,000",Third Baseman
+Minnesota Twins,"Lecroy, Matt","312,500",Catcher
+Minnesota Twins,"Lohse, Kyle","330,000",Pitcher
+Minnesota Twins,"Mays, Joe","4,150,000",Pitcher
+Minnesota Twins,"Mientkiewicz, Doug","1,750,000",First Baseman
+Minnesota Twins,"Milton, Eric","6,000,000",Pitcher
+Minnesota Twins,"Mohr, Dustan","315,000",Outfielder
+Minnesota Twins,"Pierzynski, AJ","365,000",Catcher
+Minnesota Twins,"Prince, Tom","450,000",Catcher
+Minnesota Twins,"Radke, Brad","8,750,000",Pitcher
+Minnesota Twins,"Reed, Rick","8,000,000",Pitcher
+Minnesota Twins,"Rivas, Luis","340,000",Second Baseman
+Minnesota Twins,"Rogers, Kenny","2,000,000",Pitcher
+Minnesota Twins,"Romero, JC","325,000",Pitcher
+Minnesota Twins,"Santana, Johan","335,000",Pitcher
+Chicago White Sox,"Alomar Jr, Sandy","700,000",Catcher
+Chicago White Sox,"Buehrle, Mark","445,000",Pitcher
+Chicago White Sox,"Colon, Bartolo","8,250,000",Pitcher
+Chicago White Sox,"Crede, Joe","315,000",Third Baseman
+Chicago White Sox,"Daubach, Brian","450,000",First Baseman
+Chicago White Sox,"Garland, Jon","375,000",Pitcher
+Chicago White Sox,"Glover, Gary","330,000",Pitcher
+Chicago White Sox,"Gordon, Tom","1,400,000",Pitcher
+Chicago White Sox,"Graffanino, Tony","675,000",Second Baseman
+Chicago White Sox,"Jimenez, D'angelo","345,000",Shortstop
+Chicago White Sox,"Koch, Billy","4,250,000",Pitcher
+Chicago White Sox,"Konerko, Paul","6,250,000",First Baseman
+Chicago White Sox,"Lee, Carlos","4,200,000",Outfielder
+Chicago White Sox,"Loaiza, Esteban","500,000",Pitcher
+Chicago White Sox,"Marte, Damaso","330,000",Pitcher
+Chicago White Sox,"Olivo, Miguel","300,000",Catcher
+Chicago White Sox,"Ordonez, Magglio","9,000,000",Outfielder
+Chicago White Sox,"Paul, Josh","325,000",Catcher
+Chicago White Sox,"Rios, Armando","450,000",Outfielder
+Chicago White Sox,"Rowand, Aaron","320,000",Outfielder
+Chicago White Sox,"Stewart, Josh","300,000",Pitcher
+Chicago White Sox,"Thomas, Frank","5,000,000",First Baseman
+Chicago White Sox,"Valentin, Jose","5,000,000",Outfielder
+Chicago White Sox,"White, Ribk","600,000",Pitcher
+Chicago White Sox,"Wright, Danny","325,000",Pitcher
+Chicago White Sox,"Wunsch, Kelly","575,000",Pitcher
+Detroit Tigers,"Anderson, Matt","3,200,000",Pitcher
+Detroit Tigers,"Bernero, Adam","314,000",Pitcher
+Detroit Tigers,"Bocachica, Hiram","325,000",Outfielder
+Detroit Tigers,"Bonderman, Jeremy","300,000",Pitcher
+Detroit Tigers,"Cornejo, Nate","303,000",Pitcher
+Detroit Tigers,"German, Franklyn","300,000",Pitcher
+Detroit Tigers,"Halter, Shane","2,150,000",Shortstop
+Detroit Tigers,"Higginson, Bobby","11,850,000",Outfielder
+Detroit Tigers,"Infante, Omar","300,000",Shortstop
+Detroit Tigers,"Inge, Brandon","315,000",Catcher
+Detroit Tigers,"Kingsale, Eugene","340,000",Outfielder
+Detroit Tigers,"Knotts, Gary","305,000",Pitcher
+Detroit Tigers,"Ledezma, Wilfredo","300,000",Pitcher
+Detroit Tigers,"Maroth, Mike","309,000",Pitcher
+Detroit Tigers,"Munson, Eric","1,700,000",Third Baseman
+Detroit Tigers,"Palmer, Dean","8,500,000",Third Baseman
+Detroit Tigers,"Paquette, Craig","2,625,000",Third Baseman
+Detroit Tigers,"Patterson, Danny","2,500,000",Pitcher
+Detroit Tigers,"Pena, Carlos","310,000",First Baseman
+Detroit Tigers,"Roney, Matt","300,000",Pitcher
+Detroit Tigers,"Santiago, Ramon","307,000",Second Baseman
+Detroit Tigers,"Sparks, Steve","4,500,000",Pitcher
+Detroit Tigers,"Spurling, Chris","305,000",Pitcher
+Detroit Tigers,"Walbeck, Matt","400,000",Catcher
+Detroit Tigers,"Walker, Jamie","360,000",Pitcher
+Detroit Tigers,"Young, Dmitri","6,750,000",Outfielder
+Seattle Mariners,"Bloomquist, Willie","300,000",Second Baseman
+Seattle Mariners,"Boone, Bret","8,000,000",Second Baseman
+Seattle Mariners,"Borders, Pat","500,000",Catcher
+Seattle Mariners,"Cameron, Mike","7,416,667",Outfielder
+Seattle Mariners,"Carrara, Giovanni","400,000",Pitcher
+Seattle Mariners,"Cirillo, Jeff","6,725,000",Third Baseman
+Seattle Mariners,"Colbrunn, Greg","750,000",First Baseman
+Seattle Mariners,"Davis, Ben","1,000,000",Catcher
+Seattle Mariners,"Franklin, Ryan","425,000",Pitcher
+Seattle Mariners,"Garcia, Freddy","6,875,000",Pitcher
+Seattle Mariners,"Guillen, Carlos","2,500,000",Shortstop
+Seattle Mariners,"Hasegawa, Shigetoshi","1,800,000",Pitcher
+Seattle Mariners,"Mabry, John","600,000",First Baseman
+Seattle Mariners,"Martinez, Edgar","4,000,000",First Baseman
+Seattle Mariners,"Mateo, Julio","302,500",Pitcher
+Seattle Mariners,"McLemore, Mark","3,150,000",Second Baseman
+Seattle Mariners,"Meche, Gil","325,000",Pitcher
+Seattle Mariners,"Moyer, Jamie","6,500,000",Pitcher
+Seattle Mariners,"Nelson, Jeff","3,983,333",Pitcher
+Seattle Mariners,"Olerud, John","7,700,000",First Baseman
+Seattle Mariners,"Pineiro, Joel","440,000",Pitcher
+Seattle Mariners,"Rhodes, Arthur","3,500,000",Pitcher
+Seattle Mariners,"Sasaki, Kazuhiro","8,000,000",Pitcher
+Seattle Mariners,"Snelling, Chris","300,000",Outfielder
+Seattle Mariners,"Suzuki, Ichiro","4,666,667",Outfielder
+Seattle Mariners,"Wilson, Dan","3,500,000",Catcher
+Seattle Mariners,"Winn, Randy","3,300,000",Outfielder
+Oakland Athletics,"Bowie, Micah","304,000",Pitcher
+Oakland Athletics,"Bradford, Chad","331,000",Pitcher
+Oakland Athletics,"Byrnes, Eric","300,000",Outfielder
+Oakland Athletics,"Chavez, Eric","3,675,000",Third Baseman
+Oakland Athletics,"Durazo, Erubiel","1,065,000",First Baseman
+Oakland Athletics,"Dye, Jermaine","11,666,667",Outfielder
+Oakland Athletics,"Ellis, Mark","307,500",Shortstop
+Oakland Athletics,"Fikac, Jeremy","316,000",Pitcher
+Oakland Athletics,"Foulke, Keith","6,000,000",Pitcher
+Oakland Athletics,"Gant, Ron","350,000",Outfielder
+Oakland Athletics,"Halama, John","750,000",Pitcher
+Oakland Athletics,"Hatteberg, Scott","1,750,000",Catcher
+Oakland Athletics,"Hernandez, Ramon","1,887,500",Catcher
+Oakland Athletics,"Hudson, Tim","2,700,000",Pitcher
+Oakland Athletics,"Johnson, Mark L","500,000",Catcher
+Oakland Athletics,"Lilly, Ted","335,000",Pitcher
+Oakland Athletics,"Long, Terrence","2,175,000",Outfielder
+Oakland Athletics,"Mecir, Jim","3,216,667",Pitcher
+Oakland Athletics,"Menechino, Frank","334,500",Second Baseman
+Oakland Athletics,"Mulder, Mark","2,650,000",Pitcher
+Oakland Athletics,"Neu, Mike","300,000",Pitcher
+Oakland Athletics,"Piatt, Adam","322,000",Third Baseman
+Oakland Athletics,"Rincon, Ricardo","1,700,000",Pitcher
+Oakland Athletics,"Singleton, Chris","1,200,000",Outfielder
+Oakland Athletics,"Tejada, Miguel","5,125,000",Shortstop
+Oakland Athletics,"Zito, Barry","1,000,000",Pitcher
+Texas Rangers,"Blalock, Hank","302,500",Third Baseman
+Texas Rangers,"Clark, Jermaine","300,000",Second Baseman
+Texas Rangers,"Cordero, Francisco","900,000",Pitcher
+Texas Rangers,"Diaz, Einar","1,837,500",Catcher
+Texas Rangers,"Everett, Carl","9,150,000",Outfielder
+Texas Rangers,"Fultz, Aaron","600,000",Pitcher
+Texas Rangers,"Garcia, Reynaldo","300,000",Pitcher
+Texas Rangers,"Glanville, Doug","1,000,000",Outfielder
+Texas Rangers,"Gonzalez, Juan","13,000,000",Outfielder
+Texas Rangers,"Greene, Todd","750,000",Catcher
+Texas Rangers,"Greer, Rusty","7,000,000",Outfielder
+Texas Rangers,"Kreuter, Chad","750,000",Catcher
+Texas Rangers,"Lamb, Mike","440,000",Third Baseman
+Texas Rangers,"Lewis, Colby","302,500",Pitcher
+Texas Rangers,"Mench, Kevin","327,500",Outfielder
+Texas Rangers,"Nitkowski, CJ","550,000",Pitcher
+Texas Rangers,"Palmeiro, Rafael","9,000,000",First Baseman
+Texas Rangers,"Park, Chan Ho","13,000,000",Pitcher
+Texas Rangers,"Perry, Herbert","1,300,000",Third Baseman
+Texas Rangers,"Powell, Jay","3,250,000",Pitcher
+Texas Rangers,"Rodriguez, Alex","22,000,000",Shortstop
+Texas Rangers,"Sierra, Ruben","600,000",Outfielder
+Texas Rangers,"Teixeira, Mark","750,000",Third Baseman
+Texas Rangers,"Thomson, John","1,300,000",Pitcher
+Texas Rangers,"Urbina, Ugueth","4,500,000",Pitcher
+Texas Rangers,"Valdes, Ismael","2,500,000",Pitcher
+Texas Rangers,"Van Poppel, Todd","2,500,000",Pitcher
+Texas Rangers,"Yan, Esteban","1,500,000",Pitcher
+Texas Rangers,"Young, Mike B","415,000",Shortstop
+Texas Rangers,"Zimmerman, Jeff","3,366,667",Pitcher

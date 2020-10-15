@@ -45,3 +45,5 @@ Split Column Tip:
 As you work with larger data sets, its can be helpful to "freeze" the header row or far left column as you scroll through data. To do this, use the View->Freeze Panes operation in Excel or View->Freeze in Google Sheets to select the rows or columns you want to always be visible.
 
 [albb-salaries-2003](./Misc/albb-salaries-2003.xlsx)
+
+![image](./Misc/009.png)

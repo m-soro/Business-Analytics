@@ -138,7 +138,10 @@ When your CTR is low, your ad campaign is not generating enough interest. When t
 **Benchmarks for CTRs for Google Ads across industries**.
 Check out this blog that provides useful benchmarks for CTRs across industries: [Wordstream Blog](https://www.wordstream.com/blog/ws/2016/02/29/google-adwords-industry-benchmarks)
 
+[Calculations](./Misc/band-marketingmetric-quizzes-a.xlsx)
+
 #### Recap:
+
 - **Click Through Rate (CTR)** = (Clicks/ Impressions) * 100 or Ratio of users clicking on a link or an ad to the number of total users who received the link or saw the ad.
 
 - CTR measures the success of an advertising campaign or email campaign.
@@ -162,3 +165,157 @@ We will not be going into unique CTR in detail in this lesson, but if you are in
 **Business Metric Terminology and Formulas**
 
 We have created a file with a list of business metrics covered in this lesson and their individual formulas - think of it as a cheat-sheet. You can locate it under the Resources tab on the top left under Lesson Resources. The file name is **[Business Metrics Lesson Terminology and Formulas](business-metrics-lesson-terminology-and-formulas-1.pdf)**.
+
+### Cost Per Click
+
+Cost Per Click refers to the cost to get a click on your ad. It helps us gauge the cost of advertising on the specific platform, so we can see which platform is generating more leads.
+
+**Calculation**
+
+`CPC = Cost of Advertising on Source Platform / Number of Viewers who Clicked on the Ad`
+
+Since platforms charge you for the number of ads on a page, you can compare the CPC for the different platforms you are advertising on and see which platform is generating more interactions with your website, or generating more traffic to your website.
+
+**Interpretation of CPC**
+
+Different ad platforms cost differently, and it is important to remember that while one platform might be cheaper it may not necessarily deliver you as many potential customers as another platform. This is an important tradeoff that analysts and marketing teams have to consider. Some marketing channels or platforms convert amazing results but they are small and may not generate as many customers. While you may decide to continue using them, you will also need to identify marketing channels that deliver more potential leads.
+
+**Quiz**
+
+Continue using the Smoothie Rocks CSV file named BAND_MarketingMetric_Quizzes_A. In case you need the file again, you can access it under the Resources at the end of the page. Calculate the necessary metrics to answer the quiz questions below.
+
+#### Recap
+- **Cost Per Click (CPC)** = Cost of advertising on the source platform / Number of people who clicked on that ad
+
+- CPC is an indicator of the cost effectiveness of the ad platform and a useful tool to compare and strategize about which marketing platforms is yielding higher impression and reach and resulting in potential leads.
+
+### Cost Per Lead
+
+Remember, a **lead is when a potential customer visits your website and does something on the website in response to a prompt**, such as share their email , or download a document, create an account. Once the viewer takes that action, we know the viewer is showing some interest for the product or service, and this could possibly lead to a sale. **With Cost Per Lead we are tracking whether the potential customer turned into a lead within a given time period, that could be a 30-day window or 60-day window**.
+
+Let’s go back to our funnel - we are tracking how much did it cost us to get the potential customer to take that action on the website. We are calculating the cost of generating interest and nurturing the interest of the potential customer and figuring out how much did it cost us to get them to get to this level? The metric we calculate is the Cost Per Lead.
+
+![image](./Misc/010.png)
+
+**Calculation**
+
+`Cost Per Lead (CPL) = Cost of advertising on the source platform / Total number of leads`
+
+**Interpretation of CPL**
+
+A lead is an indication that the advertisement or the advertising platform is targeting the right type of person. A low cost per lead means more of this particular type of person is likely to be interested in the product. Looking at the data in the video we can see that Google Display and Google Ads were comparable in terms of the Cost Per Lead. On the other hand, Facebook was costing us more to get to our potential customers. At the same time, Facebook also generated fewer clicks, so we need to consider if we need to tweak the ad for the Facebook platform, or consider other platforms that can generate same or higher number of clicks for a comparable price.
+
+**Useful Resources and Links**
+The following websites provide some benchmarks for Cost Per Lead by industries.
+
+- [Marketing Charts](https://www.marketingcharts.com/customer-centric/lead-generation-and-management-79707)
+- [Hubspot](https://research.hubspot.com/charts/cost-per-lead-benchmarks-by-industry)
+
+**Quiz**
+Continue using the Smoothie Rocks CSV file named BAND_MarketingMetric_Quizzes_A. We have provided a copy in the Resources below if you need it again. Calculate the necessary metrics to answer the quiz questions below.
+
+
+[Calculations](./Misc/band-marketingmetric-quizzes-a.xlsx)
+
+#### Recap:
+- **Cost Per Lead (CPL)** = Cost of advertising on the source platform / Total number of leads
+
+- CPL is an indicator of the cost effectiveness of the ad platform and a useful tool to compare and strategize about which marketing platforms yielded more leads.
+
+### Customer Acquisition Cost
+
+![image](./Misc/011.png)
+
+The goal is to increase customer conversion at the bottom of the funnel for the lowest cost.
+
+![image](./Misc/012.png)
+
+**Good rule of thumb is 25% of revenue**
+
+![image](./Misc/013.png)
+
+**Interpreting CAC**
+
+The CAC metric is an indicator of how much it cost to acquire a customer. If your customer service team is doing a good job of keeping the paid customers happy, that can lead to future leads and paying customers, and thus keep the cost of acquiring customers low. The company's goal is to keep the CAC low, while increasing revenue as this has a positive impact on the profit margin and profits.
+
+Additional note regarding the timeline of the customer journey. If you are unsure of the timeline of your customer journey, think about when the ad was placed online, how long it was out, and when the ad was pulled out. That gives you a rough timeline of when you started getting paid customers, and estimate how much time an average customer took from seeing the ad to buying your product.
+
+
+**Quiz**
+Use the BAND Marketing Metric Quizzes B file in the Resources below to access the data to answer the following Quiz question. Once you have downloaded the Excel spreadsheet, calculate the appropriate metrics and then respond to the quiz question below.
+
+Because sometimes it takes time to convert customers, marketing campaigns may take some time to realize the revenue they are trying to generate. To account for this delay, its usually calculated on your average sales cycle.
+
+**Formula for Calculating CAC with 60 day cycle**
+
+![image](./Misc/014.png)
+
+[CAC w/ 60 day cycle](./Misc/band-marketingmetric-quizzes-b.xlxs)
+
+#### Recap
+
+- **Customer Acquisition Cost (CAC)** = (Total marketing expenses + total sales expenses and salaries)/ # of customers acquired
+- The CAC formula can be modified with weighting for different months based on the length of the sale cycle.
+- CAC is a useful metric used to get an estimate of how much it cost us to acquire the customer in the period the money was spent to reach out to them.
+
+**Customer Acquisition Cost tells us the cost of acquiring a paid customer.**
+
+### Optimizing Marketing Funnel
+
+![image](./Misc/015.png)
+
+![image](./Misc/016.png)
+
+The goal with optimizing the funnel is to reduce the drop at each level. For example, if you find only 5% of the people seeing the ad click on the ad, it could be an indication that your ad needs more work and that you need to think about its relevance.
+
+Further down the funnel, the goal of the marketing team is that once the leads or visitors are on the company website, the website design should cause no confusion to the visitor. There should be plenty of options available to stay engaged and the website, and there should be no confusion about what steps the visitor needs to take to make the purchase.
+
+### Cost Per Acquisition
+
+ **Acqusition** means non paying customer
+
+![image](./Misc/017.png)
+
+![image](./Misc/018.png)
+
+![image](./Misc/019.png)
+
+**Interpretation of CPA**
+
+Cost Per Acquisition provides insight into whether or not the marketing campaigns are successful from a business perspective. For the purposes of calculating the CPA, the cost of the marketing campaigns should not be restricted to the cost of developing the ad, but also other costs of labor and overhead. In other words, CPA allows a business to gauge whether the marketing campaign is generating enough potential leads to cover a broader range of costs other than just direct advertisement costs.
+
+**Recap:**
+
+- **Cost Per Acquisition (CPA)** = (Marketing and Sales Cost)/ number of new leads customers
+
+- CPA is referring to marketing + sales costs (overhead, salaries) in the numerator and includes only leads (non-paying customer) in the denominator.
+
+- Here “acquisition” refers to a non-paying customer.
+
+### Lifetime Value
+
+To identify high value customers to bring in more of this customers. A customer that will come back and continue to purchase.
+
+This is the net profit we can attribute to a customer over the lenght of their relationship to the company.
+
+**Lifetime Value (LTV) = Average Sale * Number of Repeat Sales * Expected Retention Time * Profit Margin**
+
+![image](./Misc/020.png)
+
+**Purchase cycle** time period that depicts general frequency of when a product is purchased
+
+**Total Sale Revenue Per Purchase Cycle** revenue earned from all customers per purchase cycle
+
+**Number of Sales Per Purchase Cycle** number of times the customer buys per purchase cycle
+
+**Cost Per Acquisition** is the total cost of marketing and sales cost divided by the number of new leads
+
+**Expected Retention Time** is the amount of time we expect to retain the customer measured by Purchase Cycle
+
+For example: A purchase cycle of 2 weeks in a year then ERT is 26.
+
+**Average Sale Revenue** is the average revenue earned per transaction during the cycle. `Total customer revenue/Number of Sales in the cycle`
+
+**Profit Margin Per Customer** is the percentage of sales that has turned into profits `((Average Sale Revenue - Average Cost of Sale)/Average Sale Revenue)*100`
+
+![image](./Misc/020.png)

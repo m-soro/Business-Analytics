@@ -50,3 +50,44 @@ For this exercise, open the provided spreadsheets, create scatter plots as reque
 ![image](./Misc/007.png)
 
 **How to create a histogram? Install [Analysis ToolPak Add-in](https://support.office.com/en-us/article/Load-the-Analysis-ToolPak-6a63e598-cd6d-42e3-9317-6b40ba1a66b4)**
+
+**Quiz: Histograms**
+
+Histograms and Bar (or Column) charts are easily confused. **Histograms plot distributions of quantitative (numerical) data**. Numerical ranges of the data are grouped into bins and charted. **Bar or column charts plot counts of categorical data**. Consider the following two similar-looking charts and answer the quiz question.
+
+![image](./Misc/008.png)
+
+![image](./Misc/009.png)
+
+## Box Plots
+
+![image](./Misc/010.png)
+
+![image](./Misc/011.png)
+
+Excel gives us the mean
+
+![image](./Misc/012.png)
+
+**Exercise: Professional Presentations**
+
+In the following exercise, you are given a data set of information about U.S. colleges. The data set is available in the resources at the bottom of the page as `american_colleges.xlsx`, but can also be downloaded from mathforum.org, where several data sets are available for you to experiment with.
+
+Imagine that you are given the task of preparing a graphic for a high school counselor's presentation on college choices to students and their parents. The families are just starting to look at their choices and this graphic is only one part of the talk. It's meant to show the audience that costs may vary by location. The counselor wants a comparison of costs between a few (6) example states from across the U.S.
+
+You will create a stacked column chart that compares average costs of attending a public college among six states: California (CA), Texas (TX), New York (NY), Michigan (MI), Georgia (GA), and Illinois (IL). We'll assume that the cost we want to look at only includes the out-of-state tuition, room, and board. While preparing your chart, keep in mind the following questions from the lesson:
+
+- What questions are you trying to answer?
+  * Most costly and most cost effective?
+- What patterns are you trying to show?
+  * Into what degrees the cost varies?
+- Who is the audience?
+  * The parents and students.
+- Overview or in depth?
+  * Overview
+
+![image](./Misc/013.png)
+
+![image](./Misc/014.png)
+
+[Create Chart and Pivot Table](./Misc/american-colleges.xlsx)

@@ -110,11 +110,11 @@ We will not be going in depth with these last two stage levels, but we have prov
 
 ## Business metric
 
-  * #### [Click Through Rate (CTR)](#click-through-rate-ctr-1)
-  * #### [Cost Per Click (CPC)](#cost-per-clickcpc)
-  * #### [Cost Per Lead (CPL)](#cost-per-leadcpl)
-  * #### [Cost Per Acquisition (CPA)](#customer-acquisition-costcac)
-  * #### [Lifetime Value](#lifetime-valueltv)
+#### [Click Through Rate (CTR)](#click-through-rate-ctr-1)
+#### [Cost Per Click (CPC)](#cost-per-click-cpc-1)
+#### [Cost Per Lead (CPL)](#cost-per-lead-cpl-1)
+#### [Cost Per Acquisition (CPA)](#customer-acquisition-cost-cac)
+#### [Lifetime Value](#lifetime-value-ltv)
 
 ### Marketing Funnel
 

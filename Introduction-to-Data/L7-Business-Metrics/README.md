@@ -80,7 +80,7 @@ The following video describes a typical question business analysts try to answer
 ![image](./Misc/004.png)
 
 ## Business metric
-  ### [Click Through Rate (CTR)](#click-through-rate-ctr-1) 
+  * #### [Click Through Rate (CTR)](#click-through-rate-ctr-1) 
 
 
 

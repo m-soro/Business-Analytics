@@ -312,7 +312,7 @@ Cost Per Acquisition provides insight into whether or not the marketing campaign
 
 - Here “acquisition” refers to a non-paying customer.
 
-### Lifetime Value (LTV)
+### [Lifetime Value (LTV)](https://www.youtube.com/watch?v=ZthlIc8wj2s)
 
 *[Back to Business Metric](#business-metric)*
 
@@ -324,20 +324,99 @@ This is the net profit we can attribute to a customer over the lenght of their r
 
 ![image](./Misc/020.png)
 
-**Purchase cycle** time period that depicts general frequency of when a product is purchased
+**Purchase cycle**
 
-**Total Sale Revenue Per Purchase Cycle** revenue earned from all customers per purchase cycle
+Time period that depicts general frequency of when a product is purchased
 
-**Number of Sales Per Purchase Cycle** number of times the customer buys per purchase cycle
+**Total Sale Revenue Per Purchase Cycle**
 
-**Cost Per Acquisition** is the total cost of marketing and sales cost divided by the number of new leads
+Revenue earned from all customers per purchase cycle
 
-**Expected Retention Time** is the amount of time we expect to retain the customer measured by Purchase Cycle
+**Number of Sales Per Purchase Cycle**
 
-For example: A purchase cycle of 2 weeks in a year then ERT is 26.
+Number of times the customer buys per purchase cycle
 
-**Average Sale Revenue** is the average revenue earned per transaction during the cycle. `Total customer revenue/Number of Sales in the cycle`
+**Cost Per Acquisition**
 
-**Profit Margin Per Customer** is the percentage of sales that has turned into profits `((Average Sale Revenue - Average Cost of Sale)/Average Sale Revenue)*100`
+Total cost of marketing and sales cost divided by the number of new leads
 
-![image](./Misc/020.png)
+**Expected Retention Time**
+
+Amount of time we expect to retain the customer measured by Purchase Cycle
+
+> For example: A purchase cycle of 2 weeks in a year then ERT is 26.
+
+**Average Sale Revenue**
+
+Average revenue earned per transaction during the cycle.
+`Total customer revenue/Number of Sales in the cycle`
+
+
+**Average Cost of Sale**
+
+Your cost of providing goods or services. Make sure to include your cost of customer acquisition (the amount it cost you to acquire this customer) as well as the cost of servicing this customer.
+
+>Example: Each coffee Susan buys at $5.90 costs the company $4.65 (including cost of supplies, labor and marketing); Average Cost of Sale = $4.65
+
+**Profit Margin Per Customer**
+
+Percentage of sales that has turned into profits `((Average Sale Revenue - Average Cost of Sale)/Average Sale Revenue)*100`
+
+![image](./Misc/021.png)
+
+Check out the following websites to read up on additional ways to calculate Lifetime Value:
+
+
+1. [Multiple ways to calculate LTV](https://neilpatel.com/blog/how-to-calculate-lifetime-value/)
+   ![image](./Misc/ltv-sm.jpg)
+
+2. [Identifying your High value customers](https://www.intechnic.com/blog/how-to-calculate-customer-lifetime-value-clv-to-market-to-high-value-customers/)
+
+3. [Using Cost of capital](https://abovecrowd.wordpress.com/2012/09/04/the-dangerous-seduction-of-the-lifetime-value-ltv-formula/)
+
+**Quiz**
+
+Calculate the Lifetime Value for Smoothie Rocks given the following information. An average purchase cycle of 2 weeks, with total sale revenue of $8 per order. The average customer order 5 orders per purchase cycle. The Cost per Acquisition is $7.50 and we expect to retain the customer for 3 years.
+
+![Calculate Lifetime Value](./Misc/lifetime-value.xlsx)
+
+
+#### Recap:
+* **Lifetime Value (LTV)** = Average Sale x Number of Repeat Sales x Expected Retention Time x Profit Margin
+
+* Items needed to calculate Life Time Value:
+  - Purchase Cycle: The time increment adopted for business calculations
+  - Total Sale Revenue Per Cycle: Revenue earned from customer per purchase cycle
+  - Number of Sales Per Purchase Cycle: Number of times customer buys during the purchase cycle
+  - Cost Per Acquisition: (Cost of marketing and sales)/ number of new leads
+  - Expected Retention Time: Amount of time (measured in purchasing cycles) you expect to retain the customer.
+  - Average Sale Revenue: (Total customer revenue/ Number of purchases in the cycle) OR Average revenue received from the customer per transaction during the cycle
+  - Profit Margin Per Customer: ((Average Sale - Average Cost of Sale) / Average Sale)
+
+* LTV takes into account future uncertainty around sales and is a good estimated guess about the future actions of the customer. It is important to use LTV as a tool to inform business strategy, and not a business strategy.
+
+![image](./Misc/022.png)
+
+![image](./Misc/023.png)
+
+### [Interpreting Life Time Value](https://www.youtube.com/watch?v=NNKX-r-iPoI)
+
+* Let's say you want to calculate the LTV of customers in 2016, you want to include all the purchases of that customer even in 2017 or whatever years. LTV takes in to account future uncertainty.
+
+* Another to think in mind is the value of the actual product, most high value product will not be bought again and again it is more important to focus on each customer value instead of lifetime value.
+
+
+## [Sales metric](https://www.youtube.com/watch?v=lsRIxIEHVCg)
+
+#### [Business to Business (B2B)](#)
+#### [Business to Consumer (B2C)](#)
+
+**New Vocabulary**
+
+* **Business to Business (B2B)**
+
+  When one business makes a business transaction (goods or services) with another business. Often takes place when one business is providing source materials to the other business to in turn finally sell it to the consumer.
+
+* **Business to Consumer (B2C)**
+
+  When a business sells products and services to the final consumer.

@@ -318,7 +318,7 @@ Further down the funnel, the goal of the marketing team is that once the leads o
 
 ### [Lifetime Value (LTV)](https://www.youtube.com/watch?v=ZthlIc8wj2s)
 
-*[Back to Business Metric](#business-metric)*
+*[Back to Marketing Metric](#marketing-metric)*
 
 To identify high value customers to bring in more of this customers. A customer that will come back and continue to purchase.
 

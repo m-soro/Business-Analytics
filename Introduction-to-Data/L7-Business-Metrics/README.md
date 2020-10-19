@@ -75,15 +75,6 @@ The following video describes a typical question business analysts try to answer
 
 ![image](./Misc/003.png)
 
-### Marketing Funnel
-
-![image](./Misc/004.png)
-
-## Business metric
-  * #### [Click Through Rate (CTR)](#click-through-rate-ctr-1) 
-
-
-
 **Two Additional Levels**
 
 Before we move on, I wanted to share 2 more levels that companies use.
@@ -115,6 +106,20 @@ We will not be going in depth with these last two stage levels, but we have prov
 * **Conversion**: When the lead (potential customer) purchases the products or services being sold by a company.
 * **Repurchase Rate**: This [Medium blog](https://medium.com/@matsutton/repurchase-rate-the-most-overlooked-ecommerce-kpi-337bccde184b) describes how to calculate Repurchase Rate metrics.
 * **Net Promoter Score**: This [Wikipedia page](https://en.wikipedia.org/wiki/Net_Promoter) describes the calculations and origin of NPS.
+
+
+## Business metric
+
+  * #### [Click Through Rate (CTR)](#click-through-rate-ctr-1)
+  * #### [Cost Per Click (CPC)](#cost-per-clickcpc)
+  * #### [Cost Per Lead (CPL)](#cost-per-leadcpl)
+  * #### [Cost Per Acquisition (CPA)](#customer-acquisition-costcac)
+  * #### [Lifetime Value](#lifetime-valueltv)
+
+### Marketing Funnel
+
+  ![image](./Misc/004.png)
+
 
 ### Click Through Rate (CTR)
 
@@ -171,7 +176,7 @@ We will not be going into unique CTR in detail in this lesson, but if you are in
 
 We have created a file with a list of business metrics covered in this lesson and their individual formulas - think of it as a cheat-sheet. You can locate it under the Resources tab on the top left under Lesson Resources. The file name is **[Business Metrics Lesson Terminology and Formulas](business-metrics-lesson-terminology-and-formulas-1.pdf)**.
 
-### Cost Per Click(CPC)
+### Cost Per Click (CPC)
 
 Cost Per Click refers to the cost to get a click on your ad. It helps us gauge the cost of advertising on the specific platform, so we can see which platform is generating more leads.
 
@@ -194,7 +199,7 @@ Continue using the Smoothie Rocks CSV file named BAND_MarketingMetric_Quizzes_A.
 
 - CPC is an indicator of the cost effectiveness of the ad platform and a useful tool to compare and strategize about which marketing platforms is yielding higher impression and reach and resulting in potential leads.
 
-### Cost Per Lead(CPL)
+### Cost Per Lead (CPL)
 
 Remember, a **lead is when a potential customer visits your website and does something on the website in response to a prompt**, such as share their email , or download a document, create an account. Once the viewer takes that action, we know the viewer is showing some interest for the product or service, and this could possibly lead to a sale. **With Cost Per Lead we are tracking whether the potential customer turned into a lead within a given time period, that could be a 30-day window or 60-day window**.
 
@@ -227,7 +232,7 @@ Continue using the Smoothie Rocks CSV file named BAND_MarketingMetric_Quizzes_A.
 
 - CPL is an indicator of the cost effectiveness of the ad platform and a useful tool to compare and strategize about which marketing platforms yielded more leads.
 
-### Customer Acquisition Cost(CAC)
+### Customer Acquisition Cost (CAC)
 
 ![image](./Misc/011.png)
 
@@ -297,7 +302,7 @@ Cost Per Acquisition provides insight into whether or not the marketing campaign
 
 - Here “acquisition” refers to a non-paying customer.
 
-### Lifetime Value(LTV)
+### Lifetime Value (LTV)
 
 To identify high value customers to bring in more of this customers. A customer that will come back and continue to purchase.
 

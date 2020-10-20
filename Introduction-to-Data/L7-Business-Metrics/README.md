@@ -394,7 +394,7 @@ Check out the following websites to read up on additional ways to calculate Life
 
 Calculate the Lifetime Value for Smoothie Rocks given the following information. An average purchase cycle of 2 weeks, with total sale revenue of $8 per order. The average customer order 5 orders per purchase cycle. The Cost per Acquisition is $7.50 and we expect to retain the customer for 3 years.
 
-![Calculate Lifetime Value](./Misc/lifetime-value.xlsx)
+[Calculate Lifetime Value](./Misc/lifetime-value.xlsx)
 
 
 #### Recap:
@@ -405,10 +405,10 @@ Calculate the Lifetime Value for Smoothie Rocks given the following information.
   - Purchase Cycle: The time increment adopted for business calculations
   - Total Sale Revenue Per Cycle: Revenue earned from customer per purchase cycle
   - Number of Sales Per Purchase Cycle: Number of times customer buys during the purchase cycle
-  - Cost Per Acquisition: (Cost of marketing and sales)/ number of new leads
+  - `Cost Per Acquisition: (Cost of marketing and sales)/ number of new leads`
   - Expected Retention Time: Amount of time (measured in purchasing cycles) you expect to retain the customer.
-  - Average Sale Revenue: (Total customer revenue/ Number of purchases in the cycle) OR Average revenue received from the customer per transaction during the cycle
-  - Profit Margin Per Customer: ((Average Sale - Average Cost of Sale) / Average Sale)
+  - `Average Sale Revenue: (Total customer revenue/ Number of purchases in the cycle) OR Average revenue received from the customer per transaction during the cycle`
+  - `Profit Margin Per Customer: ((Average Sale - Average Cost of Sale) / Average Sale)`
 
 * LTV takes into account future uncertainty around sales and is a good estimated guess about the future actions of the customer. It is important to use LTV as a tool to inform business strategy, and not a business strategy.
 
@@ -499,7 +499,7 @@ Another important metric to keep in mind is the Average Deal Size. This refers t
 
 **Calculation(https://www.youtube.com/watch?v=o0EAWG-AxUI)**
 
-**Average Deal in Size ($) = Total ($) Sale Value of Deals or Orders / (#) of Orders over a Specific Period**
+`Average Deal in Size ($) = Total ($) Sale Value of Deals or Orders / (#) of Orders over a Specific Period`
 
 **Interpretation of Average Deal Size:**
 
@@ -523,15 +523,15 @@ This metric can be calculated for each sales team member, product, or lead sourc
 
 **[Calculation](https://www.youtube.com/watch?v=tIViOzc-5zk)**
 
-1. **Sum (Total number of days from first contact to closing the deal)** for ALL closed deals.
+1.`Sum (Total number of days from first contact to closing the deal)` for ALL closed deals.
 
-2. **Average number of days for typical Sales Cycle = Sum** (Total number of days from first contact to closing the deal) for ALL closed deals / Number of deals
+2. `Average number of days for typical Sales Cycle = Sum (Total number of days from first contact to closing the deal) for ALL closed deals / Number of deals`
 
 #### Recap:
 
-1. Calculate the number of days from first contact to closing the deal for EACH closed deal
+1. `Calculate the number of days from first contact to closing the deal for EACH closed deal`
 
-2. Average number of days for typical Sales Cycle = Sum of number of days for all sales combined / Number of deals
+2. `Average number of days for typical Sales Cycle = Sum of number of days for all sales combined / Number of deals`
 
 **Excel Function:**
 `COUNTA` = Allows you to count the number of non-empty cells within an array

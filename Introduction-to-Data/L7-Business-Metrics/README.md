@@ -101,9 +101,13 @@ We will not be going in depth with these last two stage levels, but we have prov
 **New Vocabulary**
 
 * **Search Engine Optimization (SEO)** : The goal of search engine optimization is to influence the frequency of a website appearing in response to specific search terms in a search engine. You can learn more about it on this [Wikipedia page](https://en.wikipedia.org/wiki/Search_engine_optimization) and this [Forbes article](https://www.forbes.com/sites/jaysondemers/2018/02/28/the-first-9-things-you-should-learn-in-seo/#7c150b7030f9).
+
 * **Lead**: A potential customer interested in the products or services of a company.
+
 * **Conversion**: When the lead (potential customer) purchases the products or services being sold by a company.
+
 * **Repurchase Rate**: This [Medium blog](https://medium.com/@matsutton/repurchase-rate-the-most-overlooked-ecommerce-kpi-337bccde184b) describes how to calculate Repurchase Rate metrics.
+
 * **Net Promoter Score**: This [Wikipedia page](https://en.wikipedia.org/wiki/Net_Promoter) describes the calculations and origin of NPS.
 
 
@@ -143,9 +147,9 @@ To calculate Click Through Rate, let’s cover a few key concepts. Make sure you
 
 **Interpretation of CTR**
 
-The Click Through Rate is an informative metric that informs your marketing team whether they should try and increase the number of impressions or when they should reword the ad to increase clicks. Remember, if a person clicks through the ad, it does not mean the customer purchased, but rather they are showing interest in what the ad is about.
+>The Click Through Rate is an informative metric that informs your marketing team whether they should try and increase the number of impressions or when they should reword the ad to increase clicks. Remember, if a person clicks through the ad, it does not mean the customer purchased, but rather they are showing interest in what the ad is about.
 
-When your CTR is low, your ad campaign is not generating enough interest. When the CTR increases, it is an indicator of an effective and interesting content in your ad campaign and that maybe you should increase the number of impressions for that ad.
+>When your CTR is low, your ad campaign is not generating enough interest. When the CTR increases, it is an indicator of an effective and interesting content in your ad campaign and that maybe you should increase the number of impressions for that ad.
 
 **Benchmarks for CTRs for Google Ads across industries**.
 Check out this blog that provides useful benchmarks for CTRs across industries: [Wordstream Blog](https://www.wordstream.com/blog/ws/2016/02/29/google-adwords-industry-benchmarks)
@@ -168,6 +172,7 @@ A related concept called **Unique Click Through Rate** is examined when looking 
 We will not be going into unique CTR in detail in this lesson, but if you are interested in learning more about it, the following web pages are good resources for you to explore.
 
 - [Mailigen website](https://www.mailigen.com/blog/email-campaign-click-through-rate-what-it-is-and-how-to-improve-it/)
+
 - [Optimizely.com website](https://www.mailigen.com/blog/email-campaign-click-through-rate-what-it-is-and-how-to-improve-it/)
 
 **New Vocabulary**
@@ -203,7 +208,8 @@ Continue using the Smoothie Rocks CSV file named BAND_MarketingMetric_Quizzes_A.
 [CTR, CPC, CPL](./Misc/band-marketingmetric-quizzes-a.xlsx)
 
 #### Recap
-- **Cost Per Click (CPC)** = Cost of advertising on the source platform / Number of people who clicked on that ad
+
+- `Cost Per Click (CPC) = Cost of advertising on the source platform / Number of people who clicked on that ad`
 
 - CPC is an indicator of the cost effectiveness of the ad platform and a useful tool to compare and strategize about which marketing platforms is yielding higher impression and reach and resulting in potential leads.
 
@@ -229,6 +235,7 @@ Let’s go back to our funnel - we are tracking how much did it cost us to get t
 The following websites provide some benchmarks for Cost Per Lead by industries.
 
 - [Marketing Charts](https://www.marketingcharts.com/customer-centric/lead-generation-and-management-79707)
+
 - [Hubspot](https://research.hubspot.com/charts/cost-per-lead-benchmarks-by-industry)
 
 **Quiz**
@@ -238,7 +245,7 @@ Continue using the Smoothie Rocks CSV file named BAND_MarketingMetric_Quizzes_A.
 [CTR, CPC, CPL](./Misc/band-marketingmetric-quizzes-a.xlsx)
 
 #### Recap:
-- **Cost Per Lead (CPL)** = Cost of advertising on the source platform / Total number of leads
+- `Cost Per Lead (CPL) = Cost of advertising on the source platform / Total number of leads`
 
 - CPL is an indicator of the cost effectiveness of the ad platform and a useful tool to compare and strategize about which marketing platforms yielded more leads.
 
@@ -256,7 +263,7 @@ The goal is to increase customer conversion at the bottom of the funnel for the 
 
 ![image](./Misc/013.png)
 
-**Interpreting CAC**
+**Interpretation of CAC**
 
 >The CAC metric is an indicator of how much it cost to acquire a customer. If your customer service team is doing a good job of keeping the paid customers happy, that can lead to future leads and paying customers, and thus keep the cost of acquiring customers low. The company's goal is to keep the CAC low, while increasing revenue as this has a positive impact on the profit margin and profits.
 
@@ -276,8 +283,10 @@ Use the BAND Marketing Metric Quizzes B file in the Resources below to access th
 
 #### Recap
 
-- **Customer Acquisition Cost (CAC)** = (Total marketing expenses + total sales expenses and salaries)/ # of customers acquired
+- `Customer Acquisition Cost (CAC) = (Total marketing expenses + total sales expenses and salaries)/ # of customers acquired`
+
 - The CAC formula can be modified with weighting for different months based on the length of the sale cycle.
+
 - CAC is a useful metric used to get an estimate of how much it cost us to acquire the customer in the period the money was spent to reach out to them.
 
 **Customer Acquisition Cost tells us the cost of acquiring a paid customer.**
@@ -310,7 +319,7 @@ Further down the funnel, the goal of the marketing team is that once the leads o
 
 **Recap:**
 
-- **Cost Per Acquisition (CPA)** = (Marketing and Sales Cost)/ number of new leads customers
+- `Cost Per Acquisition (CPA) = (Marketing and Sales Cost)/ number of new leads customers`
 
 - CPA is referring to marketing + sales costs (overhead, salaries) in the numerator and includes only leads (non-paying customer) in the denominator.
 
@@ -324,7 +333,7 @@ To identify high value customers to bring in more of this customers. A customer 
 
 This is the net profit we can attribute to a customer over the lenght of their relationship to the company.
 
-**Lifetime Value (LTV) = Average Sale * Number of Repeat Sales * Expected Retention Time * Profit Margin**
+`Lifetime Value (LTV) = Average Sale * Number of Repeat Sales * Expected Retention Time * Profit Margin`
 
 ![image](./Misc/020.png)
 
@@ -353,7 +362,8 @@ Amount of time we expect to retain the customer measured by Purchase Cycle
 **Average Sale Revenue**
 
 Average revenue earned per transaction during the cycle.
-`Total customer revenue/Number of Sales in the cycle`
+
+`Average Sale Revenue = Total customer revenue/Number of Sales in the cycle`
 
 
 **Average Cost of Sale**
@@ -364,7 +374,9 @@ Your cost of providing goods or services. Make sure to include your cost of cust
 
 **Profit Margin Per Customer**
 
-Percentage of sales that has turned into profits `((Average Sale Revenue - Average Cost of Sale)/Average Sale Revenue)*100`
+Percentage of sales that has turned into profits
+
+`Profit Margin Per Customer = ((Average Sale Revenue - Average Cost of Sale)/Average Sale Revenue)*100`
 
 ![image](./Misc/021.png)
 
@@ -387,7 +399,7 @@ Calculate the Lifetime Value for Smoothie Rocks given the following information.
 
 #### Recap:
 
-* **Lifetime Value (LTV)** = Average Sale x Number of Repeat Sales x Expected Retention Time x Profit Margin
+* `Lifetime Value (LTV) = Average Sale x Number of Repeat Sales x Expected Retention Time x Profit Margin`
 
 * Items needed to calculate Life Time Value:
   - Purchase Cycle: The time increment adopted for business calculations
@@ -469,15 +481,18 @@ Is a closed deals, and a very important metric for tracking the success of the s
 * Sample sales metrics include **pipeline engagement, average size of deal in the pipeline, ratio of qualified leads to leads, and close ratio in pipeline**.
 
 #### Additional Resources to learn more about Sales Metrics
+
 * [Matrix Marketing Group](https://www.matrixmarketinggroup.com/sales-pipeline-key-metrics/) lists several sales specific metrics and provides definitions and how to calculate them
+
 * [InsightSquared](https://www.insightsquared.com/2013/07/mythbusters-what-is-your-ideal-sales-pipeline-to-quota-ratio/) provides examples of visuals and lists additional sales metrics
 
 ### Total Bookings
+
 Bookings is the most important sales metric. **Booking is a won deal that is signed or where the purchaser is committed to buying the product**. Once you have the sales bookings value, you can track it across specific time periods and even product lines.
 
 **Calculation**
 
-**[Total Bookings is the sum of all closed deals](https://www.youtube.com/watch?v=U4feV03HrTM)**
+`[Total Bookings is the sum of all closed deals]`(https://www.youtube.com/watch?v=U4feV03HrTM)**
 
 ### [Average Deal Size (in $)](https://www.youtube.com/watch?v=o0EAWG-AxUI)
 Another important metric to keep in mind is the Average Deal Size. This refers to the average deal size in dollars of all of the won deals. Reminder, a won deal is when the account buyer has committed to making the purchase.
@@ -492,7 +507,7 @@ As an analyst, you want to keep an eye out on the size of the deals you are winn
 
 #### Recap
 
-**Average Deal Size = Total Sale Value of all Bookings / Total Number of Bookings**
+`Average Deal Size = Total Sale Value of all Bookings / Total Number of Bookings`
 
 ### Average Time to Close
 
@@ -504,7 +519,7 @@ This metric can be calculated for each sales team member, product, or lead sourc
 
 * Sum of Total number of days from first contact to closing the deal for all closed deals
 
-* Average number of days for typical Sales Cycle = Sum(Total number of days to close deal) for all closed deals / Number of closed deals
+* `Average number of days for typical Sales Cycle = Sum(Total number of days to close deal) for all closed deals / Number of closed deals`
 
 **[Calculation](https://www.youtube.com/watch?v=tIViOzc-5zk)**
 
@@ -520,3 +535,79 @@ This metric can be calculated for each sales team member, product, or lead sourc
 
 **Excel Function:**
 `COUNTA` = Allows you to count the number of non-empty cells within an array
+
+**Recap from Previous Lesson**
+![image](./Misc/025.png)
+
+## [Growth Metrics](https://www.youtube.com/watch?v=hJTRdR0F_ag)
+
+![image](./Misc/026.png)
+
+#### [Monthly Active Users](#monthly-active-users)
+#### [Daily Active Users](#daily-active-users)
+#### [Stickiness](#stickiness)
+#### [Churn Rate](#churn-rate)
+
+
+### [Engagement Metrics](https://www.youtube.com/watch?v=eukw3Bm-brk)
+
+*Citation for original graph included in video: [Thoughts of Facebook's Q2 2015 Earnings](http://www.beyonddevic.es/2015/07/29/thoughts-on-facebooks-q2-2015-earnings/)*
+
+#### Recap
+* Engagement metrics are used to define the number of active users within a specific time period (ranging from daily, weekly to monthly).
+
+### Monthly Active Users
+Number of unique active users in the previous month
+
+### Daily Active Users
+Number of unique active users the previous day
+
+### [Stickiness](https://www.youtube.com/watch?v=CvrqPRZ3ESY)
+
+Are they Sticking around to use/consume?
+
+**[Calculation video]**(https://www.youtube.com/watch?v=GtodhQLVFNo)
+
+`Stickiness = Daily Active Users/Monthly Active Users`
+
+**Interpretation of Stickiness Ratio**
+
+> A 50% stickiness ratio indicates the average customer used the online app or website 15 of the 30 days in that month.
+
+>In contrast, a .01 stickiness ratio indicates the average customer used the online app or website only one day that month.
+
+>A higher stickiness ratio indicates the website or online app is engaging the customers.
+
+**Quiz**
+
+Please download the CSV file required to complete the next quiz below. You can find it under the Resources at the bottom of this page. The file name is BAND Stickiness Quiz.
+
+[Stickiness Quiz](./Misc/band-stickiness-quiz.xlsx)
+![image](./Misc/027.png
+
+#### Recap:
+
+* `Stickiness = Daily Active Users/ Monthly Active Users`
+
+* It is a useful KPI for management and investors. It tells the management what is their company's growth rate. Investors want to know if this online app or website has potential to make money in the future.
+
+>For example, if the plan is to introduce advertising into the app, the potential valuation will depend on whether the app has a large number of users that keep coming back to it.
+Criticisms of Stickiness
+
+It is important to note that there are also criticisms of some of these metrics. Let's review those for a moment:
+
+1. One argument is that stickiness doesn't tease out the depth of engagement. It does not give much detail on what the users are doing. If the metric is based solely on whether users logged in, then it doesn't tell you if the user is just viewing, or using a website feature. When you are analyzing your website's engagement levels for a specific feature of your website, **stickiness cannot help you distinguish between engagement levels for specific features**.
+
+2. In the start-up phase, not too much emphasis should be placed on this metric. It does not give an accurate metric of a reliable count of MAU because companies are in the marketing stage to get their name out.
+
+3. Stickiness is **not** a useful metric when the app is not meant to be used monthly. For e.g., for a travel app where you need to book your flights for travel but since most people travel only a few times a year - at least for non-business purpose, this metric does not serve its purpose well.
+
+### Churn Rate
+
+**Churn Rate captures the number of people we retain at the end of a time period**.
+
+Let's think about our online grocery delivery store WeCart. If customers don't renew their subscription, or request a refund, this impacts our growth. Thus to grow the business, we need to make sure we are retaining the customers we have already acquired. Churn Rate is often adopted by companies using a subscriber-based service model, especially in the telecommunication industry. In recent years, ecommerce and SaaS based companies have adopted the churn rate metric too.
+
+To calculate the customer churn rate you need 2 simple things - Customers at the beginning of usage interval and Customers at the end of the usage interval. Just looking at these two numbers will tell you whether you end the interval with the same or fewer customers.
+
+Important note: We only want to calculate the churn rate based on the customers we started the time interval with. When getting the number of customers at the end of the interval, we do NOT add the customers who converted during the interval . Churn rate should only tell you whether the current customers have left or stayed.

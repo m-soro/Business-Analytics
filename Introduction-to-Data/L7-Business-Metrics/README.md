@@ -583,7 +583,8 @@ Are they Sticking around to use/consume?
 Please download the CSV file required to complete the next quiz below. You can find it under the Resources at the bottom of this page. The file name is BAND Stickiness Quiz.
 
 [Stickiness Quiz](./Misc/band-stickiness-quiz.xlsx)
-![image](./Misc/027.png
+
+![image](./Misc/027.png)
 
 #### Recap:
 
@@ -610,4 +611,82 @@ Let's think about our online grocery delivery store WeCart. If customers don't r
 
 To calculate the customer churn rate you need 2 simple things - Customers at the beginning of usage interval and Customers at the end of the usage interval. Just looking at these two numbers will tell you whether you end the interval with the same or fewer customers.
 
-Important note: We only want to calculate the churn rate based on the customers we started the time interval with. When getting the number of customers at the end of the interval, we do NOT add the customers who converted during the interval . Churn rate should only tell you whether the current customers have left or stayed.
+Important note: We only want to calculate the churn rate based on the customers we started the time interval with. When getting the number of customers at the end of the interval, we do NOT add the customers who converted during the interval . **Churn rate should only tell you whether the current customers have left or stayed**.
+
+**[Calculation](https://www.youtube.com/watch?v=b6RyLycx-hI)**
+
+`Customer Churn Rate = (Customers at the beginning of usage interval - Customers at the end of usage interval) / Customers at the beginning of usage interval`
+
+**Terminology**
+
+* **Usage Interval**: This time period should make sense for the service or product the customers are using. It can range from a day, a week, to a month or quarter. It depends on the service or product the company is providing and how often you would expect a customer to be active on the website.
+
+>For e.g., WeCart is an online grocery business, so we would expect an existing customer to place at least 1 order over a month. We will use the usage interval of 1 month. If the customer has not placed any order over the course of a month, we can count that customer as having churned. Once we have identified these users as having churned, we can focus on the efforts to bring them back to the website and make the active again.
+
+**Interpretation of Churn Rate**
+
+While the churn rate is inevitable, **in general an annual churn rate of 5% is seen as a reasonable benchmark**. Keep in mind that the range for **churn rates is wider for B2C companies**.
+
+As you calculate your annual churn rate, keep in mind a few other "data assumptions" that you need to watch out for.
+
+1. Select a time interval during which you calculate the churn rate is consistent with the company's subscription or usage model. There is no ideal usage interval - **the usage interval depends on the length of time the company expects the user to be active at least once**.
+
+2. Pay attention to different customer segments, especially if they have different churn rates (e.g., by region).
+
+3. Make sure your data **does not include new customers gained during the time interval**. **Churn rate is focusing on customers who stayed or are active vs. stop being active on the website**.
+
+**Additional Resources**
+
+* **[Chaotic Flow](http://chaotic-flow.com/saas-metrics-faqs-what-is-churn/)**: Nice article on what data considerations one should keep in mind when calculating annual churn rate.
+
+* **[Six Ventures](https://sixteenventures.com/saas-churn-rate)**: A blog on differentiating between 5% annual vs. 5% monthly churn rate.
+
+* **[Recurly](https://info.recurly.com/research/churn-rate-benchmarks)**: This website talks about benchmarks for Churn rate across industries, so check those out to learn about industry specific churn rates.
+
+**Quiz**
+
+For the following quiz, please download the corresponding file BAND Churn Rate Quiz. You can download the file by clicking under the Resources at the bottom of the page.
+
+[Chhrn Rate](./Misc/band-churn-rate-quiz.xlsx)
+
+#### Recap:
+* `Churn Rate = (Customers beginning of usage interval - Customers end of usage interval) / Customers beginning of usage interval`
+
+* **Churn rate is a measure of declining growth**. Business need to make sure that they are acquiring new customers at a rate faster than their "churn rate"
+* Growth rate is a measure of new customers being added in the usage interval.
+
+**New Vocabulary**
+
+* **Software as a service (SaaS)**: SaaS is a software distribution model in which the application is made available on servers hosted by a third-party provider, which in turn provides the software to customers over the Internet.
+
+* **Subscribed based service model**: Subscribed based service model is a model where consumers agree to pay a subscription fee to gain access to the service or product.
+
+## [Finance Metrics](https://www.youtube.com/watch?v=2qKKI_hf0vs)
+
+### [Profit & Loss Statement](#profit-&-loss-statement)
+
+
+**Financial Metrics**
+
+Now we shift our attention to Financial Metrics.
+
+When you look at the financial metrics, you are focusing on tracking your performance against your company’s financial goal. You are trying to answer the following questions.
+
+* How is your revenue comparing to the costs?
+* How are sales trending against sales goals?
+* How are sale and marketing lead metrics comparing against acquisitions?
+
+The video above provide you with the basic information about financial metrics. There are entire graduate degrees people take to master as part of financial metrics. We have provided some additional information below the videos to give you more information about each metric. But if you find this interesting, you should definitely explore your career options more!
+
+![image](./Misc/028.png)
+
+![image](./Misc/029.png)
+
+**Useful Resources and Websites to Learn More About Finance and Accounting**
+
+1. [Difference between Finance and Accounting](https://corporatefinanceinstitute.com/resources/careers/jobs/finance-vs-accounting/)
+2. [Careers in Finance](https://www.businessadministrationinformation.com/finance/the-difference-between-finance-and-accounting-degrees)
+
+![image](./Misc/030.png)
+
+### Profit & Loss Statement

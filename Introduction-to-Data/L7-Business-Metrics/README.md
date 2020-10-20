@@ -647,7 +647,7 @@ As you calculate your annual churn rate, keep in mind a few other "data assumpti
 
 For the following quiz, please download the corresponding file BAND Churn Rate Quiz. You can download the file by clicking under the Resources at the bottom of the page.
 
-[Chhrn Rate](./Misc/band-churn-rate-quiz.xlsx)
+[Churn Rate](./Misc/band-churn-rate-quiz.xlsx)
 
 #### Recap:
 * `Churn Rate = (Customers beginning of usage interval - Customers end of usage interval) / Customers beginning of usage interval`
@@ -664,6 +664,8 @@ For the following quiz, please download the corresponding file BAND Churn Rate Q
 ## [Finance Metrics](https://www.youtube.com/watch?v=2qKKI_hf0vs)
 
 ### [Profit & Loss Statement](#profit-&-loss-statement)
+### [Gross Margin](#gross-margin)
+### [Contribution Margin](#contribution-margin)
 
 
 **Financial Metrics**
@@ -690,3 +692,321 @@ The video above provide you with the basic information about financial metrics. 
 ![image](./Misc/030.png)
 
 ### Profit & Loss Statement
+
+#### Items in Profit and Loss Statement
+
+The following list is a breakdown of the individual items within the Profit and Loss Statement.
+
+**Revenues**
+
+  The money a company makes from the sales of its products and services.
+
+**Cost of Goods Sold (COGS) or Cost of Sales**
+
+  These are the direct costs the company incurs to develop the product or service being sold.
+
+**Gross Profit**
+
+  The difference between the revenue earned and the costs summarized in COGS.
+
+**Gross Profit = Revenue - COGS**
+
+**Selling, General and Administrative expenses (SGAs): Includes the following expenses:**
+
+    * Marketing, sale commissions
+    * Salaries for office staff
+    * Supplies and computer hardware
+    * Note: Some companies list total operating expenses separately from SGAS while others treat them as synonymous with SGAS.
+
+**Operating expenses: Expenses incurred outside of direct manufacturing costs:**
+    * Overhead costs
+    * Legal
+    * Rent
+    * Utilities
+    * Taxes
+    * Interest
+    * R&D expenses.
+
+**Total Operating Expenses = Sum of SGAs and Operating expenses**
+
+`Total Operating Expenses= SGAs + Operating Expenses`
+
+**Operating Income: The difference between Gross profit and Total operating expenses**
+
+`Operating Income = Gross Profit - Total Operating Expenses`
+
+**Note: Operating Income is also referred to as Earnings Before Interest and Tax (EBIT)**
+
+**Net Income: Subtracting the Interest and Tax from Operating Income gives the Net Income**
+
+`Net Income = Operating Income - (Interest and Taxes)`
+
+[Profit & Loss Statement](./Misc/smoothierock-plstatementquiz.xlsx)
+
+#### Recap:
+* **Profit and Loss Statement**: (P&L statement) is also called income statement. It is one type of financial statement that shows a company's performance and financial position and is prepared at the end of each quarter or an annual basis.
+* Items needed to create the P&L statement are:
+
+  * **Revenue**: Money that a company makes from the sales of its products and services
+  * **Cost of Goods Sold (COGS) OR Cost of Sales**: Direct costs the company incurs to develop and build the product or service being sold
+  * `**Gross Profit** = Revenue - Cost of Goods Sold`
+  * **Selling, General and Administrative expenses**: Marketing, sale commissions and salaries for office staff, supplies, computers, legal expenses, rent, utilities, taxes and interests on any loans. SG&A typically exclude research and development expenses.
+  * **Total Operating Expenses**: Expenses incurred outside of direct manufacturing costs
+  * **Operating Income/ Operating Profit/ EBIT** = `Gross Profit - Total Operating Expenses`
+  * **Net Income/ Net Profit** = `Operating Income - (Interest expense + Tax expense)`
+
+**Additional Resources**
+
+Check out the following pages to learn more about P&L statement across different types of industries.
+
+1. [What is COGS for a service business?](https://blog.projectionhub.com/what-is-cost-of-goods-sold-for-a-service-business/)
+2. [Wikipedia page on P&L Statement](https://en.wikipedia.org/wiki/Income_statement)
+3. [More information on P&L statement](https://corporatefinanceinstitute.com/resources/knowledge/accounting/profit-and-loss-statement-pl/)
+4. [Investopedia is a fantastic dictionary for business terms.](https://www.investopedia.com/dictionary/)
+
+### Gross Margin
+Gross Margin is a statement about the overall profitability of the company.
+
+**[Calculation](https://www.youtube.com/watch?v=CjaHFtfOjJ8)**
+`Gross Margin = (Total Sales Revenue – Cost of Goods Sold) / Total Sales Revenue`
+
+which is the same as `Gross Profit / Total Sales Revenue`
+
+This metric identifies the revenue that remains after accounting for direct costs of production.
+
+**Gross Margin is an indicator of whether the generated revenues will cover operating expenses after accounting for COGS**
+
+#### Recap:
+* **Gross Margin** = `(Total Sales Revenue – Cost of Goods Sold) / Total Sales Revenue`
+
+* Can also be represented in percentage by multiplying it by 100
+  `Gross Margin (in %) = [ (Total Sales Revenue – Cost of Goods Sold) / Total Sales Revenue]x100`
+
+* **Gross Margin tells business executives what percentage of each revenue dollar is available to cover operating expenses after the COGS have been accounted for**.
+
+### [Contribution Margin](https://www.youtube.com/watch?v=PO25budhMPI)
+
+**[Contribution Margin](https://www.youtube.com/watch?v=hpMueSCPxzo)**
+
+Contribution Margin tells us the amount of revenue that covers the variable costs and is now available to cover the fixed costs and generate profits. Companies use it to identify which product or product line is contributing the most to the profit margin. It also helps determine the break even point where the pricing will cover fixed overhead costs and leave enough for profits too.
+
+Fixed costs are also called sunk costs. A good caution to keep in mind is that fixed or sunk costs can increase (for e.g., unexpected rent increases, machinery replacement costs), which is why operational managers prefer the term sunk costs. These sunk costs can prove tricky, because a small increment when taken in bulk, can turn out to be catastrophic for companies, especially start-ups.
+
+In the graph depicted in the video Total Contribution Margin is indicated by the red line.
+
+Citation for graph depicting [Contribution Margin](https://www.dummies.com/business/operations-management/how-to-prepare-a-cost-volume-profit-analysis/).
+
+#### How to Prepare a Cost-Volume-Profit Analysis
+
+Contribution margin indicates how sales affects profitability. Cost-volume-profit analysis helps you understand different ways to meet your net income goals. When running a business, a decision-maker or managerial accountant needs to consider how four different factors affect net income:
+
+* **Sales price**
+
+* **Sales volume**
+
+* **Variable cost**
+
+* **Fixed cost**
+
+>The graphs provide a helpful way to visualize the relationship among cost, volume, and profit. However, when solving problems, you’ll find that plugging numbers into formulas is much quicker and easier.
+
+Draft a cost-volume-profit graph
+Pemulis Basketballs sells basketballs for $15 each. The variable cost per unit of the basketballs is $6. Pemulis had total fixed costs of $300 per year.
+
+Fixed costs are represented by a horizontal line because no matter the sales volume, fixed costs stay the same. Total variable costs are a diagonal line, starting at the origin (the point in the lower-left corner of the graph where there are zero sales).
+
+![image](./Misc/031.png)
+
+Total costs (the sum of total variable costs and total fixed costs) are a diagonal line starting at the $300 mark because when the company makes and sells zero units, total costs equal the fixed costs of $300. Total costs then increase with volume. Finally, total sales forms a diagonal line starting at the origin and increasing with sales volume.
+
+![image](./Misc/032.png)
+
+The figure shows when the company will earn net income or incur a loss. When the sales curve exceeds total costs, the company earns net income (represented by the shaded right side of the X). However, if total sales is too low to exceed total costs, then the company incurs a net loss (the shaded left side of the X).
+
+The higher the sales volume — that is, the more sales volume moves to the right of the graph — the higher the company’s net income.
+
+Dropping numbers into the chart shows exactly how much income can be earned at different sales levels. Assuming Pemulis has a sales price of $15 per unit, a variable cost per unit of $6, and total fixed costs of $300, what happens if Pemulis sells 60 basketballs?
+
+Total sales come to $900 (60 units x $15). Total variable costs multiply to $360 (60 units x $6). Add these total variable costs to total fixed costs of $300 to get total costs of $660.
+
+Total sales ($900) sits on the Total sales line. Total costs ($660) sits on the Total cost line. The difference between these amounts ($240) represents the net income from selling 60 units.
+
+![image](./Misc/033.png)
+
+#### Try out the total contribution margin formula
+
+The following formula, based on total contribution margin, follows the same structure as the contribution margin income statement.
+
+`Net income = Total contribution margin – Fixed costs`
+
+>Assume that Pemulis Basketballs sells 60 units for $15 each for total sales of $900. The variable cost of each unit is $6 (so total variable costs come to $6 x 60, or $360), and total fixed costs are $300. Using the contribution margin approach, you can find the net income in two easy steps.
+
+1. Calculate total contribution margin.
+
+  Use the formula to compute total contribution margin, subtracting total variable costs from total sales:
+
+  `Total contribution margin = Total sales – Total variable costs = (60 x $15) – (60 x $6) = $540`
+
+This total contribution margin figure indicates that selling 60 units increases net income by $540.
+
+2. To calculate net income, subtract the fixed costs from the total contribution margin.
+
+  Just plug in the numbers from Step 1:
+
+  `Net income = Total contribution margin – Fixed costs = $540 – $300 = $240`
+
+Subtracting fixed costs of $300 from total contribution margin of $540 gives you net income of $240.
+
+#### The contribution margin per unit formula
+
+If you know the contribution margin per unit, the following approach lets you use that information to compute net income. Here’s the basic formula equating net income with contribution margin per unit:
+
+`Net income = (Sales volume x Contribution margin per unit) – Fixed costs`
+
+>Say Pemulis Basketballs now wants to use this formula. It can simply plug in the numbers — 60 units sold for $15 each, variable cost of $6 per unit, fixed costs of $300 — and solve. First compute the contribution margin per unit:
+
+`Contribution margin per unit = Sales price per unit – Variable costs per unit = $15 – $6 = $9`
+
+Next, plug contribution margin per unit into the net income formula to figure out net income:
+
+`Net income = (Sales volume x Contribution margin per unit) –Fixed costs = (60 x $9) – $300 = $240`
+
+#### The contribution margin ratio formula
+
+If you want to estimate net income but don’t know total contribution margin and can’t find out the contribution margin per unit, you can use the contribution margin ratio to compute net income.
+
+>You can compute contribution margin ratio by dividing total contribution margin by total sales. So if your contribution margin is 540 and your sales is 900, your contribution margin ratio is 60 percent:
+
+![image](./Misc/034.png)
+
+This means that 60 cents of every sales dollar directly increases net income. After you know the contribution margin ratio, you’re ready for the net income formula:
+
+`Net income = (Sales x Contribution margin ratio) – Fixed costs`
+
+To calculate net income for the earlier example company, plug the contribution margin ratio of 60 percent into the formula:
+
+`Net income = (Sales x Contribution margin ratio) –Fixed costs = (900 x 60%) – $300 = $240`
+
+**Terminology**
+
+* **Fixed costs**: Expenses incurred on a regular basis, such as monthly rent, utilities, and employee salaries.
+* **Variable costs**: Expenses that move up and down in response to production output.
+* **Contribution Margin**: The amount of revenue that covers the variable costs and is able to cover the fixed costs.
+Calculation
+* `Total Contribution Margin = Total Sales Revenue - Total Variable Cost`
+
+* `Contribution Margin Per Unit: Total Contribution Margin / Number of Units Sold`
+
+[Contribution Margin](./Misc/smoothierock-marginquizzes.xlsx)
+
+#### Recap:
+* `**Contribution Margin Per Unit** = (Revenue - Variable Costs) / Total units sold`
+* **Total Contribution Margin** =
+* Variable costs include costs that change with the number of units produced. For instance, cost of raw materials, cost of services provided.
+* It is particularly helpful for companies to determine the pricing of their product, in other words, find the break even point where the pricing will also cover fixed costs and provide profit.
+
+**Additional Resource**
+
+* This interview captured in the [Harvard Business Review](https://hbr.org/2017/10/contribution-margin-what-it-is-how-to-calculate-it-and-why-you-need-it) provides a thorough but easy read about Contribution Margin.
+
+* Check out this link for [Contribution Margin](https://www.dummies.com/business/operations-management/how-to-prepare-a-cost-volume-profit-analysis/) that provides an excellent explanation for how Contribution Margin is derived. It also explains other ways to calculate contribution margin.
+
+## [Distribution of the Data](https://www.youtube.com/watch?v=8atMcQpZoAo)
+
+![image](./Misc/035.png)
+
+[Let's see a concrete example of what data distribution would look like when using business metrics data.](https://www.youtube.com/watch?v=kdzchZAVlPs)
+
+**Quiz**
+The following box plot shows the data distribution and five number summary for the conversion rates for each of 4 market segments. Looking at the east and southwest regions, we can tell we are working with skewed data, and we should pay attention to the positively skewed distributions for both regions and wide distribution of the east coast data.
+
+If you need a reminder about box plots and how to interpret them, you can visit the "Box Plots" concepts in the previous "Spreadsheets 4: Visualize Data" lesson in this course.
+
+![image](./Misc/036.png)
+
+![image](./Misc/037.png)
+
+![image](./Misc/038.png)
+
+![image](./Misc/039.png)
+
+#### Recap:
+* Critical to look at the measures of central tendency to talk more about the nuances in the data, compare specific segments and slices in the data to the average or median.
+
+* Without looking at the distribution, we can make the mistake of examining and making conclusions based only on the average.
+
+## [Grouping the Data](https://www.youtube.com/watch?v=LU2JB9R5a6I)
+
+#### [Example](https://www.youtube.com/watch?v=1nY-5dZNdo8)
+
+#### Recap:
+
+* Always slice your data on groups that your data is split into. Depending on your company's market segments, product line and business model, it is important to look at the data split across each of these levels.
+
+* Looking at the distribution allows you to see when and explore why certain spikes happen. For example, it is possible that you have your earliest group or cohort of customers who experienced a new website feature or roll out of specific online app feature. Without keeping an eye on such events, it is hard to make sense of data and explain why you have certain spikes in the data.
+
+* Another benefit of grouping the data is that it allows you to identify more successful cases within your business, marketing and product strategy. This reflection allows you to apply that learning to other segments and groups.
+
+## [Summary](https://www.youtube.com/watch?v=hNve3cMyes0)
+
+You learned a great deal in this lesson, and we hope you feel you have a better sense of how analytics can be used to make better business decisions.
+
+Let's take a moment to summarize the key take-away's from this lesson.
+
+* **Overarching Themes**
+
+* Businesses use **Key Performance Indicators** to track how they are performing on key goals or objectives.
+
+* The **Marketing Funnel** captures the various stages in the customer's journey. At the top of the funnel, it captures the impressions, clicks, leads and conversions at the bottom of the funnel.
+
+* Optimizing the funnel refers to maximizing the conversion rate at each level of the funnel.
+
+* The **Sales Funnel** captures the various stages in the sales cycle. At the top of the funnel, it captures the prospects, then the leads and qualified leads, and ends with bookings or closed deals at the bottom of the funnel.
+
+* It is important to look at the distribution of the data to understand if the measures of central tendency represent a normal distribution. Looking at the distribution and measures of central tendency is a critical step of the data analysis process.
+
+* Data should be examined split across cohorts, business cycles, time, product lines, regions and other grouping criteria to fully understand the data. It is critical to slice the data across various factors to make sense of the data and make recommendations.
+
+### Metrics
+#### Marketing
+
+* **Click through rate (CTR)** is an indication of whether the ad campaign is generating enough interest in potential customers. When the CTR increases, it is an indicator of an effective and interesting content in your ad campaign and that maybe you should increase the number of impressions for that ad.
+
+* **Cost Per Click (CPC)** is an indicator of the cost effectiveness of the ad platform and a useful tool to compare and strategize about which marketing platforms is yielding higher impression and reach and resulting in potential leads.
+
+* **Cost Per Lead (CPL)** is an indicator of the cost effectiveness of the ad platform and a useful tool to compare and strategize about which marketing platforms yielded more leads.
+
+* **Customer Acquisition Cost (CAC)** is a useful metric used to get an estimate of how much it cost us to acquire the customer in the period the money was spent to reach out to them.
+Marketing and Financial
+
+* **Cost Per Acquisition (CPA)** allows a business to gauge whether the marketing campaign is generating enough potential leads.
+
+* **Life Time Value (LTV)** allows you to focus on audiences and potential customers that will generate higher LTVs with minimum customer acquisition cost. There are several ways to calculate the Life Time Value and it is  **best to calculate the LTV using different ways** to arrive at the average LTV for a customer.
+
+#### Growth
+
+* **Stickiness** indicates whether the customers are staying and returning to the website frequently enough. It is a good measure of potential growth of the business.
+
+* **Churn rate** is a measure of declining growth and business aim to have a higher growth rate than churn rate. It is a measure of whether the business is retaining the acquired customers.
+
+#### Financial
+
+* **The Profit and Loss Statement**, also called income statement, is one type of financial statement that shows a company's performance and financial position. needed to create the P&L statement are:
+
+* **Revenue** is the money that your company makes from the sales of your products and services
+
+* **Cost of Goods Sold OR Cost of Sales** are the direct costs the company incurs to develop and product the product or service being sold
+
+* **Gross Profit** is the difference between the revenue and COGS
+
+* **Selling, General and Administrative expenses** capture a wide range of expenses, from administrative, sales commissions, supplies, legal fees, rent, utilities, taxes, and interests. It is used synonymously with Operating expenses. SG&A typically exclude research and development expenses.
+
+* **Operating Profit** is the difference between gross profit and total operating expenses.
+
+* **Net Income** is operating profit minus interest and tax expenses.
+
+* **Gross Margin** tells business executives what percentage of each revenue dollar is available to cover operating expenses after the COGS have been accounted for.
+
+* **Contribution Margin** provides the break even point where the pricing of a product will cover fixed overhead costs.
+
+**[Business Metrics Lesson Terminology and Formula](./Misc/business-metrics-lesson-terminology-and-formulas.pdf)**

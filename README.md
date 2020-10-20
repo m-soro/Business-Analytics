@@ -16,7 +16,7 @@ Meet your instructors and learn how to optimize your classroom. Learn how people
 
 
 
-## [Introduction to Data](main/Introduction-to-Data)
+## [Introduction to Data](https://github.com/m-soro/Business-Analytics/tree/main/Introduction-to-Data)
 Learn how to use statistics and visuals to find and communicate insights. Develop Excel skills to manipulate, analyze, and visualize data in a spreadsheet. Build Excel models to analyze possible business outcomes.
 
 #### PROJECT - Analyze NYSE Data

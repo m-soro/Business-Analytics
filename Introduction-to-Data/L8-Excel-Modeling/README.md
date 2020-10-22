@@ -21,16 +21,16 @@ models are updated on a ongoing basis, monthly, quarterly, yearly.
 
 Most business forecast their sales booking and financial statements, typically businesses forecast all three:
 
-1. profit and loss
-2. cash flow statement
-3. balance sheet.
+1. Profit and Loss
+2. Cash Flow Statement
+3. Balance Sheet.
 
 We will focus on profit and loss statement.
 
 ## We will go over two approaches to modeling:
 
-##[Top Down](#top-down)
-##[Bottom Up](#bottom-up)
+## [Top Down](#top-down)
+## [Bottom Up](#bottom-up)
 
 ## Resources on Modeling Financial Statements
 
@@ -46,8 +46,9 @@ We recommend the following websites that layout considerations for making assump
 
 Forecasting model requires careful thinking
 about which approach you want to take to create the models.
-One approach to modeling is top-down.
-It takes a macro approach to forecasting.
+
+One approach to modeling is **top-down.
+It takes a macro approach to forecasting**.
 
 Here, you start with the best estimate of the larger size of
 the market narrowing down to identify
@@ -59,7 +60,7 @@ but it is less credible and typically adopted when there's limited historical da
 
 We'll next look at an example that shows why this is less credible.
 
-Let's go to the weaker example.
+Let's go to the wecart example.
 
 We start with the online grocery delivery market,
 which is about $20 billion,
@@ -82,8 +83,7 @@ can realistically achieve this forecasted revenue.
 
 ## [Bottom Up](https://www.youtube.com/watch?v=AA_EFg07Jvc)
 
-
-A bottom up approach takes a micro approach to forecasting.
+A **bottom up approach takes a micro approach** to forecasting.
 The approach starts by looking at historical data.
 The more data you have, the better.
 
@@ -125,9 +125,9 @@ and not generalizations that relate to the market as a whole.
 
 ![image](./Misc/004.png)
 
-## 1. **Inputs or Drivers**
+1. **Inputs or Drivers**
       These are the inputs that drive the output of the model.
-## 2. **Outputs**
+2. **Outputs**
       This is the metric being forecasted within the model.
 
 ### [Historical Data and Assumptions](https://www.youtube.com/watch?v=0HyNRZVH18M)
@@ -160,22 +160,29 @@ and check to see if those assumptions are reasonable and make sense.
 
 ### [Historical Data](https://www.youtube.com/watch?v=7ytZKO0ycbU)
 
->Historical data is above what's your metric show for the past.
+Historical data is above what's your metric show for the past.
 So, for sales, we look at prior sales data from the last year or month.
 
->For financial modeling, we look at
+For financial modeling, we look at
 prior financial statements quarterly or annual results.
 Here is an example of a financial model.
+
 ![image](./Misc/004.png)
 We're using these primers data on revenue and COGS to calculate our operating income.
+
 ![image](./Misc/005.png)
+
 We then use our historical data to calculate our assumptions.
+
 ![image](./Misc/006.png)
 
->Similarly for sales forecasting,
+Similarly for sales forecasting,
 we use our prior months' data on bookings closed in one probability,
+
 ![image](./Misc/007.png)
+
 and these inputs are used to forecast out our future bookings.
+
 ![image](./Misc/008.png)
 
 ### Historical Data
@@ -306,11 +313,11 @@ an opportunity level forecast to project out the bookings for the whole company.
 ### Assumptions and KPIs
 Here are the formulas used in the sales forecasting example described in the video above.
 
-* `**Contract Terms** = Number of months in the contract`
-* `**Price per Unit (by mon)** = Units needed in 1 month X Price per Unit`
-* `**Bookings Forecast** = Price per Unit X Contract Term (month)`
-* `**Closed/Won Probability** = Probability of Closing the deal`
-* `**Weighted Bookings Forecast** = Bookings Forecast * Closed/Won Probability`
+* `Contract Terms = Number of months in the contract`
+* `Price per Unit (by mon) = Units needed in 1 month X Price per Unit`
+* `Bookings Forecast = Price per Unit X Contract Term (month)`
+* `Closed/Won Probability = Probability of Closing the deal`
+* `Weighted Bookings Forecast = Bookings Forecast * Closed/Won Probability`
 
 **Additional Resources on Sales Forecasting:**
 
@@ -334,22 +341,27 @@ effort it would require to get to generate those bookings.
 Let's look at this more closely.
 We start with an assumption about
 how productive this sales person who we are going to hire will be.
+
 ![image](./Misc/012.png)
+
 We measure this in terms of the number of opportunities being generated,
 and then we look at how much revenue on average
 would this person generate per unit and per an opportunity.
+
 ![image](./Misc/013.png)
+
 We use these assumptions to arrive at
 the average size of opportunity we can expect the sales person to generate.
 
 Then we make assumptions about how much time and
 effort it will take us to arrive at those bookings.
+
 ![image](./Misc/014.png)
+
 For this, we project out when we will hire the person.
 Then based on our sales historical data,
 we come up with the assumption that a new sales member would take
 X number of months to get up to speed to start generating those leads and bookings.
-
 
 Then finally, we use the ramp time and the average size of opportunity assumptions,
 to project out when he will see the bookings that we expect this person to generate.
@@ -357,4 +369,9 @@ to project out when he will see the bookings that we expect this person to gener
 As you can see, we get to the final bookings number for each sales team member and month,
 by starting with our bookings in the more broad sense and
 then narrowing down to each person and month.
+
 ![image](./Misc/015.png)
+
+## [Example Top Down Sales Forecasting](https://www.youtube.com/watch?v=HjBq9d3NQ24)
+
+[Walk Thru](https://www.youtube.com/watch?v=HjBq9d3NQ24)

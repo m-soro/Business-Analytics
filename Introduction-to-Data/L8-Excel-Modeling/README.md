@@ -375,3 +375,47 @@ then narrowing down to each person and month.
 ## [Example Top Down Sales Forecasting](https://www.youtube.com/watch?v=HjBq9d3NQ24)
 
 [Walk Thru](https://www.youtube.com/watch?v=HjBq9d3NQ24)
+
+**Quiz** [my solution](./Misc/practice-quiz-salesforecast-topdown-data.xlsx)
+
+## [Scenario or Sensitivity Analysis](https://www.youtube.com/watch?v=rAj0mViosD0)
+
+'Scenarios are used commonly for financial forecasting.'
+'They are tied to assumptions.'
+'Think of scenarios as developing different futures for your company.'
+'Typically, these include a best case,'
+'base case, and a weak case scenario.'
+'You change the assumptions here located in these cells based on the scenarios.'
+('You can see that assumptions changing in response to the scenario which is '
+ 'chosen.')
+'This in turn also affects the income forecast above.
+
+### [Transitioning to Spreadsheet Tools](https://www.youtube.com/watch?v=K9KEu3stipY)
+
+To build out the financial model, let’s first take a look at some Excel functions and **tools specifically for Financial modeling**. As we introduce you to each of these, we will work towards a financial model, so this will set you up nicely for your final project.
+
+* **[Data validation](#data-validation)** is a spreadsheet tool that allows you to limit what values are accepted in a cell. You can create drop-down lists of items, restrict cell value to date ranges and numbers.
+
+* **[INDEX](#index)** function is used when you want the cell to have a value chosen from a specified array and row number indicated within the INDEX function.
+
+* **[MATCH](#match)** is a LOOKUP function that can locate the position of the lookup value within an array only when it meets specific criteria defined in the MATCH function.
+
+* **[INDEX AND MATCH](#index-and-match)** together add a powerful feature for advanced formulas. Together they can give a value from an array (the purpose of the INDEX function) based on a numeric position (which is provided by the Match function).
+
+* And finally... **[OFFSET](#offset)**. Here you can select a start point in the spreadsheet, and tell Excel to return a set of cells that are counted from the starting point.
+We are going to work through an actual example for each of them in the coming videos.
+
+## [Data Validation](https://www.youtube.com/watch?v=2HM1UY66qe4)
+
+### Excel Steps
+**Purpose**: The purpose of data validation tools is to confirm that the values within the cell are validated against a criterion. In other words, the values within the cell are confined to specific requirements. There are several criteria, including a provided list of values, date range, range of whole numbers or decimal values.
+
+To access the Data Validation tool within MS Excel, you **use the Data tab** and choose **Data Validation**.
+
+### Google Sheets Steps
+Much like MS Excel, you can see the Data Validation options under the Data tab in Google Sheets. See the image below with Data Validation highlighted in gray.
+
+**Additional Resource**
+Here is also a link to Google's [support documentation for Data Validation](https://support.google.com/docs/answer/186103?co=GENIE.Platform%3DDesktop&hl=en).
+
+### [Index](https://www.youtube.com/watch?v=h_BX-KibU_c)

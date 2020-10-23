@@ -13,7 +13,7 @@
 
 5. **[Grouping data:](#grouping-data)** We will end with a discussion on how to look at the data across groups, cohorts, and time.
 
-###[SUMMARY](#summary)
+### [SUMMARY](#summary)
 
 
 ## Key Performance Indicators
@@ -947,7 +947,7 @@ If you need a reminder about box plots and how to interpret them, you can visit 
 
 * Another benefit of grouping the data is that it allows you to identify more successful cases within your business, marketing and product strategy. This reflection allows you to apply that learning to other segments and groups.
 
-##[Summary](https://www.youtube.com/watch?v=hNve3cMyes0)
+## [Summary](https://www.youtube.com/watch?v=hNve3cMyes0)
 
 You learned a great deal in this lesson, and we hope you feel you have a better sense of how analytics can be used to make better business decisions.
 

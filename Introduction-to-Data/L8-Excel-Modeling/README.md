@@ -29,8 +29,8 @@ We will focus on profit and loss statement.
 
 ## We will go over two approaches to modeling:
 
-## [Top Down](#top-down)
-## [Bottom Up](#bottom-up)
+## [Top Down](#top-down-1)
+## [Bottom Up](#bottom-up-1)
 
 ## Resources on Modeling Financial Statements
 
@@ -220,8 +220,8 @@ We recommend the following websites that layout considerations for making assump
 
 ## Sales forecasting
 
-### [Bottom Up Sales Forecasting](#bottom-up-sales-forecasting)
-### [Top Down Sales Forecasting](#top-down-sales-forecasting)
+### [Bottom Up Sales Forecasting](#bottom-up-sales-forecasting-1)
+### [Top Down Sales Forecasting](#top-down-sales-forecasting-1)
 
 ## [Bottom Up Sales Forecasting](https://www.youtube.com/watch?v=tFqe0MEnjmg)
 
@@ -370,7 +370,6 @@ As you can see, we get to the final bookings number for each sales team member a
 by starting with our bookings in the more broad sense and
 then narrowing down to each person and month.
 
-![image](./Misc/015.png)
 
 ## [Example Top Down Sales Forecasting](https://www.youtube.com/watch?v=HjBq9d3NQ24)
 

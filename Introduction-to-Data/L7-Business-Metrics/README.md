@@ -13,6 +13,8 @@
 
 5. **[Grouping data:](#grouping-data)** We will end with a discussion on how to look at the data across groups, cohorts, and time.
 
+###[SUMMARY](#summary)
+
 
 ## Key Performance Indicators
 
@@ -541,12 +543,10 @@ This metric can be calculated for each sales team member, product, or lead sourc
 
 ## [Growth Metrics](https://www.youtube.com/watch?v=hJTRdR0F_ag)
 
-![image](./Misc/026.png)
-
-#### [Monthly Active Users](#monthly-active-users)
-#### [Daily Active Users](#daily-active-users)
-#### [Stickiness](#stickiness)
-#### [Churn Rate](#churn-rate)
+### [Monthly Active Users](#monthly-active-users-1)
+### [Daily Active Users](#daily-active-users-1)
+### [Stickiness](#stickiness-1)
+### [Churn Rate](#churn-rate-1)
 
 
 ### [Engagement Metrics](https://www.youtube.com/watch?v=eukw3Bm-brk)
@@ -955,58 +955,58 @@ Let's take a moment to summarize the key take-away's from this lesson.
 
 * **Overarching Themes**
 
-* Businesses use **Key Performance Indicators** to track how they are performing on key goals or objectives.
+* Businesses use **[Key Performance Indicators](#key-performance-indicators)** to track how they are performing on key goals or objectives.
 
-* The **Marketing Funnel** captures the various stages in the customer's journey. At the top of the funnel, it captures the impressions, clicks, leads and conversions at the bottom of the funnel.
+* The **[Marketing Funnel](#marketing-funnel)** captures the various stages in the customer's journey. At the top of the funnel, it captures the impressions, clicks, leads and conversions at the bottom of the funnel.
 
 * Optimizing the funnel refers to maximizing the conversion rate at each level of the funnel.
 
-* The **Sales Funnel** captures the various stages in the sales cycle. At the top of the funnel, it captures the prospects, then the leads and qualified leads, and ends with bookings or closed deals at the bottom of the funnel.
+* The **[Sales Funnel](#sales-metric)** captures the various stages in the sales cycle. At the top of the funnel, it captures the prospects, then the leads and qualified leads, and ends with bookings or closed deals at the bottom of the funnel.
 
 * It is important to look at the distribution of the data to understand if the measures of central tendency represent a normal distribution. Looking at the distribution and measures of central tendency is a critical step of the data analysis process.
 
 * Data should be examined split across cohorts, business cycles, time, product lines, regions and other grouping criteria to fully understand the data. It is critical to slice the data across various factors to make sense of the data and make recommendations.
 
 ### Metrics
-#### Marketing
+#### [Marketing]()
 
-* **Click through rate (CTR)** is an indication of whether the ad campaign is generating enough interest in potential customers. When the CTR increases, it is an indicator of an effective and interesting content in your ad campaign and that maybe you should increase the number of impressions for that ad.
+* **[Click through rate (CTR)](#click-through-rate-ctr-1)** is an indication of whether the ad campaign is generating enough interest in potential customers. When the CTR increases, it is an indicator of an effective and interesting content in your ad campaign and that maybe you should increase the number of impressions for that ad.
 
-* **Cost Per Click (CPC)** is an indicator of the cost effectiveness of the ad platform and a useful tool to compare and strategize about which marketing platforms is yielding higher impression and reach and resulting in potential leads.
+* **[Cost Per Click (CPC)](#cost-per-click-cpc-1)** is an indicator of the cost effectiveness of the ad platform and a useful tool to compare and strategize about which marketing platforms is yielding higher impression and reach and resulting in potential leads.
 
-* **Cost Per Lead (CPL)** is an indicator of the cost effectiveness of the ad platform and a useful tool to compare and strategize about which marketing platforms yielded more leads.
+* **[Cost Per Lead (CPL)](#cost-per-lead-cpl-1)** is an indicator of the cost effectiveness of the ad platform and a useful tool to compare and strategize about which marketing platforms yielded more leads.
 
-* **Customer Acquisition Cost (CAC)** is a useful metric used to get an estimate of how much it cost us to acquire the customer in the period the money was spent to reach out to them.
+* **[Customer Acquisition Cost (CAC)](#customer-acquisition-cost-cac)** is a useful metric used to get an estimate of how much it cost us to acquire the customer in the period the money was spent to reach out to them.
 Marketing and Financial
 
-* **Cost Per Acquisition (CPA)** allows a business to gauge whether the marketing campaign is generating enough potential leads.
+* **[Cost Per Acquisition (CPA)](#cost-per-acquisitioncpa)** allows a business to gauge whether the marketing campaign is generating enough potential leads.
 
-* **Life Time Value (LTV)** allows you to focus on audiences and potential customers that will generate higher LTVs with minimum customer acquisition cost. There are several ways to calculate the Life Time Value and it is  **best to calculate the LTV using different ways** to arrive at the average LTV for a customer.
+* **[Life Time Value (LTV)](#lifetime-value-ltv)** allows you to focus on audiences and potential customers that will generate higher LTVs with minimum customer acquisition cost. There are several ways to calculate the Life Time Value and it is  **best to calculate the LTV using different ways** to arrive at the average LTV for a customer.
 
-#### Growth
+#### [Growth](#growth-metrics)
 
-* **Stickiness** indicates whether the customers are staying and returning to the website frequently enough. It is a good measure of potential growth of the business.
+* **[Stickiness](#stickiness-1)** indicates whether the customers are staying and returning to the website frequently enough. It is a good measure of potential growth of the business.
 
-* **Churn rate** is a measure of declining growth and business aim to have a higher growth rate than churn rate. It is a measure of whether the business is retaining the acquired customers.
+* **[Churn rate](#churn-rate-1)** is a measure of declining growth and business aim to have a higher growth rate than churn rate. It is a measure of whether the business is retaining the acquired customers.
 
-#### Financial
+#### [Financial](#finance-metrics)
 
-* **The Profit and Loss Statement**, also called income statement, is one type of financial statement that shows a company's performance and financial position. needed to create the P&L statement are:
+* **[The Profit and Loss Statement](#profit--loss-statement-1)**, also called income statement, is one type of financial statement that shows a company's performance and financial position. needed to create the P&L statement are:
 
-* **Revenue** is the money that your company makes from the sales of your products and services
+* **[Revenue]()** is the money that your company makes from the sales of your products and services
 
-* **Cost of Goods Sold OR Cost of Sales** are the direct costs the company incurs to develop and product the product or service being sold
+* **[Cost of Goods Sold OR Cost of Sales]()** are the direct costs the company incurs to develop and product the product or service being sold
 
-* **Gross Profit** is the difference between the revenue and COGS
+* **[Gross Profit](#)** is the difference between the revenue and COGS
 
-* **Selling, General and Administrative expenses** capture a wide range of expenses, from administrative, sales commissions, supplies, legal fees, rent, utilities, taxes, and interests. It is used synonymously with Operating expenses. SG&A typically exclude research and development expenses.
+* **[Selling, General and Administrative expenses]()** capture a wide range of expenses, from administrative, sales commissions, supplies, legal fees, rent, utilities, taxes, and interests. It is used synonymously with Operating expenses. SG&A typically exclude research and development expenses.
 
-* **Operating Profit** is the difference between gross profit and total operating expenses.
+* **[Operating Profit]()** is the difference between gross profit and total operating expenses.
 
-* **Net Income** is operating profit minus interest and tax expenses.
+* **[Net Income]()** is operating profit minus interest and tax expenses.
 
-* **Gross Margin** tells business executives what percentage of each revenue dollar is available to cover operating expenses after the COGS have been accounted for.
+* **[Gross Margin](#gross-margin-1)** tells business executives what percentage of each revenue dollar is available to cover operating expenses after the COGS have been accounted for.
 
-* **Contribution Margin** provides the break even point where the pricing of a product will cover fixed overhead costs.
+* **[Contribution Margin](#contribution-margin-1)** provides the break even point where the pricing of a product will cover fixed overhead costs.
 
 **[Business Metrics Lesson Terminology and Formula](./Misc/business-metrics-lesson-terminology-and-formulas.pdf)**

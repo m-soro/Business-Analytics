@@ -13,7 +13,7 @@
 
 5. **[Grouping data:](#grouping-data)** We will end with a discussion on how to look at the data across groups, cohorts, and time.
 
-### [SUMMARY](#summary)
+### [SUMMARY](#summary-1)
 
 
 ## Key Performance Indicators
@@ -968,7 +968,7 @@ Let's take a moment to summarize the key take-away's from this lesson.
 * Data should be examined split across cohorts, business cycles, time, product lines, regions and other grouping criteria to fully understand the data. It is critical to slice the data across various factors to make sense of the data and make recommendations.
 
 ### Metrics
-#### [Marketing]()
+#### [Marketing](#marketing-metric)
 
 * **[Click through rate (CTR)](#click-through-rate-ctr-1)** is an indication of whether the ad campaign is generating enough interest in potential customers. When the CTR increases, it is an indicator of an effective and interesting content in your ad campaign and that maybe you should increase the number of impressions for that ad.
 
@@ -1008,5 +1008,7 @@ Marketing and Financial
 * **[Gross Margin](#gross-margin-1)** tells business executives what percentage of each revenue dollar is available to cover operating expenses after the COGS have been accounted for.
 
 * **[Contribution Margin](#contribution-margin-1)** provides the break even point where the pricing of a product will cover fixed overhead costs.
+
+## [Distribution of Data](#distribution-of-the-data)
 
 **[Business Metrics Lesson Terminology and Formula](./Misc/business-metrics-lesson-terminology-and-formulas.pdf)**

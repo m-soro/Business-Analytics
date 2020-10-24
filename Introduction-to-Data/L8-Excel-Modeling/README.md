@@ -1,12 +1,12 @@
 # Excel Modeling
 
-### [Introduction](https://www.youtube.com/watch?v=LmvrXmBoZF4)
+### [Introduction :tv:](https://www.youtube.com/watch?v=LmvrXmBoZF4)
 
-### [Lesson Structure](https://www.youtube.com/watch?v=-DIzPt-j1Hc)
+### [Lesson Structure :tv:](https://www.youtube.com/watch?v=-DIzPt-j1Hc)
 
 ![image](./Misc/001.png)
 
-### [Introduction to Modeling](https://www.youtube.com/watch?v=R_-bsrdLje0)
+### [Introduction to Modeling :tv:](https://www.youtube.com/watch?v=R_-bsrdLje0)
 
 Modeling refers to using certain inputs and using those inputs to predict and forecast how our desired business metric will perform in the future.
 
@@ -40,7 +40,7 @@ We recommend the following websites that layout considerations for making assump
 2. [Blog on forecasting taxes and interest rates](https://www.wallstreetprep.com/knowledge/income-statement-forecasting/). Scroll down to the bottom of the page where it talks about interest income.
 3. [Forecasting Revenue and Growth](https://www.entrepreneur.com/article/76418)
 
-## [Top Down](https://www.youtube.com/watch?v=B4FtnlFBiME)
+## [Top Down :tv:](https://www.youtube.com/watch?v=B4FtnlFBiME)
 
 ![image](./Misc/002.png)
 
@@ -81,7 +81,7 @@ you're talking in guesses and estimates based on macro figures.
 It's harder to convince potential investors you
 can realistically achieve this forecasted revenue.
 
-## [Bottom Up](https://www.youtube.com/watch?v=AA_EFg07Jvc)
+## [Bottom Up :tv:](https://www.youtube.com/watch?v=AA_EFg07Jvc)
 
 A **bottom up approach takes a micro approach** to forecasting.
 The approach starts by looking at historical data.
@@ -117,7 +117,7 @@ but it is built on previously attained numbers.
 There are specific to how the company has performed,
 and not generalizations that relate to the market as a whole.
 
-## [Components of a Model](https://www.youtube.com/watch?v=8ImAf1NMU6o)
+## [Components of a Model :tv:](https://www.youtube.com/watch?v=8ImAf1NMU6o)
 
 ![image](./Misc/003.png)
 
@@ -130,7 +130,7 @@ and not generalizations that relate to the market as a whole.
 2. **Outputs**
       This is the metric being forecasted within the model.
 
-### [Historical Data and Assumptions](https://www.youtube.com/watch?v=0HyNRZVH18M)
+### [Historical Data and Assumptions :tv:](https://www.youtube.com/watch?v=0HyNRZVH18M)
 
 In modeling, assumptions on what you think will come
 true for the inputs or metrics in the model.
@@ -158,7 +158,7 @@ the cost of gas is typically harder to predict since gas prices are fairly volat
 So, in general, be careful about the assumptions you make about changes in costs,
 and check to see if those assumptions are reasonable and make sense.
 
-### [Historical Data](https://www.youtube.com/watch?v=7ytZKO0ycbU)
+### [Historical Data :tv:](https://www.youtube.com/watch?v=7ytZKO0ycbU)
 
 Historical data is above what's your metric show for the past.
 So, for sales, we look at prior sales data from the last year or month.
@@ -223,14 +223,14 @@ We recommend the following websites that layout considerations for making assump
 ### [Bottom Up Sales Forecasting](#bottom-up-sales-forecasting-1)
 ### [Top Down Sales Forecasting](#top-down-sales-forecasting-1)
 
-## [Bottom Up Sales Forecasting](https://www.youtube.com/watch?v=tFqe0MEnjmg)
+## [Bottom Up Sales Forecasting :tv:](https://www.youtube.com/watch?v=tFqe0MEnjmg)
 
 Computed using the sales conversion funnel
 ![image](./Misc/009.png)
 
 Let's say you're the sales manager for a company that makes flatware,
 say using renewable products like bamboo,
-and you've been asked to [forecast the sales](https://www.youtube.com/watch?v=VKIXb4iYymQ) for the company.
+and you've been asked to [forecast the sales :tv:](https://www.youtube.com/watch?v=VKIXb4iYymQ) for the company.
 
 ![image](./Misc/010.png)
 
@@ -264,7 +264,7 @@ we can calculate the weighted bookings forecast.
 ![image](./Misc/011.png)
 
 
-So, let's walk through the [sales model using a bottom-up approach](https://www.youtube.com/watch?v=Bx_CjCMr-Dc).
+So, let's walk through the [sales model using a bottom-up approach :tv:](https://www.youtube.com/watch?v=Bx_CjCMr-Dc).
 
 I've kept the overarching themes here on the top,
 so you can see what is the motivation for each of these columns.
@@ -329,7 +329,7 @@ As described in the video, there are several different ways and goal of sales fo
 * [Seismic: Improving sales productivity](https://seismic.com/company/blog/how-to-improve-sales-productivity-7-helpful-hints/)
 
 
-## [Top Down Sales Forecasting](https://www.youtube.com/watch?v=7j4D8dWjIec)
+## [Top Down Sales Forecasting :tv:](https://www.youtube.com/watch?v=7j4D8dWjIec)
 
 Let's go over a top-down model that focuses on bookings for sales person.
 
@@ -371,13 +371,13 @@ by starting with our bookings in the more broad sense and
 then narrowing down to each person and month.
 
 
-## [Example Top Down Sales Forecasting](https://www.youtube.com/watch?v=HjBq9d3NQ24)
+## [Example Top Down Sales Forecasting :tv:](https://www.youtube.com/watch?v=HjBq9d3NQ24)
 
-[Walk Thru](https://www.youtube.com/watch?v=HjBq9d3NQ24)
+[Walk Thru :tv:](https://www.youtube.com/watch?v=HjBq9d3NQ24)
 
 **Quiz** [my solution](./Misc/practice-quiz-salesforecast-topdown-data.xlsx)
 
-## [Scenario or Sensitivity Analysis](https://www.youtube.com/watch?v=rAj0mViosD0)
+## [Scenario or Sensitivity Analysis :tv:](https://www.youtube.com/watch?v=rAj0mViosD0)
 
 'Scenarios are used commonly for financial forecasting.'
 'They are tied to assumptions.'
@@ -389,7 +389,7 @@ then narrowing down to each person and month.
  'chosen.')
 'This in turn also affects the income forecast above.
 
-### [Transitioning to Spreadsheet Tools](https://www.youtube.com/watch?v=K9KEu3stipY)
+### [Transitioning to Spreadsheet Tools :tv:](https://www.youtube.com/watch?v=K9KEu3stipY)
 
 To build out the financial model, let’s first take a look at some Excel functions and **tools specifically for Financial modeling**. As we introduce you to each of these, we will work towards a financial model, so this will set you up nicely for your final project.
 
@@ -404,7 +404,7 @@ To build out the financial model, let’s first take a look at some Excel functi
 * And finally... **[OFFSET](#offset)**. Here you can select a start point in the spreadsheet, and tell Excel to return a set of cells that are counted from the starting point.
 We are going to work through an actual example for each of them in the coming videos.
 
-## [Data Validation](https://www.youtube.com/watch?v=2HM1UY66qe4)
+## [Data Validation :tv:](https://www.youtube.com/watch?v=2HM1UY66qe4)
 
 ### Excel Steps
 **Purpose**: The purpose of data validation tools is to confirm that the values within the cell are validated against a criterion. In other words, the values within the cell are confined to specific requirements. There are several criteria, including a provided list of values, date range, range of whole numbers or decimal values.
@@ -417,4 +417,53 @@ Much like MS Excel, you can see the Data Validation options under the Data tab i
 **Additional Resource**
 Here is also a link to Google's [support documentation for Data Validation](https://support.google.com/docs/answer/186103?co=GENIE.Platform%3DDesktop&hl=en).
 
-### [Index](https://www.youtube.com/watch?v=h_BX-KibU_c)
+### [Index :tv:](https://www.youtube.com/watch?v=h_BX-KibU_c)
+
+
+**Excel Syntax**
+
+**Purpose**: INDEX takes a range of cells and returns a cell from that range that is based on a cell count number provided within the INDEX function.
+
+The following is the generic syntax for INDEX:
+
+**INDEX(array, row number, column number)**
+
+Once you have entered your formula, instead of hitting enter, you need to press `Ctrl+Shift+Enter`. This places the curly braces around the formula. Missing this step can cause #NAME? error.
+
+### [Match with One Criterion :tv:](https://www.youtube.com/watch?v=6H3fH9Tr-xg)
+
+![image](./Misc/015.png)
+
+**Excel Syntax**
+**Purpose**: The purpose of the **MATCH** function is to provide the location of a defined lookup value within a given lookup array.
+
+The following is the generic syntax for **INDEX**:
+
+`MATCH(lookup_value, lookup_array, [match_type])`
+
+Match type can vary from 0 (match is an exact match), 1 (match is less than or equal to lookup value), to -1 (match is greater than or equal to lookup value).
+
+**Additional Resources to learn about Match Function**
+Here is the [Office support documentation to learn more about MATCH](Office support documentation to learn more about MATCH function) function
+
+**Google Sheets Syntax**
+Google Sheets uses the same syntax as MS Excel.
+
+**Additional Resource**
+Here is the link to the [Google support documentation for using MATCH functions in Google Sheets](https://support.google.com/docs/answer/3093378?hl=en).
+
+### [Index and Match with Multiple Criteria :tv:](https://www.youtube.com/watch?v=zSyplgqpUFY)
+
+![image](./Misc/017.png)
+
+![image](./Misc/016.png)
+
+**Excel Syntax**
+To combining **INDEX** and **MATCH** when you need MATCH to meet multiple criteria, Excel uses boolean logic to create the MATCH criteria. The following is the generic syntax for combining INDEX and MATCH when you need MATCH to meet multiple criteria:
+
+`INDEX(array, MATCH(1, (condition 1) x (condition 2), [match_type]))`
+
+**Google Sheets Syntax**
+Google Sheets uses the same syntax as MS Excel. Once you have entered your formula, you need to press Ctrl+Shift+Enter. This places the formula within an ARRAYFORMULA to execute the function. Missing this step can cause #NAME? error.
+
+Offset - Part I

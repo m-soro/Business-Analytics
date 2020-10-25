@@ -379,15 +379,6 @@ then narrowing down to each person and month.
 
 ## [Scenario or Sensitivity Analysis :tv:](https://www.youtube.com/watch?v=rAj0mViosD0)
 
-'Scenarios are used commonly for financial forecasting.'
-'They are tied to assumptions.'
-'Think of scenarios as developing different futures for your company.'
-'Typically, these include a best case,'
-'base case, and a weak case scenario.'
-'You change the assumptions here located in these cells based on the scenarios.'
-('You can see that assumptions changing in response to the scenario which is '
- 'chosen.')
-'This in turn also affects the income forecast above.
 
 ### [Transitioning to Spreadsheet Tools :tv:](https://www.youtube.com/watch?v=K9KEu3stipY)
 
@@ -424,9 +415,9 @@ Here is also a link to Google's [support documentation for Data Validation](http
 
 **Purpose**: INDEX takes a range of cells and returns a cell from that range that is based on a cell count number provided within the INDEX function.
 
-The following is the generic syntax for INDEX:
+The following is the generic syntax for MATCH:
 
-**INDEX(array, row number, column number)**
+`INDEX(array, row number, column number)`
 
 Once you have entered your formula, instead of hitting enter, you need to press `Ctrl+Shift+Enter`. This places the curly braces around the formula. Missing this step can cause #NAME? error.
 
@@ -437,7 +428,7 @@ Once you have entered your formula, instead of hitting enter, you need to press 
 **Excel Syntax**
 **Purpose**: The purpose of the **MATCH** function is to provide the location of a defined lookup value within a given lookup array.
 
-The following is the generic syntax for **INDEX**:
+The following is the generic syntax for **MATCH**:
 
 `MATCH(lookup_value, lookup_array, [match_type])`
 
@@ -466,4 +457,111 @@ To combining **INDEX** and **MATCH** when you need MATCH to meet multiple criter
 **Google Sheets Syntax**
 Google Sheets uses the same syntax as MS Excel. Once you have entered your formula, you need to press Ctrl+Shift+Enter. This places the formula within an ARRAYFORMULA to execute the function. Missing this step can cause #NAME? error.
 
-Offset - Part I
+### Offset
+
+**Excel Syntax**
+Purpose: The purpose of the OFFSET function is to return a range that is a specified number of rows and columns from a reference cell or range
+
+`OFFSET(cell_reference, number of rows to offset by, number of columns to offset by)`
+
+**Google Sheets Syntax**
+Google Sheets uses the same syntax as MS Excel.
+
+**Additional Resource**
+Here is the link to the Google support documentation for using OFFSET functions in Google Sheets.
+The four steps to take to create a financial forecast.
+
+1. [Step 1 :tv:](https://www.youtube.com/watch?v=rkYu7SwZh6U) is to calculate
+the operating statistics that include the gross and operating margin, and revenue growth.
+This is all based on the historical data,
+which you can find in the income statement over here.
+So, this is step 1.
+The first box here.
+
+2. [Step 2 :tv:](https://www.youtube.com/watch?v=kFuqliCKlmE) is to create the scenarios.
+I have them here in this box here.
+So, this is the scenario that we are going to be creating.
+Typically, we have a strong base and weak case.
+Some business analysts choose to have two additional scenarios as well,
+we're going to stick with three cases.
+
+Correction : In the above videos, the formula in column D is incorrect, and should instead say `=$F$7/$E$7 -1`.
+
+3. Then come the assumptions as part of [step 3 :tv:](https://www.youtube.com/watch?v=26O7Lh0arfs).
+These assumptions change in response to the scenario that is chosen over here.
+This is where we're going to use offset.
+
+4. Finally, [step 4 :tv:](https://www.youtube.com/watch?v=-RAWAeJkvyQ) may be develop the forecasted scenarios that
+change dynamically based on
+the scenarios that are chosen because that affects the assumptions,
+and the assumptions go inside the forecasted metrics.
+
+**Formatting principles for Modeling**
+Here is a guide to best practices for formatting financial models.
+
+1. All inputs to the model should be colored BLUE. These include hard-coded values.
+2. All formulas and calculations should be coded in BLACK.
+3. Any links to other sheets within the workbook should be coded in GREEN.
+4. Any links to other files should be coded in RED.
+
+Here is a good website to review the best practices:
+
+**[Formatting for Financial Modeling](https://corporatefinanceinstitute.com/resources/knowledge/modeling/financial-model-formatting/)**
+
+
+Quiz
+
+> Here are the steps I took to solve it...
+
+1. Created a pivot table to filter/remove duplicates in the company list.
+Name range as company_list. The same step for years.
+
+2. In Data validation sheet I created the drop down using data validation - list - and selected the Pivot sheet's named range company_list. Same thing for the Scenarios
+
+3. In Match Intro, I experimented with index, match with one criterion and match with two criterion.
+
+    Index will return the value of a cell [in the selected array or name range],[row number]
+
+    `INDEX(array, row number, column number)`
+
+    Match will return the row number of the [lookup_value aka whatever you are trying to match],][lookup_array aka where are you trying to look it up, name range, dragged rows or cols of cells],[1,0(exact match),-1]
+
+    `MATCH(lookup_value, lookup_array, [match_type])`
+
+    Match with multiple criteria uses boolean logic: Match(1,[condition1]x[condition2],[0]). This will only return the row number of your lookup value.
+
+    `MATCH(1, (condition 1) x (condition 2), [match_type])`
+
+    Index and Match is a powerful combination. Index will give the value while Match provides the row number.
+
+    `INDEX(array, MATCH(1, (condition 1) x (condition 2), [match_type]))`
+
+4. In Dataset I computed the **Gross Profit** by `COGS-Total Revenue`.
+    **Operating Income** by `Gross Profit-Total Operating Expenses`.
+    **Gross Margin** by`(Total Revenue-COGS)/Total Revenue`.
+    **Operating Margin** by `Operating Income/Total Revenue`.
+
+5. In forecast, I built the Income Statement with pulled historical values using `index and match`.
+
+    In Operating Statistics **Revenue Growth %** is `(Current Year-Prior Year)/Prior Year`. **Gross Margin** and **Operating Margin** are pulled from Dataset using `index and match`.
+
+    In Operating Scenarios - Sensitivity Analysis, there are three cases: Strong, Base and Weak. Each row: **Revenue Growth %**, **Gross Margin**, **Operating Margin** has three cases.
+    Udacity's Assumptions are given. I did mine by filling the **base case first** by `average(year2,year3)` to get year 4. I added `+0.02` **strong case** and subtracted `.03` for **weak case**
+
+    Then repeat for each row.
+
+6. Use offset in combination with match to pull the value by matching the scenario to the each case under the scenario sensitivity analysis.    
+
+    `OFFSET(cell_reference, number of rows to offset by, number of columns to offset by)`
+
+    and input this to under Operating Statistics Assumptions.
+
+7. To fill the year 4 and Year 5 Income Statement:
+
+    **Revenue** is computed by `Prior Year Revenue*(1+assumption year growth)`
+
+    **Gross Profit** is computed by `forecast year Revenue* assumption gross margin`
+
+    **Operating Income** is computed by `forecast year revenue*assumption operating margin`
+
+    All of them will depend on the Assumptions

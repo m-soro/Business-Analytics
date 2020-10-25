@@ -327,7 +327,7 @@ Further down the funnel, the goal of the marketing team is that once the leads o
 
 - Here “acquisition” refers to a non-paying customer.
 
-### [Lifetime Value (LTV):tv::tv::tv:](https://www.youtube.com/watch?v=ZthlIc8wj2s)
+### [Lifetime Value (LTV)  :tv:](https://www.youtube.com/watch?v=ZthlIc8wj2s)
 
 *[Back to Marketing Metric](#marketing-metric)*
 
@@ -418,14 +418,14 @@ Calculate the Lifetime Value for Smoothie Rocks given the following information.
 
 ![image](./Misc/023.png)
 
-### [Interpreting Life Time Value:tv::tv::tv:](https://www.youtube.com/watch?v=NNKX-r-iPoI)
+### [Interpreting Life Time Value  :tv:](https://www.youtube.com/watch?v=NNKX-r-iPoI)
 
 > Let's say you want to calculate the LTV of customers in 2016, you want to include all the purchases of that customer even in 2017 or whatever years. LTV takes in to account future uncertainty.
 
 > Another to think in mind is the value of the actual product, most high value product will not be bought again and again it is more important to focus on each customer value instead of lifetime value.
 
 
-## [Sales metric:tv::tv::tv:](https://www.youtube.com/watch?v=lsRIxIEHVCg)
+## [Sales metric  :tv:](https://www.youtube.com/watch?v=lsRIxIEHVCg)
 
 #### [Business to Business (B2B)](#)
 #### [Business to Consumer (B2C)](#)
@@ -440,7 +440,7 @@ Calculate the Lifetime Value for Smoothie Rocks given the following information.
 
   When a business sells products and services to the final consumer.
 
-## [Sales Conversion Funnel:tv::tv::tv:](https://www.youtube.com/watch?v=DqwsOwJCRqo)
+## [Sales Conversion Funnel  :tv:](https://www.youtube.com/watch?v=DqwsOwJCRqo)
 
 ![image](./Misc/024.png)
 
@@ -496,7 +496,7 @@ Bookings is the most important sales metric. **Booking is a won deal that is sig
 
 `[Total Bookings is the sum of all closed deals]`(https://www.youtube.com/watch?v=U4feV03HrTM)**
 
-### [Average Deal Size (in $):tv::tv::tv:](https://www.youtube.com/watch?v=o0EAWG-AxUI)
+### [Average Deal Size (in $)  :tv:](https://www.youtube.com/watch?v=o0EAWG-AxUI)
 Another important metric to keep in mind is the Average Deal Size. This refers to the average deal size in dollars of all of the won deals. Reminder, a won deal is when the account buyer has committed to making the purchase.
 
 **Calculation(https://www.youtube.com/watch?v=o0EAWG-AxUI)**
@@ -523,7 +523,7 @@ This metric can be calculated for each sales team member, product, or lead sourc
 
 * `Average number of days for typical Sales Cycle = Sum(Total number of days to close deal) for all closed deals / Number of closed deals`
 
-**[Calculation:tv::tv::tv:](https://www.youtube.com/watch?v=tIViOzc-5zk)**
+**[Calculation  :tv:](https://www.youtube.com/watch?v=tIViOzc-5zk)**
 
 1.`Sum (Total number of days from first contact to closing the deal)` for ALL closed deals.
 
@@ -541,7 +541,7 @@ This metric can be calculated for each sales team member, product, or lead sourc
 **Recap from Previous Lesson**
 ![image](./Misc/025.png)
 
-## [Growth Metrics:tv::tv::tv:](https://www.youtube.com/watch?v=hJTRdR0F_ag)
+## [Growth Metrics  :tv:](https://www.youtube.com/watch?v=hJTRdR0F_ag)
 
 ### [Monthly Active Users](#monthly-active-users-1)
 ### [Daily Active Users](#daily-active-users-1)
@@ -549,7 +549,7 @@ This metric can be calculated for each sales team member, product, or lead sourc
 ### [Churn Rate](#churn-rate-1)
 
 
-### [Engagement Metrics:tv::tv::tv:](https://www.youtube.com/watch?v=eukw3Bm-brk)
+### [Engagement Metrics  :tv:](https://www.youtube.com/watch?v=eukw3Bm-brk)
 
 *Citation for original graph included in video: [Thoughts of Facebook's Q2 2015 Earnings](http://www.beyonddevic.es/2015/07/29/thoughts-on-facebooks-q2-2015-earnings/)*
 
@@ -562,7 +562,7 @@ Number of unique active users in the previous month
 ### Daily Active Users
 Number of unique active users the previous day
 
-### [Stickiness:tv::tv::tv:](https://www.youtube.com/watch?v=CvrqPRZ3ESY)
+### [Stickiness  :tv:](https://www.youtube.com/watch?v=CvrqPRZ3ESY)
 
 Are they Sticking around to use/consume?
 
@@ -613,7 +613,7 @@ To calculate the customer churn rate you need 2 simple things - Customers at the
 
 Important note: We only want to calculate the churn rate based on the customers we started the time interval with. When getting the number of customers at the end of the interval, we do NOT add the customers who converted during the interval . **Churn rate should only tell you whether the current customers have left or stayed**.
 
-**[Calculation:tv::tv::tv:](https://www.youtube.com/watch?v=b6RyLycx-hI)**
+**[Calculation  :tv:](https://www.youtube.com/watch?v=b6RyLycx-hI)**
 
 `Customer Churn Rate = (Customers at the beginning of usage interval - Customers at the end of usage interval) / Customers at the beginning of usage interval`
 
@@ -661,7 +661,7 @@ For the following quiz, please download the corresponding file BAND Churn Rate Q
 
 * **Subscribed based service model**: Subscribed based service model is a model where consumers agree to pay a subscription fee to gain access to the service or product.
 
-## [Finance Metrics:tv::tv::tv:](https://www.youtube.com/watch?v=2qKKI_hf0vs)
+## [Finance Metrics  :tv:](https://www.youtube.com/watch?v=2qKKI_hf0vs)
 
 ### [Profit & Loss Statement](#profit-&-loss-statement)
 ### [Gross Margin](#gross-margin)
@@ -767,7 +767,7 @@ Check out the following pages to learn more about P&L statement across different
 ### Gross Margin
 Gross Margin is a statement about the overall profitability of the company.
 
-**[Calculation:tv::tv::tv:](https://www.youtube.com/watch?v=CjaHFtfOjJ8)**
+**[Calculation  :tv:](https://www.youtube.com/watch?v=CjaHFtfOjJ8)**
 `Gross Margin = (Total Sales Revenue – Cost of Goods Sold) / Total Sales Revenue`
 
 which is the same as `Gross Profit / Total Sales Revenue`
@@ -784,9 +784,9 @@ This metric identifies the revenue that remains after accounting for direct cost
 
 * **Gross Margin tells business executives what percentage of each revenue dollar is available to cover operating expenses after the COGS have been accounted for**.
 
-### [Contribution Margin:tv::tv::tv:](https://www.youtube.com/watch?v=PO25budhMPI)
+### [Contribution Margin  :tv:](https://www.youtube.com/watch?v=PO25budhMPI)
 
-**[Contribution Margin:tv::tv::tv:](https://www.youtube.com/watch?v=hpMueSCPxzo)**
+**[Contribution Margin  :tv:](https://www.youtube.com/watch?v=hpMueSCPxzo)**
 
 Contribution Margin tells us the amount of revenue that covers the variable costs and is now available to cover the fixed costs and generate profits. Companies use it to identify which product or product line is contributing the most to the profit margin. It also helps determine the break even point where the pricing will cover fixed overhead costs and leave enough for profits too.
 
@@ -911,11 +911,11 @@ Calculation
 
 * Check out this link for [Contribution Margin](https://www.dummies.com/business/operations-management/how-to-prepare-a-cost-volume-profit-analysis/) that provides an excellent explanation for how Contribution Margin is derived. It also explains other ways to calculate contribution margin.
 
-## [Distribution of the Data:tv::tv::tv:](https://www.youtube.com/watch?v=8atMcQpZoAo)
+## [Distribution of the Data  :tv:](https://www.youtube.com/watch?v=8atMcQpZoAo)
 
 ![image](./Misc/035.png)
 
-[Let's see a concrete example of what data distribution would look like when using business metrics data.:tv::tv::tv:](https://www.youtube.com/watch?v=kdzchZAVlPs)
+[Let's see a concrete example of what data distribution would look like when using business metrics data.  :tv:](https://www.youtube.com/watch?v=kdzchZAVlPs)
 
 **Quiz**
 The following box plot shows the data distribution and five number summary for the conversion rates for each of 4 market segments. Looking at the east and southwest regions, we can tell we are working with skewed data, and we should pay attention to the positively skewed distributions for both regions and wide distribution of the east coast data.
@@ -935,9 +935,9 @@ If you need a reminder about box plots and how to interpret them, you can visit 
 
 * Without looking at the distribution, we can make the mistake of examining and making conclusions based only on the average.
 
-## [Grouping the Data:tv::tv::tv:](https://www.youtube.com/watch?v=LU2JB9R5a6I)
+## [Grouping the Data  :tv:](https://www.youtube.com/watch?v=LU2JB9R5a6I)
 
-#### [Example:tv::tv::tv:](https://www.youtube.com/watch?v=1nY-5dZNdo8)
+#### [Example  :tv:](https://www.youtube.com/watch?v=1nY-5dZNdo8)
 
 #### Recap:
 
@@ -947,7 +947,7 @@ If you need a reminder about box plots and how to interpret them, you can visit 
 
 * Another benefit of grouping the data is that it allows you to identify more successful cases within your business, marketing and product strategy. This reflection allows you to apply that learning to other segments and groups.
 
-## [Summary:tv::tv::tv:](https://www.youtube.com/watch?v=hNve3cMyes0)
+## [Summary  :tv:](https://www.youtube.com/watch?v=hNve3cMyes0)
 
 You learned a great deal in this lesson, and we hope you feel you have a better sense of how analytics can be used to make better business decisions.
 

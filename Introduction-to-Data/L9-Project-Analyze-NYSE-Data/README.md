@@ -215,12 +215,15 @@ With this in mind, think of the variable type of the columns you are analyzing, 
 
 # My Project
 
+### Data Visualizations and Summary statistics
 ![image](./Misc/005.png)
 
 ![image](./Misc/006.png)
 
+### Dynamic P&L Statement
 ![image](./Misc/007.png)
 
+### Financial Forecast with three scenarios
 ![image](./Misc/008.png)
 
-### [Download here :floppy_disk:](./Misc/analyze-nyse-data-v2)
+### [Download here](./Misc/analyze-nyse-data-v2):floppy_disk:

@@ -1,6 +1,6 @@
 ## Analyze NYSE Data
 
-## [How I prepared to tackle this project?](#how-i-prepared)
+###[My Project](#my-project)
 
 **Why this Project?**
 This project will introduce you to the data analysis process that you will be using throughout the rest of the Nanodegree program. In this project, you will go through the process of calculating summary statistics, drawing an inference from the statistics, calculating business metrics and using models to forecast future growth prospects for the companies. The goal is for you to perform an analysis and also create visual tools to communicate the results in informative ways.
@@ -65,15 +65,12 @@ Here is the link to the Business Metrics lesson in case you would like to review
 
 ![image](./Misc/001.png)
 
-> The Note on the bottom was related to the graph...
 
 ![image](./Misc/003.png)
 
-*I was having trouble getting the graph to map correctly, I noticed that the graph wasn't reading the values if it is `0` so I added `0.01` to get it to map correctly. Note that I'm using a excel for MAC*
-
-*And, If I base my answer on the Shape table and Measures of Center, which will be right-skewed is Mean > Median, but looking at the graph it is obviously extremely left-skewed.*  
-
 * Then Finally, I have to revisit the `Financial Modeling` section of the lesson.
+
+
 
 ### Instructions:
 
@@ -215,3 +212,15 @@ However, when you are analyzing categorical variables, measures of center and sp
 
 **Important Last Thought**
 With this in mind, think of the variable type of the columns you are analyzing, and determine which plots and statistics make sense for your analysis.
+
+##[My Project]
+
+![image](./Misc/005.png)
+
+![image](./Misc/006.png)
+
+![image](./Misc/007.png)
+
+![image](./Misc/008.png)
+
+### [Download here](./Misc/analyze-nyse-data-v2)

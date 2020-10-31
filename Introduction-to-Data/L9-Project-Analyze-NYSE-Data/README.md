@@ -226,4 +226,4 @@ With this in mind, think of the variable type of the columns you are analyzing, 
 ### Financial Forecast with three scenarios
 ![image](./Misc/008.png)
 
-### [Download here](./Misc/analyze-nyse-data-v2):floppy_disk:
+### [Download here](./Misc/analyze-nyse-data-v2) :rocket:

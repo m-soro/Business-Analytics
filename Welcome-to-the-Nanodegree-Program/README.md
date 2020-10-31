@@ -1,10 +1,10 @@
-# Project 1 Interpret a Data Visualization
+# Interpret a Data Visualization
+
+######[Back to homepage](https://github.com/m-soro/Business-Analytics)
 
 ## [Skip to my Project](#my-project)
 
-## A Glimpse Into Data Use Cases
-
-## 1. Introduction
+### Introduction
 
 In order for you to see how data is being used across many industries, you will hear from three individuals from greatly differing industries.
 
@@ -23,15 +23,10 @@ Similar to the examples, your first project will include data from three entirel
 The aim of this whole project is mostly to show you the Udacity process, but it is still required!
 
 
-
-## 2. Interview 1 - Sparta Science
-## 3. Sports Data in Excel
-## 4. Interview 2 - Farmer Mitch
-## 5. Weather Data in SQL
-## 6. Interview 3 - Uncommon Bold
-## 7. [Project Introduction](blob:https://classroom.udacity.com/9ea58902-3fda-4c4f-b3e6-d53612343732)
+[Project Introduction](blob:https://classroom.udacity.com/9ea58902-3fda-4c4f-b3e6-d53612343732)
 >This project is aimed at analysis using data visualization in Tableau. Watch the video here to learn what your project is all about!
-## 8. Project Overview
+
+### Project Overview
 
 Project description
 

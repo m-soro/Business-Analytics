@@ -1,6 +1,6 @@
 ## Analyze NYSE Data
 
-###[My Project](#my-project)
+[My Project](#my-project)
 
 **Why this Project?**
 This project will introduce you to the data analysis process that you will be using throughout the rest of the Nanodegree program. In this project, you will go through the process of calculating summary statistics, drawing an inference from the statistics, calculating business metrics and using models to forecast future growth prospects for the companies. The goal is for you to perform an analysis and also create visual tools to communicate the results in informative ways.
@@ -213,7 +213,7 @@ However, when you are analyzing categorical variables, measures of center and sp
 **Important Last Thought**
 With this in mind, think of the variable type of the columns you are analyzing, and determine which plots and statistics make sense for your analysis.
 
-##[My Project]
+# My Project
 
 ![image](./Misc/005.png)
 
@@ -223,4 +223,4 @@ With this in mind, think of the variable type of the columns you are analyzing, 
 
 ![image](./Misc/008.png)
 
-### [Download here](./Misc/analyze-nyse-data-v2)
+### [Download here :floppy_disk:](./Misc/analyze-nyse-data-v2)

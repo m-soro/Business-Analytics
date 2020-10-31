@@ -4,7 +4,7 @@ In this program, you’ll learn foundational data skills that apply across funct
 
 
 
-#### [Course Syllabus](/Misc/Syllabus.pdf)
+#### [Course Syllabus](https://d20vrrgs8k4bvw.cloudfront.net/documents/en-US/Business+Analytics+Nanodegree+Program+Syllabus+2.0.pdf)
 
 
 

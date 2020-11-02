@@ -223,9 +223,11 @@ With this in mind, think of the variable type of the columns you are analyzing, 
 ![image](./Misc/006.png)
 
 ### Dynamic P&L Statement
+![image](./Misc/p&l.gif)
+
 ![image](./Misc/007.png)
 
-### Financial Forecast with three scenarios
+### Dynamic Financial Forecast with three scenarios
 ![image](./Misc/forecast.gif)
 
 ![image](./Misc/008.png)

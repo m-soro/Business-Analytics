@@ -6,7 +6,7 @@
 
 **Quantitative** data takes on numeric values that allow us to perform mathematical operations (like the number of dogs).
 
-**[Continuous vs. Discrete :tv:](https://www.youtube.com/watch?v=BzgZebZD9kk&feature=emb_logo)**
+**[Continuous vs. Discrete](https://www.youtube.com/watch?v=BzgZebZD9kk&feature=emb_logo)** :tv:
 
 We can think of quantitative data as being either continuous or discrete.
 
@@ -18,7 +18,7 @@ We can think of quantitative data as being either continuous or discrete.
 
 **Categorical** are used to label a group or set of items (like dog breeds - Collies, Labs, Poodles, etc.).
 
-**[Categorical Ordinal vs. Categorical Nominal :tv:](https://www.youtube.com/watch?v=k5bLaPGY2Vw&feature=emb_logo)**
+**[Categorical Ordinal vs. Categorical Nominal](https://www.youtube.com/watch?v=k5bLaPGY2Vw&feature=emb_logo)** :tv:
 We can divide categorical data further into two types: Ordinal and Nominal.
 
 **Categorical Ordinal** data take on a **ranked ordering** (like a ranked interaction on a scale from Very Poor to Very Good with the dogs).
@@ -83,10 +83,10 @@ Though not discussed in the video, analyzing categorical data has fewer parts to
 ## Measures of Center
 There are three measures of center:
 
-1. [The Mean :tv:](https://www.youtube.com/watch?v=1nzZxmJ8xvU&feature=emb_logo)
+1. [The Mean](https://www.youtube.com/watch?v=1nzZxmJ8xvU&feature=emb_logo) :tv:
 In this video, we focused on the calculation of the mean. The mean is ***often called the average*** or the expected value in mathematics. We calculate the mean by adding all of our values together, and dividing by the number of values in our dataset.
 
-2. [The Median :tv:](https://www.youtube.com/watch?v=WlT3eeW0rb0&feature=emb_logo)
+2. [The Median](https://www.youtube.com/watch?v=WlT3eeW0rb0&feature=emb_logo) :tv:
 The median splits our data so that 50% of our values are lower and 50% are higher. We found in this video that how we calculate the median depends on if we have an even number of observations or an odd number of observations.
 
 **Median for Odd Values**
@@ -101,7 +101,7 @@ In order to compute the median we **MUST sort our values first**.
 
 Whether we use the mean or median to describe a dataset is largely dependent on the shape of our dataset and if there are any outliers. We will talk about this in just a bit!
 
-3. [The Mode :tv:](https://www.youtube.com/watch?v=NE81NZgECqg&feature=emb_logo)
+3. [The Mode](https://www.youtube.com/watch?v=NE81NZgECqg&feature=emb_logo)  :tv:
 The mode is the most frequently observed value in our dataset.
 
 There might be multiple modes for a particular dataset, or no mode at all.
@@ -122,7 +122,7 @@ If two (or more) numbers share the maximum value, then there is more than one mo
 
 There are two modes 3 and 6, because these values share the maximum frequencies at 3 times, while all other values only appear once.
 
-### [What is Notation? :tv:](https://www.youtube.com/watch?v=MaHV5cKfcmE)
+### [What is Notation?](https://www.youtube.com/watch?v=MaHV5cKfcmE) :tv:
 
 **Notation**
 
@@ -138,7 +138,7 @@ You likely already know some notation. Plus, minus, multiply, division, and equa
 
 3. It makes ideas that are hard to say in words easier to convey. Sometimes we just don't have the right words to say. For those situations, I prefer to use notation to convey the message. Similar to the way an emoji or meme might convey a feeling better than words, notation can convey an idea better than words. Usually those ideas are related to mathematics, but I am not here to stifle your creativity.
 
-### [Random Variales :tv:](https://www.youtube.com/watch?v=8NxTW1u4s-Y)
+### [Random Variales](https://www.youtube.com/watch?v=8NxTW1u4s-Y) :tv:
 
 **Example to Introduce Notation**
 
@@ -149,6 +149,7 @@ You likely already know some notation. Plus, minus, multiply, division, and equa
 If you aren't familiar with spreadsheets, this will be covered in detail in future lessons. Spreadsheets are a common way to hold data. They are composed of rows and columns. Rows run horizontally, while columns run vertically. Each column in a spreadsheet commonly holds a specific variable, while each row is commonly called an instance or individual.
 
 The example used in the video is shown below.
+
 ![image](./Misc/001.png)
 
 **Before Collecting Data**
@@ -163,7 +164,7 @@ We might have the random variable X, which is a holder for the possible values o
 
 X is 'a holder' of the values that could possibly occur for the amount of time spent on our website. Any number from 0 to infinity really.
 
-### [Capital vs. Lower :tv:](https://www.youtube.com/watch?v=KFIt2OC3wCI)
+### [Capital vs. Lower](https://www.youtube.com/watch?v=KFIt2OC3wCI) :tv:
 
 **Capital vs. Lower Case Letters**
 
@@ -223,7 +224,7 @@ To extend this to add one hundred, one thousand, or one million values would be 
 
 **An aggregation is a way to turn multiple numbers into fewer numbers (commonly one number)**.
 
-[Summation :tv:](https://www.youtube.com/watch?v=ADx1x2ljFB4) is a common aggregation. The notation used to sum our values is a greek symbol called sigma Σ.
+[Summation](https://www.youtube.com/watch?v=ADx1x2ljFB4) :tv: is a common aggregation. The notation used to sum our values is a greek symbol called sigma Σ.
 
 **Example 1**
 
@@ -264,7 +265,7 @@ The **Σ** is used for aggregating using **summation**, but we might choose to a
 
 ![image](./Misc/003.png)
 
-## [Notation for the Mean :tv:](https://www.youtube.com/watch?v=3EF15AoRxyM)
+## [Notation for the Mean](https://www.youtube.com/watch?v=3EF15AoRxyM) :tv:
 Pay attention to 1:15
 
 **Final Steps for Calculating the Mean**
@@ -315,7 +316,7 @@ In the next section, you will see this notation used to assist in your understan
 
 # Lesson 2: Descriptive Statistics II
 
-## [What are Measures of Spread :tv:](https://www.youtube.com/watch?v=zb76Z_viYLY)
+## [What are Measures of Spread](https://www.youtube.com/watch?v=zb76Z_viYLY) :tv:
 
 ## Measures of Spread
 
@@ -328,7 +329,7 @@ Measures of Spread are used to provide us an idea of how spread out our data are
 
 Throughout this lesson you will learn how to calculate these, as well as why we would use one measure of spread over another.
 
-### [Histograms :tv:](https://www.youtube.com/watch?v=4t10RgUv2Fc)
+### [Histograms](https://www.youtube.com/watch?v=4t10RgUv2Fc) :tv:
 
 **Histograms**
 
@@ -339,7 +340,7 @@ Histograms are super useful to understanding the different aspects of quantitati
 - shape
 - outliers
 
-## [Introduction to Five Number Summary :tv:](https://www.youtube.com/watch?v=gzUN5zKLHjQ)
+## [Introduction to Five Number Summary](https://www.youtube.com/watch?v=gzUN5zKLHjQ)  :tv:
 
 Calculating the 5 Number Summary
 
@@ -363,7 +364,7 @@ The interquartile range is calculated as the difference between **Q3** and **Q1*
 
 In the upcoming sections, you will practice this with Katie and on your own.
 
-## [Introduction to Standard Deviation and Variance :tv:](https://www.youtube.com/watch?v=IbwUJ3ORZ5s)
+## [Introduction to Standard Deviation and Variance](https://www.youtube.com/watch?v=IbwUJ3ORZ5s) :tv:
 
 **Standard Deviation and Variance**
 
@@ -375,7 +376,7 @@ In the above video we saw this as how far individuals were from the average dist
 
 ![image](./Misc/007.png)
 
-## [Standard Deviation Calculation :tv:](https://www.youtube.com/watch?v=H5zA1A-XPoY)
+## [Standard Deviation Calculation](https://www.youtube.com/watch?v=H5zA1A-XPoY) :tv:
 
 1. Find the Mean
 
@@ -452,9 +453,9 @@ The standard deviation is a measurement that has the same units as our original 
 
 Again, this section is designed as background knowledge for the following sections. If it doesn't make sense on this first pass, do not worry. You will be guided in future sections in performing these calculations, and building your intuition, as you work through an example using the salary data. Then we will provide context about why these calculations are important, and where you might see them!
 
-### [Why the Standard Deviation? :tv:](https://www.youtube.com/watch?v=XlTBvjQ2t8w)
+### [Why the Standard Deviation?](https://www.youtube.com/watch?v=XlTBvjQ2t8w) :tv:
 
-### [Important Final Points :tv:](https://www.youtube.com/watch?v=vXUgp2375j4)
+### [Important Final Points](https://www.youtube.com/watch?v=vXUgp2375j4) :tv:
 
 **Important Final Points**
 
@@ -545,7 +546,7 @@ The standard deviation is the square root of the variance. In practice, you usua
 
 In the next sections, we will be looking at the last two aspects of quantitative variables: **shape** and **outliers**. What we know about measures of center and measures of spread will assist in your understanding of these final two aspects.
 
-### [Shape :tv:](https://www.youtube.com/watch?v=UnN99AAYf8k)
+### [Shape](https://www.youtube.com/watch?v=UnN99AAYf8k)  :tv:
 
 **Histograms**
 
@@ -571,7 +572,7 @@ From a histogram we can quickly identify the shape of our data, which helps infl
 
 The mode of a distribution is essentially the tallest bar in a histogram. There may be multiple modes depending on the number of peaks in our histogram.
 
-### [The Shape of Data in Real World :tv:](https://www.youtube.com/watch?v=HmipezTjTDY)
+### [The Shape of Data in Real World](https://www.youtube.com/watch?v=HmipezTjTDY)  :tv:
 
 References
 These are the references used to pull the applications of each shape.
@@ -588,7 +589,7 @@ These are the references used to pull the applications of each shape.
 
 * The mean is pulled by the tail of the distribution.
 
-## [Outliers :tv:](https://www.youtube.com/watch?v=HKIsvkZUZfo)
+## [Outliers](https://www.youtube.com/watch?v=HKIsvkZUZfo) :tv:
 
 **Outliers**
 We learned that **outliers** are points that fall very far from the rest of our data points. This influences measures like the mean and standard deviation much more than measures associated with the five number summary.
@@ -596,7 +597,7 @@ We learned that **outliers** are points that fall very far from the rest of our 
 **Identifying Outliers**
 There are a number of different techniques for identifying outliers. A full paper on this topic is provided [here](http://d-scholarship.pitt.edu/7948/1/Seo.pdf). In general, I usually just look at a picture and see if something looks suspicious!
 
-### [Working with Outliers :tv:](https://www.youtube.com/watch?v=4RnQjtJB8t8)
+### [Working with Outliers](https://www.youtube.com/watch?v=4RnQjtJB8t8) :tv:
 
 **Common Techniques**
 When outliers are present we should consider the following points.
@@ -611,7 +612,7 @@ When outliers are present we should consider the following points.
 
 5. Be careful in reporting. Know how to ask the right questions.
 
-### [Outliers Advice :tv:](https://www.youtube.com/watch?v=BhhDoTgYQmI)
+### [Outliers Advice](https://www.youtube.com/watch?v=BhhDoTgYQmI) :tv:
 
 Below are my guidelines for working with any column (random variable) in your dataset.
 
@@ -751,7 +752,7 @@ We also looked at histograms and box plots to visualize our quantitative data. I
 **What Next?**
 Up to this point, we have only looked at **Descriptive Statistics**, because we are describing our collected data. In the final sections of this lesson, we will be looking at the difference between **Descriptive Statistics** and **Inferential Statistics**.
 
-### [Descriptive vs. Inferential Statistics :tv:](https://www.youtube.com/watch?v=XV9pd8-RZ78)
+### [Descriptive vs. Inferential Statistics](https://www.youtube.com/watch?v=XV9pd8-RZ78)  :tv:
 
 In this section, we learned about how Inferential Statistics differs from Descriptive Statistics.
 
@@ -778,7 +779,7 @@ We looked at specific examples that allowed us to identify the
 
 ![image](./Misc/047.png)
 
-### [Recap :tv:](https://www.youtube.com/watch?v=Fe7Gta2SfLA)
+### [Recap](https://www.youtube.com/watch?v=Fe7Gta2SfLA) :tv:
 
 **Descriptive vs. Inferential Statistics**
 

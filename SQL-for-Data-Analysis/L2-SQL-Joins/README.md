@@ -252,17 +252,18 @@ example row	| example row
 1. Provide a table for all **web_events** associated with account **name** of Walmart. There should be three columns. Be sure to include the primary_poc, time of the event, and the channel for each event. Additionally, you might choose to add a fourth column to assure only Walmart events were chosen.
 ```
   SELECT  a.primary_poc,
-          w.occurred_at, w.channel
-  FROM accounts AS a
-  JOIN web_events AS w
+          w.occurred_at,
+          w.channel
+  FROM accounts a
+  JOIN web_events w
   ON w.account_id = a.id
   WHERE name = 'Walmart'
 ```
 2. Provide a table that provides the **region** for each **sales_rep** along with their associated **accounts**. Your final table should include three columns: the region **name**, the sales rep **name**, and the account **name**. Sort the accounts alphabetically (A-Z) according to account name.
 ```
-  SELECT	sales_reps.name AS rep,
-          accounts.name AS account_name,
-          region.name AS region      
+  SELECT	sales_reps.name rep,
+          accounts.name account_name,
+          region.name region      
   FROM accounts
   JOIN sales_reps
   ON accounts.sales_rep_id = sales_reps.id
@@ -311,3 +312,250 @@ The types of relationships that exist in a database matter less to analysts, but
 Notice each of these new **JOIN** statements pulls all the same rows as an **INNER JOIN**, which you saw by just using JOIN, but they also potentially pull some additional rows.
 
 If there is not matching information in the JOINed table, then you will have columns with empty cells. These empty cells introduce a new data type called **NULL**. You will learn about NULLs in detail in the next lesson, but for now you have a quick introduction as you can consider any cell without data as NULL.
+
+**INNER JOINs**
+
+Notice every JOIN we have done up to this point has been an **INNER JOIN**. That is, we have always pulled rows only if they exist as a match across two tables.
+
+Our new JOINs allow us to pull rows that might only exist in one of the two tables. This will introduce a new data type called **NULL**. This data type will be discussed in detail in the next lesson.
+
+**Quick Note**
+
+You might see the SQL syntax of
+
+`LEFT OUTER JOIN` or `RIGHT OUTER JOIN`
+
+These are the exact same commands as the **LEFT JOIN** and **RIGHT JOIN** we learned about in the previous video.
+
+**OUTER JOINS**
+The last type of join is a full outer join. This will return the inner join result set, as well as any unmatched rows from either of the two tables being joined.
+
+Again this returns rows that **do not match** one another from the two tables. The use cases for a full outer join are **very rare**.
+
+You can see examples of outer joins at the link [here](http://www.w3resource.com/sql/joins/perform-a-full-outer-join.php) and a description of the rare use cases here. We will not spend time on these given the few instances you might need to use them.
+
+Similar to the above, you might see the language **FULL OUTER JOIN**, which is the same as **OUTER JOIN**.
+
+![image](./Misc/013.png)
+
+#### LEFT and RIGHT JOIN Excercises
+
+![image](./Misc/014.png)
+
+**INNER JOIN Question**
+
+The questions are aimed to assure you have a conceptual idea of what is happening with **LEFT** and **INNER JOINs** before you need to use them for more difficult problems.
+
+For an **INNER JOIN** like the one here:
+
+```
+  SELECT c.countryid, c.countryName, s.stateName
+  FROM Country c
+  JOIN State s
+  ON c.countryid = s.countryid;
+```
+
+We are essentially **JOINing the matching PK-FK** links from the two tables, as shown in the below image.
+
+![image](./Misc/015.png)
+
+The resulting table will look like:
+
+![image](./Misc/016.png)
+
+**LEFT JOIN Question**
+
+The questions are aimed to assure you have a conceptual idea of what is happening with LEFT and INNER JOINs before you need to use them for more difficult problems.
+
+For a **LEFT JOIN** like the one here:
+
+```
+  SELECT c.countryid, c.countryName, s.stateName
+  FROM Country c
+  LEFT JOIN State s
+  ON c.countryid = s.countryid;
+```
+
+We are essentially **JOINing the matching PK-FK** links from the two tables, as we did before, but we are also pulling all the additional rows from the Country table even if they don't have a match in the State table. Therefore, **we obtain all the rows of the INNER JOIN**, but we **also get additional rows from the table in the FROM**.
+
+![image](./Misc/017.png)
+
+The resulting table will look like:
+
+![image](./Misc/018.png)
+
+**FINAL LEFT JOIN Note**
+
+If we were to **flip the tables**, we would actually obtain the **same exact result as the JOIN statement**:
+```
+  SELECT c.countryid, c.countryName, s.stateName
+  FROM State s
+  LEFT JOIN Country c
+  ON c.countryid = s.countryid;
+```
+This is because **if State is on the LEFT table, all of the rows exist in the RIGHT table again**.
+
+![image](./Misc/019.png)
+
+The resulting table will look like:
+
+![image](./Misc/020.png)
+
+### [JOINs and Filtering](https://www.youtube.com/watch?v=aI1kbDDNs4w) :tv:
+
+A simple rule to remember this is that, when the database executes this query, it **executes** the **join** and **everything in the ON clause first**. Think of this as building the new result set. That **result** set is then **filtered** using the **WHERE clause**.
+
+The fact that this example is a left join is important. Because inner joins only return the rows for which the two tables match, moving this filter to the **ON** clause of an inner join will produce the same result as keeping it in the **WHERE** clause.
+
+#### Exercises:
+
+![image](./Misc/021.png)
+
+1. Provide a table that provides the region for each sales_rep along with their associated accounts. This time only for the Midwest region. Your final table should include three columns: the region name, the sales rep name, and the account name. Sort the accounts alphabetically (A-Z) according to account name.
+```
+  SELECT	s.name sales_reps,
+  		    a.name acct_name,
+          r.name region_name
+  FROM accounts a
+  JOIN sales_reps s
+  ON a.sales_rep_id = s.id
+  JOIN region r
+  ON s.region_id = r.id
+  AND r.name = 'Midwest'
+  ORDER BY a.name;
+```
+
+2. Provide a table that provides the region for each sales_rep along with their associated accounts. This time only for accounts where the sales rep has a first name starting with S and in the Midwest region. Your final table should include three columns: the region name, the sales rep name, and the account name. Sort the accounts alphabetically (A-Z) according to account name.
+```
+  SELECT	s.name sales_rep,
+  		a.name acct_name,
+          r.name region
+  FROM sales_reps s
+  JOIN accounts a
+  ON s.id = a.sales_rep_id
+  AND s.name LIKE 'S%'
+  JOIN region r
+  ON s.region_id = r.id
+  AND r.name = 'Midwest'
+  ORDER BY a.name;
+```
+
+3. Provide a table that provides the region for each sales_rep along with their associated accounts. This time only for accounts where the sales rep has a last name starting with K and in the Midwest region. Your final table should include three columns: the region name, the sales rep name, and the account name. Sort the accounts alphabetically (A-Z) according to account name.
+```
+  SELECT 	s.name sales_rep,
+  		    a.name acct_name,
+          r.name region
+  FROM sales_reps s
+  JOIN accounts a
+  ON s.id = a.sales_rep_id
+  AND s.name LIKE '% K%'
+  JOIN region r
+  ON s.region_id = r.id
+  AND r.name = 'Midwest'
+  ORDER BY a.name;
+```
+4. Provide the name for each region for every order, as well as the account name and the unit price they paid (total_amt_usd/total) for the order. However, you should only provide the results if the standard order quantity exceeds 100. Your final table should have 3 columns: region name, account name, and unit price. In order to avoid a division by zero error, adding .01 to the denominator here is helpful total_amt_usd/(total+0.01).
+```
+  SELECT	r.name region,
+  		    a.name acct_name,
+          o.total_amt_usd/(o.total+.01) unit_price
+  FROM accounts a
+  JOIN orders o
+  ON a.id = o.account_id
+  AND o.standard_qty > 100
+  JOIN sales_reps s
+  ON a.sales_rep_id = s.id
+  JOIN region r
+  ON s.region_id = r.id;
+```
+
+5. Provide the name for each region for every order, as well as the account name and the unit price they paid (total_amt_usd/total) for the order. However, you should only provide the results if the standard order quantity exceeds 100 and the poster order quantity exceeds 50. Your final table should have 3 columns: region name, account name, and unit price. Sort for the smallest unit price first. In order to avoid a division by zero error, adding .01 to the denominator here is helpful (total_amt_usd/(total+0.01).
+```
+  SELECT	r.name region_name,
+  		    a.name acct_name,
+          o.total_amt_usd/(total+0.01) unit_price
+  FROM accounts a
+  JOIN orders o
+  ON a.id = o.account_id
+  JOIN sales_reps s
+  ON s.id = a.sales_rep_id
+  JOIN region r
+  ON s.region_id = r.id
+  WHERE standard_qty > 100 AND poster_qty > 50
+  ORDER BY unit_price
+```
+
+6. Provide the name for each region for every order, as well as the account name and the unit price they paid (total_amt_usd/total) for the order. However, you should only provide the results if the standard order quantity exceeds 100 and the poster order quantity exceeds 50. Your final table should have 3 columns: region name, account name, and unit price. Sort for the largest unit price first. In order to avoid a division by zero error, adding .01 to the denominator here is helpful (total_amt_usd/(total+0.01).
+```
+  SELECT	r.name region_name,
+          a.name acct_name,
+          o.total_amt_usd/(total+0.01) unit_price
+  FROM accounts a
+  JOIN orders o
+  ON a.id = o.account_id
+  JOIN sales_reps s
+  ON s.id = a.sales_rep_id
+  JOIN region r
+  ON s.region_id = r.id
+  WHERE standard_qty > 100 AND poster_qty > 50
+  ORDER BY unit_price DESC;
+```
+
+7. What are the different channels used by account id 1001? Your final table should have only 2 columns: account name and the different channels. You can try `SELECT DISTINCT` to narrow down the results to only the unique values.
+```
+  SELECT DISTINCT	a.name acct_name,
+  				        w.channel channel
+  FROM web_events w
+  JOIN accounts a
+  ON w.account_id = a.id
+  WHERE a.id = '1001';
+```
+
+8. Find all the orders that occurred in 2015. Your final table should have 4 columns: occurred_at, account name, order total, and order total_amt_usd.
+```
+  SELECT	o.occurred_at occurred_at,
+  		    a.name acct_name,
+          o.total order_total,
+          o.total_amt_usd order_total_amt
+  FROM accounts a
+  JOIN orders o
+  ON a.id = o.account_id
+  AND occurred_at BETWEEN '2015-01-01' AND '2016-01-01'
+  ORDER BY o.occurred_at DESC;
+```
+
+### Recap
+
+#### **Primary and Foreign Keys**
+
+You learned a key element for JOINing tables in a database has to do with primary and foreign keys:
+
+* **primary keys** - are **unique for every row** in a table. These are generally the first column in our database (like you saw with the id column for every table in the Parch & Posey database).
+
+* **foreign keys** - are the **primary key appearing in another table**, which allows the rows to be non-unique.
+
+Choosing the set up of data in our database is very important, but not usually the job of a data analyst. This process is known as **Database Normalization**.
+
+#### **JOINs**
+
+In this lesson, you learned how to combine data from multiple tables using JOINs. The three JOIN statements you are most likely to use are:
+
+* **JOIN** - an **INNER JOIN** that **only** pulls data that **exists in both tables**.
+
+* **LEFT JOIN** - pulls **all** the data that **exists in both tables**, as well as all of the **rows** from the table in the **FROM** **even** if they **do not exist** in the **JOIN** statement.
+
+* **RIGHT JOIN** - pulls **all** the data that **exists in both tables**, as well as **all** of the **rows** from the table in the **JOIN** even if they **do not exist** in the **FROM** statement.
+
+There are a few **more advanced** JOINs that we did not cover here, and they are used in very specific use cases. **UNION** and **UNION ALL**, **CROSS JOIN**, and the tricky **SELF JOIN**. These are more advanced than this course will cover, but it is useful to be aware that they exist, as they are useful in **special cases**.
+
+**Alias**
+
+You learned that you can alias tables and columns using AS or not using it. This allows you to be more efficient in the number of characters you need to write, while at the same time you can assure that your column headings are informative of the data in your table.
+
+**Looking Ahead**
+
+The next lesson is aimed at aggregating data. You have already learned a ton, but SQL might still feel a bit disconnected from statistics and using Excel like platforms. **Aggregations will allow you to write SQL code that will allow for more complex queries**, which assist in answering questions like:
+
+1. Which channel generated more revenue?
+2. Which account had an order with the most items?
+3. Which sales_rep had the most orders? or least orders? How many orders did they have?

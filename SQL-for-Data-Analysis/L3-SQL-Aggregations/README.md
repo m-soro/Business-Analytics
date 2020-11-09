@@ -146,3 +146,53 @@ One quick note that a median might be a more appropriate measure of center for t
   LIMIT 2;
 ```
 Since there are 6912 orders - we want the average of the 3457 and 3456 order amounts when ordered. This is the average of 2483.16 and 2482.55. This gives the median of 2482.855. This obviously isn't an ideal way to compute. If we obtain new orders, we would have to change the limit. SQL didn't even calculate the median for us. The above used a SUBQUERY, but you could use any method to find the two necessary values, and then you just need the average of them.
+
+### [GROUP BY](https://www.youtube.com/watch?v=9vb67TF4WV0) :tv:
+
+
+**The key takeaways here**:
+
+**GROUP BY** can be used to **aggregate data within subsets of the data**. For example, grouping for different accounts, different regions, or different sales representatives.
+**
+Any column in the **SELECT** statement that **is not within an aggregator** must be in the **GROUP BY** clause.
+
+The **GROUP BY** always goes **between WHERE** and **ORDER BY**.
+
+ORDER BY works like SORT in spreadsheet software.
+
+**GROUP BY - Expert Tip**
+
+Before we dive deeper into aggregations using GROUP BY statements, it is worth noting that SQL evaluates the **aggregations before the LIMIT clause**. If you don’t group by any columns, you’ll get a 1-row result—no problem there. If you group by a column with enough unique values that it exceeds the LIMIT number, the aggregates will be calculated, and then some rows will simply be omitted from the results.
+
+This is actually a nice way to do things because you know you’re going to get the correct aggregates. If SQL cuts the table down to 100 rows, then performed the aggregations, your results would be substantially different. The above query’s results exceed 100 rows, so it’s a perfect example. In the next concept, use the SQL environment to try removing the LIMIT and running it again to see what changes.
+
+#### GROUP BY Note
+
+Now that you have been introduced to JOINs, GROUP BY, and aggregate functions, the real power of SQL starts to come to life. Try some of the below to put your skills to the test!
+
+#### Exercises: GROUP BY
+Use the SQL environment below to assist with answering the following questions. Whether you get stuck or you just want to double check your solutions, my answers can be found at the top of the next concept.
+
+One part that can be difficult to recognize is when it might be easiest to use an aggregate or one of the other SQL functionalities. Try some of the below to see if you can differentiate to find the easiest solution.
+
+1. Which account (by name) placed the earliest order? Your solution should have the account name and the date of the order.
+```
+  SELECT a.name acct_name, o.occurred_at date
+  FROM accounts a
+  JOIN orders o
+  ON a.id = o.account_id
+  ORDER BY o.occurred_at
+  LIMIT 1;
+```
+2. Find the total sales in usd for each account. You should include two columns - the total sales for each company's orders in usd and the company name.
+
+
+3. Via what channel did the most recent (latest) web_event occur, which account was associated with this web_event? Your query should return only three values - the date, channel, and account name.
+
+4. Find the total number of times each type of channel from the web_events was used. Your final table should have two columns - the channel and the number of times the channel was used.
+
+5. Who was the primary contact associated with the earliest web_event?
+
+6. What was the smallest order placed by each account in terms of total usd. Provide only two columns - the account name and the total usd. Order from smallest dollar amounts to largest.
+
+7. Find the number of sales reps in each region. Your final table should have two columns - the region and the number of sales_reps. Order from fewest reps to most reps.

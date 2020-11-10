@@ -278,7 +278,7 @@ LIMIT 1;
 2. For each account, determine the average amount spent per order on each paper type. Your result should have four columns - one for the account name and one for the average amount spent on each paper type.
 ```
   SELECT	a.name,
-  		AVG(o.standard_amt_usd) standard_usd,
+  		    AVG(o.standard_amt_usd) standard_usd,
           AVG(o.gloss_amt_usd) gloss_usd,
           AVG(o.poster_amt_usd) poster_usd
   FROM accounts a
@@ -303,5 +303,46 @@ LIMIT 1;
 
 4. Determine the number of times a particular channel was used in the web_events table for each region. Your final table should have three columns - the region name, the channel, and the number of occurrences. Order your table with the highest number of occurrences first.
 ```
+  SELECT	r.name,
+  		    w.channel,
+          COUNT(w.channel)
+  FROM web_events w
+  JOIN accounts a
+  ON w.account_id = a.id
+  JOIN sales_reps s
+  ON s.id = a.sales_rep_id
+  JOIN region r
+  ON s.region_id = r.id
+  GROUP BY r.name, w.channel
+  ORDER BY count DESC;
+```
+
+### [DISTINCT](https://www.youtube.com/watch?v=YDJEHkgKORY) :tv:
+
+**DISTINCT** is always used in **SELECT** statements, and it provides the unique rows for all columns written in the SELECT statement. Therefore, you only use DISTINCT once in any particular SELECT statement.
+
+You could write:
 
 ```
+  SELECT DISTINCT column1, column2, column3
+  FROM table1;
+```
+which would return the unique (or DISTINCT) rows across all three columns.
+
+You would not write:
+```
+  SELECT DISTINCT column1, DISTINCT column2, DISTINCT column3
+  FROM table1;
+```
+You can think of DISTINCT the same way you might think of the statement "unique".
+
+**DISTINCT - Expert Tip**
+
+It’s worth noting that using DISTINCT, particularly in aggregations, can slow your queries down quite a bit.
+
+#### Exercises:
+
+1. Use DISTINCT to test if there are any accounts associated with more than one region.
+
+
+2. Have any sales reps worked on more than one account?

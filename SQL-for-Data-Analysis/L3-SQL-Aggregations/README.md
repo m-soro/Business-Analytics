@@ -343,6 +343,276 @@ It’s worth noting that using DISTINCT, particularly in aggregations, can slow 
 #### Exercises:
 
 1. Use DISTINCT to test if there are any accounts associated with more than one region.
+>The below two queries have the same number of resulting rows (351), so we know that every account is associated with only one region. If each account was associated with more than one region, the first query should have returned more rows than the second query.
 
+```
+  SELECT a.id as "account id", r.id as "region id",
+  a.name as "account name", r.name as "region name"
+  FROM accounts a
+  JOIN sales_reps s
+  ON s.id = a.sales_rep_id
+  JOIN region r
+  ON r.id = s.region_id;
+```
+>and
 
+```
+  SELECT DISTINCT id, name
+  FROM accounts;
+```
 2. Have any sales reps worked on more than one account?
+
+>Actually all of the sales reps have worked on more than one account. The fewest number of accounts any sales rep works on is 3. There are 50 sales reps, and they all have more than one account. Using DISTINCT in the second query assures that all of the sales reps are accounted for in the first query.
+
+```
+  SELECT s.id, s.name, COUNT(*) num_accounts
+  FROM accounts a
+  JOIN sales_reps s
+  ON s.id = a.sales_rep_id
+  GROUP BY s.id, s.name
+  ORDER BY num_accounts;
+```
+>and
+
+```
+  SELECT DISTINCT id, name
+  FROM sales_reps;
+```
+
+### [HAVING](https://www.youtube.com/watch?v=D4gmN0vnk58) :tv:
+
+**HAVING - Expert Tip**
+
+HAVING is the “clean” way to filter a query that has been aggregated, but this is also commonly done using a [subquery](https://community.modeanalytics.com/sql/tutorial/sql-subqueries/). Essentially, any time you want to perform a WHERE on an element of your query that was created by an aggregate, you need to use **HAVING** instead.
+
+* WHERE subsets the returned data based on a logical condition.
+
+* WHERE appears after the FROM, JOIN, and ON clauses, but before GROUP BY.
+
+* HAVING appears after the GROUP BY clause, but before the ORDER BY clause.
+
+* HAVING is like WHERE, but it works on logical statements involving aggregations.
+
+#### Exercises:
+
+1. How many of the sales reps have more than 5 accounts that they manage?
+
+```
+  SELECT s.name rep, COUNT(a.name) account
+  FROM accounts a
+  JOIN sales_reps s
+  ON a.sales_rep_id = s.id
+  GROUP BY s.name
+  HAVING COUNT(a.name) > 5
+  ORDER BY account;
+```
+
+`34`
+
+>and technically, we can get this using a SUBQUERY as shown below. This same logic can be used for the other queries, but this will not be shown.
+
+```
+  SELECT COUNT(*) num_reps_above5
+  FROM(SELECT s.id, s.name, COUNT(*) num_accounts
+       FROM accounts a
+       JOIN sales_reps s
+       ON s.id = a.sales_rep_id
+       GROUP BY s.id, s.name
+       HAVING COUNT(*) > 5
+       ORDER BY num_accounts) AS Table1;
+```
+
+2. How many accounts have more than 20 orders?
+```
+  SELECT a.name account, COUNT(o.*) orders
+  FROM accounts a
+  JOIN orders o
+  ON a.id = o.account_id
+  GROUP BY 1
+  HAVING COUNT(o.*) > 20
+  ORDER BY orders;
+```
+
+`120`
+
+3. Which account has the most orders?
+```
+  SELECT a.name account, COUNT(o.*) orders
+  FROM accounts a
+  JOIN orders o
+  ON a.id = o.account_id
+  GROUP BY 1
+  ORDER BY orders DESC
+  LIMIT 1;
+```
+
+`Leucadia National	71`
+
+4. Which accounts spent more than 30,000 usd total across all orders?
+```
+SELECT	a.name account,
+		    SUM(o.total_amt_usd) total
+FROM accounts a
+JOIN orders o
+ON a.id = o.account_id
+GROUP BY 1
+HAVING SUM(o.total_amt_usd) > 30000
+ORDER BY account
+```
+5. Which accounts spent less than 1,000 usd total across all orders?
+```
+  SELECT	a.name account,
+  		    SUM(o.total_amt_usd) total
+  FROM accounts a
+  JOIN orders o
+  ON a.id = o.account_id
+  GROUP BY 1
+  HAVING SUM(o.total_amt_usd) < 1000
+  ORDER BY account
+```
+
+6. Which account has spent the most with us?
+```
+  SELECT	a.name account,
+  		    SUM(o.total_amt_usd) total
+  FROM accounts a
+  JOIN orders o
+  ON a.id = o.account_id
+  GROUP BY 1
+  ORDER BY total DESC
+  LIMIT 1;
+```
+`EOG Resources	382873.30`
+
+7. Which account has spent the least with us?
+```
+  SELECT	a.name account,
+  		    SUM(o.total_amt_usd) total
+  FROM accounts a
+  JOIN orders o
+  ON a.id = o.account_id
+  GROUP BY 1
+  ORDER BY total
+  LIMIT 1;
+```
+
+`Nike	390.25`
+
+8. Which accounts used facebook as a channel to contact customers more than 6 times?
+```
+SELECT  a.name,
+        COUNT(channel = 'facebook')
+FROM web_events w
+JOIN accounts a
+ON w.account_id = a.id
+GROUP BY 1
+HAVING COUNT(channel = 'facebook') > 6
+ORDER BY 2
+```
+>OR
+
+```
+  SELECT a.id, a.name, w.channel, COUNT(*) use_of_channel
+  FROM accounts a
+  JOIN web_events w
+  ON a.id = w.account_id
+  GROUP BY a.id, a.name, w.channel
+  HAVING COUNT(*) > 6 AND w.channel = 'facebook'
+  ORDER BY use_of_channel;
+```
+
+9. Which account used facebook most as a channel?
+```
+  SELECT a.name, COUNT(w.channel)
+  FROM web_events w
+  JOIN accounts a
+  ON w.account_id = a.id
+  WHERE w.channel = 'facebook'
+  GROUP BY 1
+  ORDER BY 2 DESC
+```
+
+`Gilead Sciences	16`
+
+>OR
+
+```
+  SELECT a.id, a.name, w.channel, COUNT(*) use_of_channel
+  FROM accounts a
+  JOIN web_events w
+  ON a.id = w.account_id
+  WHERE w.channel = 'facebook'
+  GROUP BY a.id, a.name, w.channel
+  ORDER BY use_of_channel DESC
+  LIMIT 1;
+```
+
+>Note: This query above only works if there are no ties for the account that used facebook the most. It is a best practice to use a larger limit number first such as 3 or 5 to see if there are ties before using LIMIT 1.
+
+10. Which channel was most frequently used by most accounts?
+
+```
+  SELECT	DISTINCT w.channel,
+  		count(a.name)
+  FROM web_events w
+  JOIN accounts a
+  ON w.account_id = a.id
+  GROUP BY w.channel
+  ORDER BY 2 DESC;
+```
+
+>OR
+
+```
+  SELECT a.id, a.name, w.channel, COUNT(*) use_of_channel
+  FROM accounts a
+  JOIN web_events w
+  ON a.id = w.account_id
+  GROUP BY a.id, a.name, w.channel
+  ORDER BY use_of_channel DESC
+  LIMIT 10;
+```
+>All of the top 10 are direct.
+
+### [DATE Functions](https://www.youtube.com/watch?v=E7Z6GMFVmIY) :tv:
+
+**GROUP**ing **BY** a date column is not usually very useful in SQL, as these columns tend to have transaction data down to a second. Keeping date information at such a granular data is both a blessing and a curse, as it gives really precise information (a blessing), but it makes grouping information together directly difficult (a curse).
+
+Lucky for us, there are a number of built in SQL functions that are aimed at helping us improve our experience in working with dates.
+
+**Here we saw that dates are stored in year, month, day, hour, minute, second, which helps us in truncating. In the next concept, you will see a number of functions we can use in SQL to take advantage of this functionality**.
+
+In [this link you can find the formatting of dates around the world, as referenced in the video](https://en.wikipedia.org/wiki/Date_format_by_country).
+
+### [DATE Functions II](https://www.youtube.com/watch?v=UPWkDhW4cLI) :tv:
+
+The first function you are introduced to in working with dates is **DATE_TRUNC**.
+
+**DATE_TRUNC** allows you to truncate your date to a particular part of your date-time column. Common trunctions are **day**, **month**, and **year**. Here is a great blog post by Mode Analytics on the power of this function.
+
+**DATE_PART** can be useful for pulling a specific portion of a date, but notice pulling month or day of the week (dow) means that you are no longer keeping the years in order. Rather you are grouping for certain components regardless of which year they belonged in.
+
+For additional functions you can use with dates, check out the documentation here, but the **DATE_TRUNC** and **DATE_PART** functions definitely give you a great start!
+
+You can reference the columns in your select statement in **GROUP BY** and **ORDER BY** clauses with numbers that follow the order they appear in the select statement. For example
+```
+  SELECT standard_qty, COUNT(\*)
+  FROM orders
+  GROUP BY 1 (this 1 refers to standard_qty since it is the first of the columns included in the select statement)
+  ORDER BY 1 (this 1 refers to standard_qty since it is the first of the columns included in the select statement)
+```
+#### Exercises:
+
+1. Find the sales in terms of total dollars for all orders in each year, ordered from greatest to least. Do you notice any trends in the yearly sales totals?
+
+
+2. Which month did Parch & Posey have the greatest sales in terms of total dollars? Are all months evenly represented by the dataset?
+
+
+3. Which year did Parch & Posey have the greatest sales in terms of total number of orders? Are all years evenly represented by the dataset?
+
+
+4. Which month did Parch & Posey have the greatest sales in terms of total number of orders? Are all months evenly represented by the dataset?
+
+
+5. In which month of which year did Walmart spend the most on gloss paper in terms of dollars?

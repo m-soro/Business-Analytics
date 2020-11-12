@@ -802,12 +802,58 @@ There are some advantages to separating data into separate columns like this dep
 
 4. We would now like to perform a similar calculation to the first, but we want to obtain the total amount spent by customers only in 2016 and 2017. Keep the same levels as in the previous question. Order with the top spending customers listed first.
 ```
+SELECT	DATE_PART('year', o.occurred_at) ord_year, 
+	a.name account, 
+	SUM(o.total_amt_usd) total_usd, 
+	CASE 	WHEN SUM(o.total_amt_usd) > 200000 THEN 'Above 200K'
+		WHEN SUM(o.total_amt_usd) <= 200000 AND SUM(o.total_amt_usd) >= 100000  THEN 'Between 200K to 100K'
+		WHEN SUM(o.total_amt_usd) < 100000 THEN 'Below 100K'
+		END AS LTV
+	FROM orders o
+	JOIN accounts a
+	ON a.id = o.account_id
+  	WHERE DATE_PART('year', o.occurred_at) = '2016' OR DATE_PART('year', o.occurred_at) = '2017'
+	GROUP BY 1,2
+	ORDER BY 3 DESC
+
 ```
 
 5. We would like to identify top performing sales reps, which are sales reps associated with more than 200 orders. Create a table with the sales rep name, the total number of orders, and a column with top or not depending on if they have more than 200 orders. Place the top sales people first in your final table.
+```
+	SELECT	s.name rep, COUNT(o.*), 
+		CASE WHEN COUNT(o.*) > 200 THEN 'TOP in SALES!!!'
+		     ELSE 'NOT' 
+		     END AS performance
+	FROM sales_reps s
+	JOIN accounts a
+	ON s.id = a.sales_rep_id
+	JOIN orders o
+	ON a.id = o.account_id
+	GROUP BY 1
+	ORDER BY 2 DESC
+```
 
 
 6. The previous didn't account for the middle, nor the dollar amount associated with the sales. Management decides they want to see these characteristics represented as well. We would like to identify top performing sales reps, which are sales reps associated with more than 200 orders or more than 750000 in total sales. The middle group has any rep with more than 150 orders or 500000 in sales. Create a table with the sales rep name, the total number of orders, total sales across all orders, and a column with top, middle, or low depending on this criteria. Place the top sales people based on dollar amount of sales first in your final table. You might see a few upset sales people by this criteria!
+
+```
+	SELECT	s.name rep, 
+		SUM(o.total_amt_usd) total_sales, 
+		COUNT(o.*),
+		CASE WHEN COUNT(o.*) > 200 OR SUM(o.total_amt_usd) = 750000 THEN 'TOP in SALES!!!'
+		     WHEN COUNT(o.*) > 150 OR SUM(o.total_amt_usd) = 500000 THEN 'MIDDLE in SALES!!!'
+		     ELSE 'LOW' 
+		     END AS performance
+	FROM sales_reps s
+	JOIN accounts a
+	ON s.id = a.sales_rep_id
+	JOIN orders o
+	ON a.id = o.account_id
+	GROUP BY 1
+	ORDER BY 2 DESC
+
+```
+
 
 
 

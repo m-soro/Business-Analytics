@@ -1,8 +1,8 @@
-doesn't## [Introduction to Aggregation](https://www.youtube.com/watch?v=5vRf_Ntoxfw) :tv:
+## [Introduction to Aggregation](https://www.youtube.com/watch?v=5vRf_Ntoxfw) :tv:
 
 In the following concepts you will be learning in detail about each of the aggregate functions mentioned as well as some additional aggregate functions that are used in SQL all the time. Let's get started!
 
-#### [Introduction to NULLs](https://www.youtube.com/watch?v=WYUkLKn6XCw) :tv:
+### [Introduction to NULLs](https://www.youtube.com/watch?v=WYUkLKn6XCw) :tv:
 
 **NULLs** are a datatype that specifies where no data exists in SQL. They are often ignored in our aggregation functions, which you will get a first look at in the next concept using **COUNT**.
 
@@ -34,11 +34,11 @@ But we could have just as easily chosen a column to drop into the aggregation fu
   FROM accounts;
 ```
 
-#### [COUNT & NULLs](https://www.youtube.com/watch?v=ngxgqfFFFLQ) :tv:
+### [COUNT & NULLs](https://www.youtube.com/watch?v=ngxgqfFFFLQ) :tv:
 
 Notice that COUNT does not consider rows that have NULL values. Therefore, this can be useful for quickly identifying which rows have missing data. You will learn **GROUP BY** in an upcoming concept, and then each of these aggregators will become much more useful.
 
-#### [SUM](https://www.youtube.com/watch?v=0zUP14PeiXk) :tv:
+### [SUM](https://www.youtube.com/watch?v=0zUP14PeiXk) :tv:
 
 Unlike COUNT, you can only use **SUM on numeric columns**. However, SUM will ignore NULL values, as do the other aggregation functions you will see in the upcoming lessons.
 
@@ -120,7 +120,7 @@ One quick note that a median might be a more appropriate measure of center for t
 4. Try to perform the result of the previous query without using an aggregation function.
 ```
   SELECT occurred_at latest_order
-  FROM orders
+  FROM   orders
   ORDER BY occurred_at DESC
   LIMIT 1;
 ```
@@ -651,15 +651,14 @@ You can reference the columns in your select statement in **GROUP BY** and **ORD
 3. Which year did Parch & Posey have the greatest sales in terms of total number of orders? Are all years evenly represented by the dataset?
 
 ```
-  SELECT  DATE_TRUNC('year', occurred_at) AS year,
-          SUM(total_amt_usd) as total_usd
+  SELECT  DATE_TRUNC('year', occurred_at) AS year, SUM(total_amt_usd) as total_usd
   FROM orders
   GROUP BY 1
   ORDER BY 2 DESC;
 ```
 >2016 sets the record for the most revenue. 2013 and 2017 doesnt have enough months in their record to accurately compare it to the rest of the dataset.
 
-**Udacity's Answer**
+Udacity's Answer
 
 ```
   SELECT DATE_PART('year', occurred_at) ord_year,  COUNT(*) total_sales
@@ -680,7 +679,7 @@ You can reference the columns in your select statement in **GROUP BY** and **ORD
 
 >December, October and November are always good for business, January, February and March saw a slow down in sales. And yes, the months are evenly represented EXCEPT 2013 and 2017.
 
-**Udacity's Answer**
+Udacity's Answer
 
 ```
   SELECT DATE_PART('month', occurred_at) ord_month, COUNT(*) total_sales

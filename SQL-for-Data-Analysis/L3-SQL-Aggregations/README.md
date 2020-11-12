@@ -1,4 +1,4 @@
-## [Introduction to Aggregation](https://www.youtube.com/watch?v=5vRf_Ntoxfw) :tv:
+doesn't## [Introduction to Aggregation](https://www.youtube.com/watch?v=5vRf_Ntoxfw) :tv:
 
 In the following concepts you will be learning in detail about each of the aggregate functions mentioned as well as some additional aggregate functions that are used in SQL all the time. Let's get started!
 
@@ -604,15 +604,106 @@ You can reference the columns in your select statement in **GROUP BY** and **ORD
 #### Exercises:
 
 1. Find the sales in terms of total dollars for all orders in each year, ordered from greatest to least. Do you notice any trends in the yearly sales totals?
+```
+  SELECT	DATE_TRUNC('year', occurred_at) AS year,
+  		  SUM(total_amt_usd) AS total_usd
+  FROM 	orders
+  GROUP BY 1
+  ORDER BY 2 DESC;
+```
+>Revenue is up especially in 2014 and 2016, did they have better sales and marketing strategies those years? better promotions or better customer satisfaction?, but overall the average orders per year have gone up! 108 in 2014, 143 in 2015 and 313 in 2016.
 
+**Udacity's Answer**
+
+```
+  SELECT DATE_PART('year', occurred_at) ord_year,  SUM(total_amt_usd) total_spent
+  FROM orders
+  GROUP BY 1
+  ORDER BY 2 DESC;
+```
+>When we look at the yearly totals, you might notice that 2013 and 2017 have much smaller totals than all other years. If we look further at the monthly data, we see that for 2013 and 2017 there is only one month of sales for each of these years (12 for 2013 and 1 for 2017). Therefore, neither of these are evenly represented. Sales have been increasing year over year, with 2016 being the largest sales to date. At this rate, we might expect 2017 to have the largest sales.
 
 2. Which month did Parch & Posey have the greatest sales in terms of total dollars? Are all months evenly represented by the dataset?
+```
+  SELECT DATE_PART('month', occurred_at) AS month, SUM(total_amt_usd) AS total_sales_by_month
+  FROM orders
+  GROUP BY 1
+  ORDER BY 2 DESC;
+```
+
+>December, October and November are always good for business, January, February and March saw a slow down in sales. And No, the months are not evenly represented in 2013 and 2017.
+
+**Udacity's Answer**
+
+
+>In order for this to be 'fair', we should remove the sales from 2013 and 2017. For the same reasons as discussed above.
+
+```
+  SELECT DATE_PART('month', occurred_at) ord_month, SUM(total_amt_usd) total_spent
+  FROM orders
+  WHERE occurred_at BETWEEN '2014-01-01' AND '2017-01-01'
+  GROUP BY 1
+  ORDER BY 2 DESC;
+```
+>The greatest sales amounts occur in December (12).
 
 
 3. Which year did Parch & Posey have the greatest sales in terms of total number of orders? Are all years evenly represented by the dataset?
 
+```
+  SELECT  DATE_TRUNC('year', occurred_at) AS year,
+          SUM(total_amt_usd) as total_usd
+  FROM orders
+  GROUP BY 1
+  ORDER BY 2 DESC;
+```
+>2016 sets the record for the most revenue. 2013 and 2017 doesnt have enough months in their record to accurately compare it to the rest of the dataset.
+
+**Udacity's Answer**
+
+```
+  SELECT DATE_PART('year', occurred_at) ord_year,  COUNT(*) total_sales
+  FROM orders
+  GROUP BY 1
+  ORDER BY 2 DESC;
+```
+>Again, 2016 by far has the most amount of orders, but again 2013 and 2017 are not evenly represented to the other years in the dataset.
 
 4. Which month did Parch & Posey have the greatest sales in terms of total number of orders? Are all months evenly represented by the dataset?
 
+```
+  SELECT DATE_PART('month', occurred_at) AS month, SUM(total_amt_usd) AS total_sales_by_month
+  FROM orders
+  GROUP BY 1
+  ORDER BY 2 DESC;
+```
+
+>December, October and November are always good for business, January, February and March saw a slow down in sales. And yes, the months are evenly represented EXCEPT 2013 and 2017.
+
+**Udacity's Answer**
+
+```
+  SELECT DATE_PART('month', occurred_at) ord_month, COUNT(*) total_sales
+  FROM orders
+  WHERE occurred_at BETWEEN '2014-01-01' AND '2017-01-01'
+  GROUP BY 1
+ORDER BY 2 DESC;
+```
+>December still has the most sales, but interestingly, November has the second most sales (but not the most dollar sales. To make a fair comparison from one month to another 2017 and 2013 data were removed.
 
 5. In which month of which year did Walmart spend the most on gloss paper in terms of dollars?
+
+```
+  SELECT  DATE_TRUNC('month',o.occurred_at) order_date,
+          a.name,
+          SUM(o.gloss_amt_usd)
+  FROM accounts a
+  JOIN orders o
+  ON a.id = o.account_id
+  WHERE name = 'Walmart'
+  GROUP BY 1,2
+  ORDER BY 3 DESC
+  LIMIT 5
+```
+
+`May 2016 Walmart	spent the most on gloss paper with total cost of $9257.64.`

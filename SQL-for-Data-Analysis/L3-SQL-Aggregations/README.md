@@ -723,7 +723,7 @@ Udacity's Answer
 
 `Same as mine`
 
-### [CASE Statements](https://www.youtube.com/watch?v=BInXuTY_FzE) :tv
+### [CASE Statements](https://www.youtube.com/watch?v=BInXuTY_FzE) :tv:
 
 **CASE - Expert Tip**
 

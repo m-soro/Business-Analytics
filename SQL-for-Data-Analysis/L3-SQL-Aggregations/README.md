@@ -588,11 +588,11 @@ In [this link you can find the formatting of dates around the world, as referenc
 
 The first function you are introduced to in working with dates is **DATE_TRUNC**.
 
-**DATE_TRUNC** allows you to truncate your date to a particular part of your date-time column. Common trunctions are **day**, **month**, and **year**. Here is a great blog post by Mode Analytics on the power of this function.
+**DATE_TRUNC** allows you to truncate your date to a particular part of your date-time column. Common trunctions are **day**, **month**, and **year**. [Here](https://blog.modeanalytics.com/date-trunc-sql-timestamp-function-count-on/) is a great blog post by Mode Analytics on the power of this function.
 
 **DATE_PART** can be useful for pulling a specific portion of a date, but notice pulling month or day of the week (dow) means that you are no longer keeping the years in order. Rather you are grouping for certain components regardless of which year they belonged in.
 
-For additional functions you can use with dates, check out the documentation here, but the **DATE_TRUNC** and **DATE_PART** functions definitely give you a great start!
+For additional functions you can use with dates, check out the documentation [here](https://www.postgresql.org/docs/9.1/static/functions-datetime.html), but the **DATE_TRUNC** and **DATE_PART** functions definitely give you a great start!
 
 You can reference the columns in your select statement in **GROUP BY** and **ORDER BY** clauses with numbers that follow the order they appear in the select statement. For example
 ```

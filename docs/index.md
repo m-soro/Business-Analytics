@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+# Business Analytics
 
-You can use the [editor on GitHub](https://github.com/m-soro/Business-Analytics/edit/where/docs/index.md) to maintain and preview the content for your website in Markdown files.
+In this program, you’ll learn foundational data skills that apply across functions and industries. You’ll learn to analyze data and build models with Excel, query databases using SQL, and create informative data visualizations with Tableau.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### [Course Syllabus](https://d20vrrgs8k4bvw.cloudfront.net/documents/en-US/Business+Analytics+Nanodegree+Program+Syllabus+2.0.pdf)
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+## [Welcome to the Program](https://github.com/m-soro/Business-Analytics/tree/main/Welcome-to-the-Nanodegree-Program)
+Meet your instructors and learn how to optimize your classroom. Learn how people use data to answer questions, and find your own insights from a data dashboard.
 
-1. Numbered
-2. List
+#### [PROJECT - Interpret a Data Visualization](https://github.com/m-soro/Business-Analytics/tree/main/Welcome-to-the-Nanodegree-Program)
+>In this project, you’ll explore an interactive data dashboard to uncover insights. You’ll write a short report explaining each insight, and how you found the information to reach your conclusion from the dashboard.
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## [Introduction to Data](https://github.com/m-soro/Business-Analytics/tree/main/Introduction-to-Data)
+Learn how to use statistics and visuals to find and communicate insights. Develop Excel skills to manipulate, analyze, and visualize data in a spreadsheet. Build Excel models to analyze possible business outcomes.
 
-### Jekyll Themes
+#### [PROJECT - Analyze NYSE Data](https://github.com/m-soro/Business-Analytics/tree/main/Introduction-to-Data/L9-Project-Analyze-NYSE-Data)
+>In this project, you'll use statistics and spreadsheet programs like Excel to analyze data from over 500 companies on the New York Stock Exchange. You'll also forecast financial metrics based on three possible scenarios for a company of your choice from the NYSE dataset.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/m-soro/Business-Analytics/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## [SQL for Data Analysis](https://github.com/m-soro/Business-Analytics/tree/main/SQL-for-Data-Analysis)
+Learn to use Structured Query Language (SQL) to extract and analyze data stored in databases.
+
+#### [PROJECT - Query a Digital Music Store Database](#)
+>In this project, you will query a digital music store database which holds information regarding the store’s media, employees, and customers. You will use the database to help the store gain an understanding of the types of music that are purchased, where customers live, and how the company might optimize their business practices.
+
+
+
+## [Data Visualization](#)
+Learn to apply design and visualization principles to create impactful data visualizations, build data dashboards, and tell stories with data.
+
+#### [PROJECT- Build Data Dashboards](#)
+>In this project, you’ll build interactive dashboards with Tableau and use them to discover and communicate insights from data. You’ll use a dataset of flight delays in the US to visualize the quality of airlines and airports, find the best times to fly, and more.

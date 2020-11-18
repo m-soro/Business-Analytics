@@ -48,6 +48,8 @@ Looks like you are ready to take on this PROJECT and the WORLD! Everything you h
 1. Which countries have the most Invoices?
 Use the Invoice table to determine the countries that have the most invoices. Provide a table of BillingCountry and Invoices ordered by the number of invoices for each country. The country with the most invoices should appear first.
 
+My solution
+
 ```
   SELECT BILLINGCOUNTRY,
   	COUNT(INVOICEID)
@@ -59,6 +61,8 @@ Use the Invoice table to determine the countries that have the most invoices. Pr
 2. Which city has the best customers?
 We would like to throw a promotional Music Festival in the city we made the most money. Write a query that returns the 1 city that has the highest sum of invoice totals. Return both the city name and the sum of all invoice totals.
 
+My solution
+
 ```
   SELECT BILLINGCITY,
   	SUM(TOTAL)
@@ -69,6 +73,8 @@ We would like to throw a promotional Music Festival in the city we made the most
 
 3. Who is the best customer?
 The customer who has spent the most money will be declared the best customer. Build a query that returns the person who has spent the most money. I found the solution by linking the following three: Invoice, InvoiceLine, and Customer tables to retrieve this information, but you can probably do it with fewer!
+
+My solution
 
 ```
   SELECT C.CUSTOMERID,
@@ -82,6 +88,9 @@ The customer who has spent the most money will be declared the best customer. Bu
 4. Use your query to return the email, first name, last name, and Genre of all Rock Music listeners. Return your list ordered alphabetically by email address starting with A.
 
 I chose to link information from the Customer, Invoice, InvoiceLine, Track, and Genre tables, but you may be able to find another way to get at the information.
+
+My solution
+
 
 ```
   SELECT DISTINCT C.EMAIL,
@@ -104,6 +113,8 @@ Let's invite the artists who have written the most rock music in our dataset. Wr
 
 You will need to use the Genre, Track , Album, and Artist tables.
 
+My solution
+
 ```
   SELECT AR.NAME,
   	COUNT(T.NAME)
@@ -124,7 +135,49 @@ For this query, you will need to use the Invoice, InvoiceLine, Track, Customer, 
 
 Notice, this one is tricky because the Total spent in the Invoice table might not be on a single product, so you need to use the InvoiceLine table to find out how many of each product was purchased, and then multiply this by the price for each artist.
 
-### My practice questions
+```
+  SELECT 	Y.NAME AS ARTIST_NAME,
+          SUM(TOTAL) AS GRAND_TOTAL
+  FROM
+          (SELECT		X.NAME,
+                    X.UNITPRICE * X.QUANTITY AS TOTAL
+           FROM
+                   (SELECT   AR.NAME,
+                             IL.UNITPRICE,
+                             IL.QUANTITY
+                    FROM ARTIST AR
+                    JOIN ALBUM AL ON AR.ARTISTID = AL.ARTISTID
+                    JOIN TRACK T ON AL.ALBUMID = T.ALBUMID
+                    JOIN INVOICELINE IL ON T.TRACKID = IL.TRACKID
+                    ORDER BY 1 DESC) AS X) AS Y
+  GROUP BY 1
+  ORDER BY 2 DESC
+  LIMIT 1
+```
+
+**Solution Continued with top Purchaser**
+
+Then, the top purchasers are shown in the table below. The customer with the highest total invoice amount is customer 55, Mark Taylor.
+
+```
+  SELECT   C.CUSTOMERID,
+  	       C.FIRSTNAME || ' ' || C.LASTNAME AS CUSTOMER,
+  	       AR.NAME AS ARTIST,
+  	       SUM(IL.UNITPRICE) AS PRICE
+  FROM CUSTOMER C
+  JOIN INVOICE I ON C.CUSTOMERID = I.CUSTOMERID
+  JOIN INVOICELINE IL ON I.INVOICEID = IL.INVOICEID
+  JOIN TRACK T ON IL.TRACKID = T.TRACKID
+  JOIN ALBUM AL ON T.ALBUMID = AL.ALBUMID
+  JOIN ARTIST AR ON AL.ARTISTID = AR.ARTISTID
+  WHERE AR.NAME = 'Iron Maiden'
+  GROUP BY 1,2,3
+  ORDER BY 4 DESC
+  LIMIT 5
+
+```
+
+### Answering some of my own questions:
 
 1. Count how many songs base on genre does customer 12 bought
 ```
@@ -215,7 +268,7 @@ Notice, this one is tricky because the Total spent in the Invoice table might no
   ORDER BY 1
 ```
 
-7. How much did user spent total per country?
+7. How much did users spent total per country?
 ```
   SELECT C.COUNTRY,
   	C.FIRSTNAME || ' ' || C.LASTNAME AS CUSTOMER,
@@ -224,4 +277,37 @@ Notice, this one is tricky because the Total spent in the Invoice table might no
   JOIN CUSTOMER C ON C.CUSTOMERID = I.CUSTOMERID
   GROUP BY 1,2
   ORDER BY 3 DESC
+```
+8. how many songs per genre the music store has?
+
+```
+  SELECT G.NAME,
+  	COUNT(T.TRACKID)
+  FROM TRACK T
+  JOIN GENRE G ON T.GENREID = G.GENREID
+  GROUP BY 1
+  ORDER BY 2 DESC
+```
+
+### Project Question:
+
+--What percentage of total sales are the units sold?
+
+```
+
+
+SELECT	  *,
+					(
+					SELECT PRINTF("%.2f",(PRINTF("%.2f",sale_per_genre*100))/SUM(quantity))
+					FROM invoiceline
+					)  AS percent
+FROM
+	(
+	SELECT g.name AS genre, COUNT(*) AS  sale_per_genre
+	FROM Track t
+	JOIN Genre g ON T.genreId = G.genreId
+	Join InvoiceLine il ON il.TrackId = t.TrackId
+	GROUP BY 1
+	ORDER BY 2 DESC
+	)
 ```

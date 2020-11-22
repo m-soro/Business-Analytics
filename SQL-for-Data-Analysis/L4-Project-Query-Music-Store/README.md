@@ -1,6 +1,6 @@
 ## Chinook Database
 
-## Skip to my project(#) 
+## Skip to my project(#)
 
 ## Introduction
 
@@ -362,9 +362,9 @@ Should you have to work another SQL environment in the future, like Microsoft SQ
   ORDER BY 2 DESC
 ```
 
-### Queries for my Project:
+### Queries used for my Project:
 
-/* Query 1 - Used to get the sale per unit per genre and percentage of sale. Limited to top 10. \*/
+Query 1 - Used to get the sale per unit per genre and percentage of sale. Limited to top 10.
 ```
   SELECT
     \*,
@@ -385,8 +385,8 @@ Should you have to work another SQL environment in the future, like Microsoft SQ
   LIMIT 10;
 ```
 
-/* Query 2 - Used to get the aggregated table of countries with one customers grouped under 'Other' as country name, total number of customers, total number of orders, total value of orders, average value of orders. \*/
-/* Countries grouped in others are excluded in the analysis \*/
+Query 2 - Used to get the aggregated table of countries with one customers grouped under 'Other' as country name, total number of customers, total number of orders, total value of orders, average value of orders. Countries grouped in others are excluded in the analysis.
+
 ```
   WITH all_country_stats
   AS (SELECT
@@ -422,10 +422,10 @@ Should you have to work another SQL environment in the future, like Microsoft SQ
 ```
 
 
-/* Query 3 - Used to get the percentage of sale per media type \*/
+Query 3 - Used to get the percentage of sale per media type
 ```
   SELECT
-    \*,
+    *,
     (SELECT
       ROUND(ROUND((total_qty * 100), 2) / SUM(quantity), 2)
     FROM invoiceline)
@@ -444,7 +444,7 @@ Should you have to work another SQL environment in the future, like Microsoft SQ
 ```
 
 
-/* Query 4 - Used to get all sales made by the sales agent \*/
+Query 4 - Used to get all sales made by the sales agent
 ```
   SELECT
     (CASE
@@ -467,7 +467,7 @@ Should you have to work another SQL environment in the future, like Microsoft SQ
 ```
 
 
-/* Query 5 - Used to get which agent has the most sales \*/
+/*  Query 5 - Used to get which agent has the most sales \*/
 ```
   SELECT
     strftime('%Y-%m',e.hiredate) hire_date,

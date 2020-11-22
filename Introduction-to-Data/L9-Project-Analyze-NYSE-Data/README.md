@@ -217,6 +217,8 @@ With this in mind, think of the variable type of the columns you are analyzing, 
 
 #### Tips from reviewer
 
+* [25 Tips to Instantly Improve Your Data Visualization Design](https://www.columnfivemedia.com/25-tips-to-upgrade-your-data-visualization-design)
+
 * How to interpret values -
 [Data Analysis: Descriptive Statistics](https://www.floridaschoolleaders.org/general/content/NEFEC/dafil/lesson2-5.htm)
 
@@ -228,9 +230,12 @@ With this in mind, think of the variable type of the columns you are analyzing, 
 
 * Range should suggest how diversely spread out the values are, and by computing the difference between the maximum and minimum values, we can get an estimate of the spread of the data.
 
-* [25 Tips to Instantly Improve Your Data Visualization Design](https://www.columnfivemedia.com/25-tips-to-upgrade-your-data-visualization-design)
 
 # My Project
+
+### Slides
+
+![image](./Misc/nyse.gif)
 
 ### Data Visualizations and Summary statistics
 
@@ -238,7 +243,6 @@ With this in mind, think of the variable type of the columns you are analyzing, 
 
 ![image](./Misc/006.png)
 
-[Slides](./Misc/analyze-nyse-data-v2/analyse-nyse-data-pdf2.pdf)
 
 ### Dynamic P&L Statement
 ![image](./Misc/p&l.gif)

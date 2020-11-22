@@ -218,9 +218,12 @@ With this in mind, think of the variable type of the columns you are analyzing, 
 # My Project
 
 ### Data Visualizations and Summary statistics
+
 ![image](./Misc/005.png)
 
 ![image](./Misc/006.png)
+
+[Slides](analyse-nyse-data-pdf2.pdf)
 
 ### Dynamic P&L Statement
 ![image](./Misc/p&l.gif)

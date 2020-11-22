@@ -413,7 +413,7 @@ Please include a text file that includes each of the queries used to create the 
 
 ![image](./Misc/chinook-slides.gif)
 
-## Queries used for my Project:
+## Queries I used for my Project:
 
 Query 1 - Used to get the sale per unit per genre and percentage of sale. Limited to top 10.
 ```
@@ -425,7 +425,7 @@ Query 1 - Used to get the sale per unit per genre and percentage of sale. Limite
     percentage
   FROM (SELECT
     g.name AS genre,
-    COUNT(\*) AS units_sold
+    COUNT(*) AS units_sold
   FROM track t
   JOIN genre g
     ON t.genreid = g.genreid
@@ -436,7 +436,7 @@ Query 1 - Used to get the sale per unit per genre and percentage of sale. Limite
   LIMIT 10;
 ```
 
-Query 2 - Used to get the aggregated table of countries with one customers grouped under 'Other' as country name, total number of customers, total number of orders, total value of orders, average value of orders. Countries grouped in others are excluded in the analysis.
+Query 2 - Used to get the aggregated table of countries with one customers grouped under 'Other' as country name, total number of customers, total number of orders, total value of orders, average value of orders. Countries grouped in others are excluded in the analysis because of its limited data.
 
 ```
   WITH all_country_stats

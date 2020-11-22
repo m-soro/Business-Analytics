@@ -367,7 +367,7 @@ Should you have to work another SQL environment in the future, like Microsoft SQ
 Query 1 - Used to get the sale per unit per genre and percentage of sale. Limited to top 10.
 ```
   SELECT
-    \*,
+    *,
     (SELECT
       ROUND(ROUND((units_sold * 100), 2) / SUM(quantity), 2)
     FROM invoiceline)

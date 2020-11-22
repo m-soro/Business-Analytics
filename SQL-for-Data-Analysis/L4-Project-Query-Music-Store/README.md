@@ -1,5 +1,7 @@
 ## Chinook Database
 
+## Skip to my project(#) 
+
 ## Introduction
 
 In this project, you will query the Chinook Database. The Chinook Database holds information about a music store. For this project, you will be assisting the Chinook team with understanding the media in their store, their customers and employees, and their invoice information. To assist you in the queries ahead, the schema for the Chinook Database is provided below. You can see the columns that link tables together via the arrows.
@@ -177,7 +179,79 @@ Then, the top purchasers are shown in the table below. The customer with the hig
 
 ```
 
-### Answering some of my own questions:
+### Dates in SQLite (the project) Differ From Postgres (the classroom)
+
+In the project you are working with a little different SQL syntax than in the classroom. Though most of the commands and logic will carry over directly, there are some differences between SQLite (used for this project), and PostgreSQL (used in the classroom). Specifically, the way those differences are likely to impact you is related to date functionality.
+
+Postgres `SQL DATE_TRUNC`
+
+```
+  SELECT DATE_TRUNC('month', o.occurred_at) ord_date
+  FROM orders o
+```
+This would only return the year and month of the date field in the query results
+
+SQLite version of `DATE_TRUNC` is `STRFTIME`
+
+```
+  SELECT STRFTIME('%Y-%m', o.occurred_at) ord_date
+  FROM orders o
+```
+This would only return the year and month of the date field in the query results. In SQLite we have to describe the date format more precisely since this is all that it will return are the pieces specified. We specify this by putting within single quotes the parts of the date we want in our final table.
+
+For this query we wanted only the year and month `%Y` stands for year and `%m` stands for month. The full list of what is below.
+
+```
+  %d - day of month: 00
+
+  %f - fractional seconds: SS.SSS
+
+  %H - hour: 00-24
+
+  %j - day of year: 001-366
+
+  %J - Julian day number
+
+  %m - month: 01-12
+
+  %M - minute: 00-59
+
+  %s - seconds since 1970-01-01
+
+  %S - seconds: 00-59
+
+  %w - day of week 0-6 with Sunday==0
+
+  %W - week of year: 00-53
+
+  %Y - year: 0000-9999
+```
+
+Postgres SQL `DATE_PART`
+
+```
+  SELECT DATE_PART('month', occurred_at) ord_year
+  FROM orders
+```
+This would only return the month of the date field in the query results
+
+SQLite version of `DATE_PART` is `STRFTIME`
+
+```
+  SELECT STRFTIME('%m', o.occurred_at) ord_date
+  FROM orders o
+```
+Since we only want to pull the month out we can specify that using the same `STRFTIME` function in SQLite we just have to use the %letter notation to specify which part we want. So here we have to use '%m' instead of 'month'.
+
+Here are some helpful links to assist with working with dates in SQLite.
+
+https://www.techonthenet.com/sqlite/functions/strftime.php
+https://sqlite.org/lang_datefunc.html
+
+Should you have to work another SQL environment in the future, like Microsoft SQL Server, Oracle, MySQL, or any other SQL environment; there are likely to again be subtle differences. With your current skills, a quick Google search will likely help you be able your transfer what you know to work with any of these environments very quickly.
+
+
+### Practice:
 
 1. Count how many songs base on genre does customer 12 bought
 ```
@@ -253,7 +327,6 @@ Then, the top purchasers are shown in the table below. The customer with the hig
   					JOIN INVOICE I ON I.CUSTOMERID = C.CUSTOMERID
   					JOIN INVOICELINE IL ON IL.INVOICEID = I.INVOICEID
   					JOIN TRACK T ON T.TRACKID = IL.TRACKID
-  					JOIN GENRE G ON G.GENREID = T.GENREID
   					WHERE COUNTRY = 'USA'
   					GROUP BY 1,2
   					ORDER BY 3 DESC) AS X
@@ -289,25 +362,124 @@ Then, the top purchasers are shown in the table below. The customer with the hig
   ORDER BY 2 DESC
 ```
 
-### Project Question:
+### Queries for my Project:
 
---What percentage of total sales are the units sold?
+/* Query 1 - Used to get the sale per unit per genre and percentage of sale. Limited to top 10. \*/
+```
+  SELECT
+    \*,
+    (SELECT
+      ROUND(ROUND((units_sold * 100), 2) / SUM(quantity), 2)
+    FROM invoiceline)
+    percentage
+  FROM (SELECT
+    g.name AS genre,
+    COUNT(\*) AS units_sold
+  FROM track t
+  JOIN genre g
+    ON t.genreid = g.genreid
+  JOIN invoiceline il
+    ON il.trackid = t.trackid
+  GROUP BY 1
+  ORDER BY 2 DESC) sub
+  LIMIT 10;
+```
 
+/* Query 2 - Used to get the aggregated table of countries with one customers grouped under 'Other' as country name, total number of customers, total number of orders, total value of orders, average value of orders. \*/
+/* Countries grouped in others are excluded in the analysis \*/
+```
+  WITH all_country_stats
+  AS (SELECT
+    c.country country_name,
+    SUM(i.total) total_order,
+    ROUND(AVG(i.total), 2) avg_order,
+    COUNT(invoiceid) no_of_orders,
+    COUNT(DISTINCT c.customerid) no_of_customers
+  FROM invoice i
+  JOIN customer c
+    ON c.customerid = i.customerid
+  GROUP BY 1),
+
+  grouped_country
+  AS (SELECT
+    CASE
+      WHEN no_of_customers = 1 THEN 'Other'
+      ELSE country_name
+    END AS grouped_country,
+    *
+  FROM all_country_stats)
+
+  SELECT DISTINCT
+    (grouped_country),
+    SUM(no_of_customers) no_of_customers,
+    SUM(no_of_orders) no_of_orders,
+    SUM(total_order) total_value_order,
+    ROUND(AVG(avg_order), 2) avg_order
+  FROM grouped_country
+  WHERE NOT grouped_country = 'Other'
+  GROUP BY 1
+  ORDER BY 3 DESC;
 ```
 
 
-SELECT	  *,
-					(
-					SELECT PRINTF("%.2f",(PRINTF("%.2f",sale_per_genre*100))/SUM(quantity))
-					FROM invoiceline
-					)  AS percent
-FROM
-	(
-	SELECT g.name AS genre, COUNT(*) AS  sale_per_genre
-	FROM Track t
-	JOIN Genre g ON T.genreId = G.genreId
-	Join InvoiceLine il ON il.TrackId = t.TrackId
-	GROUP BY 1
-	ORDER BY 2 DESC
-	)
+/* Query 3 - Used to get the percentage of sale per media type \*/
+```
+  SELECT
+    \*,
+    (SELECT
+      ROUND(ROUND((total_qty * 100), 2) / SUM(quantity), 2)
+    FROM invoiceline)
+    percentage
+
+  FROM (SELECT
+    m.name media_type,
+    SUM(quantity) AS total_qty
+  FROM mediatype m
+  JOIN track t
+    ON t.mediatypeid = m.mediatypeid
+  JOIN invoiceline il
+    ON il.trackid = t.trackid
+  GROUP BY 1
+  ORDER BY 2 DESC) subquery;
+```
+
+
+/* Query 4 - Used to get all sales made by the sales agent \*/
+```
+  SELECT
+    (CASE
+      WHEN e.employeeid = '3' THEN i.total
+      ELSE NULL
+    END) AS Jane_Peacock,
+    (CASE
+      WHEN e.employeeid = '4' THEN i.total
+      ELSE NULL
+    END) AS Margaret_Park,
+    (CASE
+      WHEN e.employeeid = '5' THEN i.total
+      ELSE NULL
+    END) AS Steve_Johnson
+  FROM employee e
+  JOIN customer c
+    ON c.supportrepid = e.employeeid
+  JOIN invoice i
+    ON i.customerid = c.customerid
+```
+
+
+/* Query 5 - Used to get which agent has the most sales \*/
+```
+  SELECT
+    strftime('%Y-%m',e.hiredate) hire_date,
+    e.firstname|| ' ' ||e.lastname rep,
+    COUNT(i.invoiceid) number_of_sale,
+    ROUND(SUM(i.total), 2) value_of_sale
+  FROM employee e
+  JOIN customer c
+    ON c.supportrepid = e.employeeid
+  JOIN invoice i
+    ON i.customerid = c.customerid
+  WHERE title = 'Sales Support Agent'
+  GROUP BY 1,
+           2
 ```

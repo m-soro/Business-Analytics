@@ -362,6 +362,10 @@ Should you have to work another SQL environment in the future, like Microsoft SQ
   ORDER BY 2 DESC
 ```
 
+### [Project Rubric](https://review.udacity.com/#!/rubrics/1061/view)
+
+**[Sql Format Tool](http://www.sql-format.com/)**
+
 ### Queries used for my Project:
 
 Query 1 - Used to get the sale per unit per genre and percentage of sale. Limited to top 10.
@@ -467,7 +471,7 @@ Query 4 - Used to get all sales made by the sales agent
 ```
 
 
-/*  Query 5 - Used to get which agent has the most sales \*/
+Query 5 - Used to get which agent has the most sales
 ```
   SELECT
     strftime('%Y-%m',e.hiredate) hire_date,

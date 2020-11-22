@@ -223,7 +223,7 @@ With this in mind, think of the variable type of the columns you are analyzing, 
 
 ![image](./Misc/006.png)
 
-[Slides](analyse-nyse-data-pdf2.pdf)
+[Slides](./Misc/analyze-nyse-data-v2/analyse-nyse-data-pdf2.pdf)
 
 ### Dynamic P&L Statement
 ![image](./Misc/p&l.gif)

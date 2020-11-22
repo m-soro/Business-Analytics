@@ -398,6 +398,13 @@ The submission template is a Google Slides file. Make a copy of the submission t
 **Queries**
 Please include a text file that includes each of the queries used to create the visualizations. You should **format** your queries for readability, use this tool to help http://www.sql-format.com/. In a plain text file (use notepad, notepad++, or atom).
 
+**Visualizations**
+We suggest you use a spreadsheet application, such as Excel or Google Sheets to create your visualizations. However, you’re welcome to use whatever tool you’d like. Your visualizations could be any that you learned about in the previous lesson. Below is one example, and a link has been provided to an example slide.
+
+![image](./Misc/002.png)
+
+You should have four slides that are similar to the below submission, but the questions you ask are up to you, and all four of your final submitted queries should contain a JOIN and AGGREGATION. Look at the [Rubric](https://review.udacity.com/#!/rubrics/1061/view) to verify you have met all of necessities for this submission.
+
 
 **Additional Guidelines**
 

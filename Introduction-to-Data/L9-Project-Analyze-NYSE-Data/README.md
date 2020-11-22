@@ -237,7 +237,7 @@ With this in mind, think of the variable type of the columns you are analyzing, 
 
 ![image](./Misc/nyse.gif)
 
-### Data Visualizations and Summary statistics
+### Data Visualizations and Summary Statistics
 
 ![image](./Misc/005.png)
 

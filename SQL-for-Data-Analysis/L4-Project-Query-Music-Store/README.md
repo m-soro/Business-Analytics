@@ -545,3 +545,5 @@ Query 5 - Used to get which agent has the most sales
 [A link to tutorial that I wrote how to use pgAdmin and Postgress.app instead of using SQLite](https://medium.com/@marksoro/how-did-i-install-postgres-app-pgadmin-and-build-the-chinook-database-b9fefef87230) :pen:
 
 ### [Download my code and slides here](./Misc/analyze-chinook) :rocket:
+
+[Back to top](#)

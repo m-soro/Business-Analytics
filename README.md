@@ -27,7 +27,8 @@ Learn how to use statistics and visuals to find and communicate insights. Develo
 ## [SQL for Data Analysis](https://github.com/m-soro/Business-Analytics/tree/main/SQL-for-Data-Analysis) :notebook:
 Learn to use Structured Query Language (SQL) to extract and analyze data stored in databases.
 
-#### [PROJECT - Query a Digital Music Store Database](#)
+#### [PROJECT - Query a Digital Music Store Database](https://github.com/m-soro/Business-Analytics/tree/main/SQL-for-Data-Analysis/L4-Project-Query-Music-Store) :rocket:
+
 >In this project, you will query a digital music store database which holds information regarding the store’s media, employees, and customers. You will use the database to help the store gain an understanding of the types of music that are purchased, where customers live, and how the company might optimize their business practices.
 
 

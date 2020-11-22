@@ -215,6 +215,21 @@ However, when you are analyzing categorical variables, measures of center and sp
 **Important Last Thought**
 With this in mind, think of the variable type of the columns you are analyzing, and determine which plots and statistics make sense for your analysis.
 
+#### Tips from reviewer
+
+* How to interpret values -
+[Data Analysis: Descriptive Statistics](https://www.floridaschoolleaders.org/general/content/NEFEC/dafil/lesson2-5.htm)
+
+* [HOW TO INTERPRET STANDARD DEVIATION IN A STATISTICAL DATA SET](https://www.dummies.com/education/math/statistics/how-to-interpret-standard-deviation-in-a-statistical-data-set/)
+
+* [Range in Statistics - The Difference Between the Maximum and Minimum](https://explorable.com/range-in-statistics)
+
+* The standard deviation measures how concentrated the data are around the mean; the more concentrated, the smaller the standard deviation. Basically, a small standard deviation means that the values in a statistical data set are close to the mean of the data set, on average, and a large standard deviation means that the values in the data set are farther away from the mean, on average.
+
+* Range should suggest how diversely spread out the values are, and by computing the difference between the maximum and minimum values, we can get an estimate of the spread of the data.
+
+* [25 Tips to Instantly Improve Your Data Visualization Design](https://www.columnfivemedia.com/25-tips-to-upgrade-your-data-visualization-design)
+
 # My Project
 
 ### Data Visualizations and Summary statistics

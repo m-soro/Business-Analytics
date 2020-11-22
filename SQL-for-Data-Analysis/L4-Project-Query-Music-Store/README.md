@@ -1,6 +1,8 @@
 ## Chinook Database
 
-## Skip to my project(#)
+#### [Back to homepage](https://github.com/m-soro/Business-Analytics)
+
+## [Skip to my project](#my-project)
 
 ## Introduction
 
@@ -362,9 +364,19 @@ Should you have to work another SQL environment in the future, like Microsoft SQ
   ORDER BY 2 DESC
 ```
 
+#### Tips from reviewer
+
+* Difference between explicit and implicit JOINs. Here's a good [refresher](https://www.w3computing.com/sqlserver2012/join-operator-explicit-implicit-syntax/) for future reference.
+
+* [Presentations for color blind](https://www.tableau.com/about/blog/2016/4/examining-data-viz-rules-dont-use-red-green-together-53463)
+
+* [Data visualization catalog](https://datavizcatalogue.com/index.html)
+
 ### [Project Rubric](https://review.udacity.com/#!/rubrics/1061/view)
 
 **[Sql Format Tool](http://www.sql-format.com/)**
+
+
 
 ### Queries used for my Project:
 
@@ -487,3 +499,11 @@ Query 5 - Used to get which agent has the most sales
   GROUP BY 1,
            2
 ```
+
+# My Project
+
+![image](./Misc/chinook-slides.gif)
+
+[A link to tutorial that I wrote how to use pgAdmin and Postgress.app instead of using SQLite](https://medium.com/@marksoro/how-did-i-install-postgres-app-pgadmin-and-build-the-chinook-database-b9fefef87230) :pen:
+
+### [Download my code and slides here](./Misc/analyze-chinook) :rocket:

@@ -139,6 +139,8 @@ For this query, you will need to use the Invoice, InvoiceLine, Track, Customer, 
 
 Notice, this one is tricky because the Total spent in the Invoice table might not be on a single product, so you need to use the InvoiceLine table to find out how many of each product was purchased, and then multiply this by the price for each artist.
 
+My solution
+
 ```
   SELECT 	Y.NAME AS ARTIST_NAME,
           SUM(TOTAL) AS GRAND_TOTAL
@@ -162,6 +164,8 @@ Notice, this one is tricky because the Total spent in the Invoice table might no
 **Solution Continued with top Purchaser**
 
 Then, the top purchasers are shown in the table below. The customer with the highest total invoice amount is customer 55, Mark Taylor.
+
+My solution
 
 ```
   SELECT   C.CUSTOMERID,
@@ -374,11 +378,42 @@ Should you have to work another SQL environment in the future, like Microsoft SQ
 
 ### [Project Rubric](https://review.udacity.com/#!/rubrics/1061/view)
 
-**[Sql Format Tool](http://www.sql-format.com/)**
+### Project submission - Important
+
+**Presentations**
+
+You are now on the portion of the project you will need to submit to a reviewer. To pass this project follow the below instructions to create a presentation.
+
+**Your presentation should include:**
+
+1. Four slides
+2. One visualization per slide
+3. A 1-2 sentence explanation of each slide
+4. The SQL query used to create the data used in the visualization.
+
+> Note: you may choose to use queries that were motivated by the questions on the previous concepts, or you may choose four entirely new questions. However, if you use any of the previous queries, they must be those that had a JOIN as stated in the Rubric.
+
+The submission template is a Google Slides file. Make a copy of the submission template to complete your project. We suggest you use the layout provided, though it is not a requirement.
+
+**Queries**
+Please include a text file that includes each of the queries used to create the visualizations. You should **format** your queries for readability, use this tool to help http://www.sql-format.com/. In a plain text file (use notepad, notepad++, or atom).
 
 
+**Additional Guidelines**
 
-### Queries used for my Project:
+* There shouldn’t be any additional data prep (sorting, filtering, renaming, etc.) between the query output and the visualization.
+* All your four queries must include at least one join and an aggregation.
+* Review your project against the project Rubric. Reviewers will use this to evaluate your work.
+* The first part of this project is aimed at helping you understand the database, so you can ask interesting questions in the second part. Feel free to use and expand upon the queries you wrote in the first part.
+* Once you've finished your project, submit the presentation as a PDF and the queries as a .txt file.
+* Don't be afraid to challenge yourself! Try to combine the SQL concepts you know!
+
+
+# My Project
+
+![image](./Misc/chinook-slides.gif)
+
+## Queries used for my Project:
 
 Query 1 - Used to get the sale per unit per genre and percentage of sale. Limited to top 10.
 ```
@@ -499,10 +534,6 @@ Query 5 - Used to get which agent has the most sales
   GROUP BY 1,
            2
 ```
-
-# My Project
-
-![image](./Misc/chinook-slides.gif)
 
 [A link to tutorial that I wrote how to use pgAdmin and Postgress.app instead of using SQLite](https://medium.com/@marksoro/how-did-i-install-postgres-app-pgadmin-and-build-the-chinook-database-b9fefef87230) :pen:
 

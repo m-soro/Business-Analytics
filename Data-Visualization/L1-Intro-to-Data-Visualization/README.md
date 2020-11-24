@@ -26,6 +26,7 @@ Now take a look at the visualization below, and complete the quiz below by ident
 ![image](./Misc/001.png)
 
 ## [Univariate Plots](https://www.youtube.com/watch?v=kgmYLreYB0A)
+
 ### Recommended charts to use
 
 For **quantitative data**, if we are just looking at **one column** worth of data, we have four common visuals:
@@ -49,7 +50,7 @@ In **most** cases, you will want to use a **bar chart**.
 
 ![image](./Misc/003.png)
 
-[Scatter Plots](https://www.youtube.com/watch?v=DvlxZ37O4i8)
+## [Scatter Plots](https://www.youtube.com/watch?v=DvlxZ37O4i8)
 
 **Scatter plots**
 
@@ -69,3 +70,33 @@ of a **linear relationship**. [Spearman's Correlation Coefficient](https://en.wi
 ![image](./Misc/008.png)
 ![image](./Misc/009.png)
 ![image](./Misc/010.png)
+
+#### Exercises
+
+![image](./Misc/011.png)
+A positive, strong relationship. The above data actually has a correlation of almost 0.96.
+
+![image](./Misc/012.png)
+A moderate, negative relationship. The above data actually has a correlation of almost -0.67
+
+The points don't follow the trend as well as the in the scatterplot above. Therefore, we also see a correlation coefficient that is closer to 0 than the above as well. The negative will occur anytime we have a negative relationship between the variables.
+
+![image](./Misc/013.png)
+The first two are an example of a **perfect positive** and a **perfect** **negative** relationship. In the final plot, there is clearly a relationship. However, this is a **quadratic relationship**. So Pearson's correlation (which only assesses linear relationships) is a value of **0**.
+
+## [Correlation Coefficients](https://www.youtube.com/watch?v=rL5Bn8Fi-zE)
+
+![image](./Misc/014.png)
+![image](./Misc/015.png)
+
+**Correlation Coefficients**
+
+Correlation coefficients provide a **measure of the strength** and **direction of a linear relationship**.
+
+We can tell the direction based on whether the correlation is positive or negative.
+
+A rule of thumb for judging the strength:
+
+![image](./Misc/016.png)
+
+It can also be calculated in **Excel** and other spreadsheet applications using **CORREL(col1, col2)**, where col1 and col2 are the two columns you are looking to compare to one another.

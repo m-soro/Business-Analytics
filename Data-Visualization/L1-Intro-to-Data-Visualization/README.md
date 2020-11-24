@@ -100,3 +100,5 @@ A rule of thumb for judging the strength:
 ![image](./Misc/016.png)
 
 It can also be calculated in **Excel** and other spreadsheet applications using **CORREL(col1, col2)**, where col1 and col2 are the two columns you are looking to compare to one another.
+
+The closer the correlation coefficient to 1 and -1 the stronger the relationship.

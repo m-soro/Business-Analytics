@@ -8,7 +8,7 @@ In this program, you’ll learn foundational data skills that apply across funct
 
 
 
-## [Welcome to the Program](./Welcome-to-the-Nanodegree-Program/README.md) :notebook:
+## [Welcome to the Program](Welcome-to-the-Nanodegree-Program/README.md) :notebook:
 Meet your instructors and learn how to optimize your classroom. Learn how people use data to answer questions, and find your own insights from a data dashboard.
 
 #### [PROJECT - Interpret a Data Visualization](https://github.com/m-soro/Business-Analytics/tree/main/Welcome-to-the-Nanodegree-Program) :rocket:

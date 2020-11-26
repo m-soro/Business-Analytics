@@ -1,6 +1,6 @@
 ## Analyze NYSE Data
 
-#### [Back to homepage](Business-Analytics/README.md)
+#### [Back to homepage](Business-Analytics/)
 
 ## [Skip to My Project](#my-project)
 

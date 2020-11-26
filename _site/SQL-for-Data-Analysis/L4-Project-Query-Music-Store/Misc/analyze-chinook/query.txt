@@ -1,0 +1,120 @@
+
+/* Query 1 - Used to get the sale per unit per genre and percentage of sale. Limited to top 10. */
+
+SELECT
+  *,
+  (SELECT
+    ROUND(ROUND((units_sold * 100), 2) / SUM(quantity), 2)
+  FROM invoiceline)
+  percentage
+FROM (SELECT
+  g.name AS genre,
+  COUNT(*) AS units_sold
+FROM track t
+JOIN genre g
+  ON t.genreid = g.genreid
+JOIN invoiceline il
+  ON il.trackid = t.trackid
+GROUP BY 1
+ORDER BY 2 DESC) sub
+LIMIT 10;
+
+
+
+/* Query 2 - Used to get the aggregated table of countries with one customers grouped under 'Other' as country name, total number of customers, total number of orders, total value of orders, average value of orders. */
+/* Countries grouped in others are excluded in the analysis */
+
+WITH all_country_stats
+AS (SELECT
+  c.country country_name,
+  SUM(i.total) total_order,
+  ROUND(AVG(i.total), 2) avg_order,
+  COUNT(invoiceid) no_of_orders,
+  COUNT(DISTINCT c.customerid) no_of_customers
+FROM invoice i
+JOIN customer c
+  ON c.customerid = i.customerid
+GROUP BY 1),
+
+grouped_country
+AS (SELECT
+  CASE
+    WHEN no_of_customers = 1 THEN 'Other'
+    ELSE country_name
+  END AS grouped_country,
+  *
+FROM all_country_stats)
+
+SELECT DISTINCT
+  (grouped_country),
+  SUM(no_of_customers) no_of_customers,
+  SUM(no_of_orders) no_of_orders,
+  SUM(total_order) total_value_order,
+  ROUND(AVG(avg_order), 2) avg_order
+FROM grouped_country
+WHERE NOT grouped_country = 'Other'
+GROUP BY 1
+ORDER BY 3 DESC;
+
+
+
+/* Query 3 - Used to get the percentage of sale per media type */
+
+SELECT
+  *,
+  (SELECT
+    ROUND(ROUND((total_qty * 100), 2) / SUM(quantity), 2)
+  FROM invoiceline)
+  percentage
+
+FROM (SELECT
+  m.name media_type,
+  SUM(quantity) AS total_qty
+FROM mediatype m
+JOIN track t
+  ON t.mediatypeid = m.mediatypeid
+JOIN invoiceline il
+  ON il.trackid = t.trackid
+GROUP BY 1
+ORDER BY 2 DESC) subquery;
+
+
+
+/* Query 4 - Used to get all sales made by the sales agent*/
+
+SELECT
+  (CASE
+    WHEN e.employeeid = '3' THEN i.total
+    ELSE NULL
+  END) AS Jane_Peacock,
+  (CASE
+    WHEN e.employeeid = '4' THEN i.total
+    ELSE NULL
+  END) AS Margaret_Park,
+  (CASE
+    WHEN e.employeeid = '5' THEN i.total
+    ELSE NULL
+  END) AS Steve_Johnson
+FROM employee e
+JOIN customer c
+  ON c.supportrepid = e.employeeid
+JOIN invoice i
+  ON i.customerid = c.customerid
+
+
+
+/* Query 5 - Used to get which agent has the most sales */
+
+SELECT
+  strftime('%Y-%m',e.hiredate) hire_date,
+  e.firstname|| ' ' ||e.lastname rep,
+  COUNT(i.invoiceid) number_of_sale,
+  ROUND(SUM(i.total), 2) value_of_sale
+FROM employee e
+JOIN customer c
+  ON c.supportrepid = e.employeeid
+JOIN invoice i
+  ON i.customerid = c.customerid
+WHERE title = 'Sales Support Agent'
+GROUP BY 1,
+         2

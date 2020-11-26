@@ -8,8 +8,8 @@
 
 ### [Lesson 6 Visualize Data](L6-Visualize-Data/README.md)
 
-### [Lesson 7Business Metrics](L7-Business-Metrics/README.md)
+### [Lesson 7 Business Metrics](L7-Business-Metrics/README.md)
 
-### [Lesson 8Excel Modeling](L8-Excel-Modeling/README.md)
+### [Lesson 8 Excel Modeling](L8-Excel-Modeling/README.md)
 
 ### [Lesson 9 PROJECT Analyze NYSEData](L9-Project-Analyze-NYSE-Data/README.md)

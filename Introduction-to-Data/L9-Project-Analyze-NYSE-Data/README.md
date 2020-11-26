@@ -1,6 +1,6 @@
 ## Analyze NYSE Data
 
-#### [Back to homepage](https://github.com/m-soro/Business-Analytics)
+#### [Back to homepage](Business-Analytics/README.md)
 
 ## [Skip to My Project](#my-project)
 

@@ -81,7 +81,14 @@ One of the main ways discussed here for looking at data integrity was with the l
 
 ![image](./Misc/002.png)
 
+**Calculating the Lie Factor**
+![image](./Misc/005.png)
+
+![image](./Misc/006.png)
+
+
 The delta symbol (\DeltaΔ) stands for difference or change. In words, the lie factor is the relative change shown in the graphic divided by the actual relative change in the data. Ideally, the lie factor should be 1: any other value means that there is some mismatch in the ratio of depicted change to actual change.
+
 
 **Lie Factor in the Video**
 The lie factor shown in the video was in comparing the largest to the smallest doctor in terms of pixels.
@@ -90,6 +97,10 @@ The lie factor shown in the video was in comparing the largest to the smallest d
 The number of pixels related to the largest image is 79,000 and 16,500 for the smallest. The percentage change is 27% to 12%. So, the lie factor is calculated as:
 
 ![image](./Misc/004.png)
+
+#### Practice, Practice, Practice
+
+
 
 **Further Reading**
 * [Flowing Data: How to Spot Visualization Lies](https://flowingdata.com/2017/02/09/how-to-spot-visualization-lies/)

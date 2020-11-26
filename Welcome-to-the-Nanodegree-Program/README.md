@@ -1,7 +1,5 @@
 # Interpret a Data Visualization
 
-#### [Back to homepage](https://m-soro.github.io/Business-Analytics/)
-
 ## [Skip to my Project](#my-project)
 
 ### Introduction

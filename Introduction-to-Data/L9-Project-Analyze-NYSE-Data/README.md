@@ -1,7 +1,5 @@
 ## Analyze NYSE Data
 
-#### [Back to homepage](Business-Analytics/)
-
 ## [Skip to My Project](#my-project)
 
 **Why this Project?**

@@ -98,9 +98,112 @@ The number of pixels related to the largest image is 79,000 and 16,500 for the s
 
 ![image](./Misc/004.png)
 
-#### Practice, Practice, Practice
-
-
 
 **Further Reading**
 * [Flowing Data: How to Spot Visualization Lies](https://flowingdata.com/2017/02/09/how-to-spot-visualization-lies/)
+
+#### Practice, Practice, Practice
+
+**Calculate the Lie Factor**
+
+![image](./Misc/007.png)
+
+![image](./Misc/008.png)
+
+The graphical effect is (146-27)/27 = 4.407, and the data effect is (39.6-35)/35 = 0.131, giving a lie factor of 33.54. Any lie factor different than **1** suggests that a **visual** is **distorting** the data. When the factor is **greater than 1**, we are **making an effect larger** than it actually is and factors **less than 1** are **hiding the magnitude** of an effect.
+
+![image](./Misc/009.png)
+
+![image](./Misc/010.png)
+
+### Effective Explanatory Visual Recap
+
+**What have you learned so far?**
+
+At this point, you have all you need to make effective **explanatory visuals**. **Simplicity** is the key to displaying your message to any audience. You know
+
+* The types of plots you can build with different variables.
+* The difference between exploratory and explanatory visuals.
+* Important **visual components** like **position**, **size**, **color**, and **length**.
+* The importance of **design integrity**, and how to assure your visuals maintain integrity.
+* The importance of **removing chart junk**.
+
+In the upcoming concepts before the end of this lesson, you will learn about some additional effects that you can add to your visualizations. Use these when necessary, but don't overdo it.
+
+### [Using Color](https://www.youtube.com/watch?v=6bAedqD3ilw )
+
+Color can both help and hurt a data visualization. Three tips for using color effectively.
+
+1. Before adding color to a visualization, start with black and white.
+
+2. When using color, use less intense colors - not all the colors of the rainbow, which is the default in many software applications.
+
+3. Color for communication. Use color to highlight your message and separate groups of interest. Don't add color just to have color in your visualization.
+
+### [Designing for Color Blindness](https://www.youtube.com/watch?v=k4iTzS7t2U4)
+
+To be sensitive to those with colorblindness, you should use color palettes that **do not move from red to green** without using another element to **distinguish this change** like **shape, position,** or **lightness**. Both of these colors appear in a **yellow tint** to individuals with the most common types of **colorblindness**. Instead, **use** colors on a **blue to orange palette**.
+
+**Further Reading:**
+
+[Tableau Blog:](https://www.tableau.com/about/blog/2016/4/examining-data-viz-rules-dont-use-red-green-together-53463)
+
+### [Shape, Size, & Other Tools](https://www.youtube.com/watch?v=fzEliHW3ZLM)
+
+**Additional Encodings**
+As seen earlier in the lesson, we typically try to use position on the x- and y- axes to encode, or depict the value of variables. If we have more than two variables, however, we have to start considering other visual encodings for the additional variables.
+
+In general, **color** and **shape** are **best for categorical variables**, while the size of marker can assist in adding additional quantitative data, as we demonstrated here.
+
+Only use these additional encodings when absolutely necessary. Often, overuse of these additional encodings suggest you are providing too much information in a single plot. Instead, it might be better to **break the information into multiple individual messages**, so the audience can understand every aspect of your message. You can also build in each aspect one at a time, which you saw in the previous lesson with Hans Rosling. This feels less overwhelming than if you just saw this plot all at once.
+
+**Extra: Code**
+Some of the plots in this presentation were created using the programming language R, and a very popular library known as ggplot2. Though this is beyond the scope of this course, the code used to create these visualizations is provided below:
+
+```
+  install.packages('ggplot2')
+  library(ggplot2)
+
+  df = read.csv(file.choose()) #select your dataset
+  df2 = head(df, 30)
+
+
+  qplot(df2$Math.SAT, df2$Verbal.SAT, xlab = 'Math SAT Score',
+        ylab = 'Verbal SAT Score', main = 'Average SAT Scores By College')
+
+  qplot(df2$Math.SAT, df2$Verbal.SAT, xlab = 'Math SAT Score',
+        ylab = 'Verbal SAT Score', main = 'Average SAT Scores By College',
+        color = as.factor(df2$Public..1...Private..2.))
+
+  qplot(df2$Math.SAT, df2$Verbal.SAT, xlab = 'Math SAT Score',
+        ylab = 'Verbal SAT Score', main = 'Average SAT Scores By College',
+        shape = as.factor(df2$Public..1...Private..2.), color = df2$stud..fac..ratio)
+
+  ggplot(df2, aes(x=Math.SAT, y=Verbal.SAT, group=stud..fac..ratio)) +
+    geom_point(aes(shape=stud..fac..ratio, color=as.factor(df2$Public..1...Private..2.))
+```
+
+### [General Design Tips](https://www.youtube.com/watch?v=Zq-wMwOfQqY)
+
+Bad visuals can be avoided by:
+
+1. Maintaining a large data-ink ratio and removing unnecessary items from visuals.
+
+2. Choosing visual encodings that work to highlight insights.
+
+3. Maintaining data Integrity in the visual.
+
+For explanatory visuals:
+
+1. Focus the audience's attention on the insight you want them to act on.
+2. Use color only when necessary. Simple is often better.
+3. Tell a story. More on this ahead!
+
+### [Tell A Story](https://www.youtube.com/watch?v=_IdOUEhjVGI)
+
+Telling stories with data follows these steps:
+
+1. Start with a Question
+2. Repetition is a Good Thing
+3. Highlight the Answer
+4. Call Your Audience To Action

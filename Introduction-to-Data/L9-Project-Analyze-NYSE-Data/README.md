@@ -254,6 +254,6 @@ With this in mind, think of the variable type of the columns you are analyzing, 
 
 ![image](./Misc/008.png)
 
-### [Download here](./Misc) :rocket:
+### [Download here](https://github.com/m-soro/Business-Analytics/tree/main/Introduction-to-Data/L9-Project-Analyze-NYSE-Data/Misc/analyze-nyse-data-v2) :rocket:
 
 [Back to top](#)

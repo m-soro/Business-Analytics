@@ -12,4 +12,4 @@
 
 ### [Lesson 8 Excel Modeling](L8-Excel-Modeling/README.md)
 
-### [Lesson 9 PROJECT Analyze NYSEData](L9-Project-Analyze-NYSE-Data/README.md)
+### [Lesson 9 PROJECT Analyze NYSE Data](L9-Project-Analyze-NYSE-Data/README.md)

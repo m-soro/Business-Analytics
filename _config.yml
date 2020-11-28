@@ -5,3 +5,4 @@ google_analytics: G-FGD1M93BQ2
 theme: jekyll-theme-cayman
 plugins:
   - jemoji
+  - jekyll-seo-tag

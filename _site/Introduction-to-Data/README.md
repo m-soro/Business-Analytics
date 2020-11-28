@@ -2,7 +2,7 @@
 
 ### [Lesson 1 and Lesson 2 Descriptive Statistics](L1-and-L2-Descriptive-Statistics/README.md)
 
-### [L3-and-L4:Spreadsheets-1&2](L1-and-L2-Descriptive-Statistics/README.md)
+### [L3-and-L4:Spreadsheets-1&2](L3-and-L4:Spreadsheets-1&2/README.md)
 
 ### [L5-Analyze-Data](L5-Analyze-Data/README.md)
 

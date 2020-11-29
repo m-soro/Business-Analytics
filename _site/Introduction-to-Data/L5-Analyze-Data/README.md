@@ -3,12 +3,6 @@
 ## Aggregation Function
   * Function that operates accros a group of data resulting in a single value.
 
-![image](./Misc/001.png)
-
-![image](./Misc/002.png)
-
-![image](./Misc/003.png)
-
 
 **Quiz: Logical Functions**
 
@@ -21,7 +15,7 @@ In the following quiz, you'll need to combine what you've learned so far in a ne
     Otherwise, mark it with "No".
 ```
 
-![image](./Misc/004.png)
+
 
 [Logical Functions Practice](./Misc/special-orders.xlsx)
 
@@ -31,7 +25,7 @@ In the following quiz, you'll need to combine what you've learned so far in a ne
 
 ### Conditional Aggregation Functions
 
-![image](./Misc/005.png)
+
 
 ### Countif and Sumif
 
@@ -51,11 +45,11 @@ In this exercise, you will follow the same steps as in the demo to create a pivo
 
 ### Named Ranges and Lookup
 
-![image](./Misc/006.png)
+
 
 In vlookup `false` means an exact match, `true` means closest thing.
 
-![image](./Misc/007.png)
+
 
 #### Exercise: VLOOKUP
 
@@ -65,6 +59,6 @@ To answer the quiz questions, you may want to use some of the other functions yo
 
 For example, the first few rows should look like this once you've inserted the correct formulas:
 
-![image](./Misc/008.png)
+
 
 [Lookups/Pivot/Named Range](./Misc/air-routes-sfo.xlsx)

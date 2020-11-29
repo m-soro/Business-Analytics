@@ -207,3 +207,34 @@ Telling stories with data follows these steps:
 2. Repetition is a Good Thing
 3. Highlight the Answer
 4. Call Your Audience To Action
+
+### [Same Data, Different Stories](https://www.youtube.com/watch?v=jSSnkz3QT5Y)
+
+### Quiz on Data Storytelling
+
+***Final Quiz of the Lesson***
+
+This final quiz won't be assessed, but consider one of the questions that was posed in one of the earlier concepts comparing student interest in science before and after attending a science camp.
+
+![image](./Misc/before-after.gif)
+
+
+### Recap
+
+In this lesson, we learned
+
+* How to build data visualizations for explanatory purposes.
+
+* How visual encodings impact our abilities as humans to accurately perceive that information.
+
+* How chart junk distracts from the message - maximize your data-ink ratio.
+
+* How to calculate lie factors and the importance of design integrity.
+
+* How to use more advanced design features like color, shape, and size - make sure these are truly enhancing your message!
+
+* The importance of story telling in communicating with data.
+
+**Looking Ahead - Using Tableau**
+
+In the next lessons you will learn to use Tableau, which will allow you to build very complex visualizations. Much of what you build with Tableau in practice will allow for you and other users to explore the data. When you find an insight using Tableau, it is important to use the techniques highlighted in this lesson to communicate your insights as this is explanatory in nature!

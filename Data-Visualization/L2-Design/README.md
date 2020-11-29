@@ -16,7 +16,7 @@ You can see one of Cole's seminars [here](https://www.youtube.com/watch?v=8EMW7i
 
 6. **Tell a story** - your visualizations should give the audience a story. The most powerful data visualizations move people to take action.
 
-## [Exploratory vs. Explanatory Analyses](https://www.youtube.com/watch?v=wvgBSMks4p8)
+## [Exploratory vs. Explanatory Analysis](https://www.youtube.com/watch?v=wvgBSMks4p8)
 
 There are two main reasons for creating visuals using data:
 
@@ -215,6 +215,8 @@ Telling stories with data follows these steps:
 ***Final Quiz of the Lesson***
 
 This final quiz won't be assessed, but consider one of the questions that was posed in one of the earlier concepts comparing student interest in science before and after attending a science camp.
+
+My Presentation
 
 ![image](./Misc/before-after.gif)
 

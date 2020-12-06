@@ -544,4 +544,4 @@ Query 5 - Used to get which agent has the most sales
 
 ### [Download my code and slides here](https://github.com/m-soro/Business-Analytics/tree/main/SQL-for-Data-Analysis/L4-Project-Query-Music-Store/Misc/analyze-chinook) :rocket:
 
-[Back to top](#)
+[:top:](#)

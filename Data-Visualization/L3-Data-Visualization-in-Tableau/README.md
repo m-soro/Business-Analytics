@@ -47,6 +47,8 @@ Table calculations are often used to perform comparisons of our data over time o
 
 ## [Connecting to Data](https://www.youtube.com/watch?v=WmsAtqbwRI0) :tv:
 
+[:top:](#)
+
 Tableau guesses if numerical data is discrete or continuous and indicates this with color, **blue for discrete** and **green for continuous**. You'll see this color coding again later.
 
 With string columns, you can do some simple transformations such as splitting the data into multiple columns. For instance, the Order IDs have three parts separated by dashes. You might want individual columns for each of these parts. To split the column, click on the little triangle in the column header.
@@ -60,6 +62,8 @@ In the drop down menu, you'll also see Create Calculated Field.... This lets you
 Something I find useful often is being able to quickly preview the data in a table. If you hover over one of the sheets, an icon appears to the right. Clicking on this lets you view the data.
 
 ## [Combining Data](https://www.youtube.com/watch?v=7KICenO-lKc) :tv:
+
+[:top:](#)
 
 If you are using Tableau version 2020, the steps may be slightly different. You can still use joins to connect to the data. There is just one extra step to reach the joins/unions canvas.
 
@@ -120,6 +124,8 @@ This lesson is focused on creating worksheets, which are the core of creating da
 
 ## [Worksheets](https://www.youtube.com/watch?v=2xRKvQTRtlk) :tv:
 
+[:top:](#)
+
 ### Sheet interface
 
 On the left you’ll see your data columns (also called "fields"), split between dimensions and measures.
@@ -154,6 +160,8 @@ Secondly, You can also use `Orders (Count)` measure, which is the same as the Nu
 
 ### [Aggregations](https://www.youtube.com/watch?v=4nGL3y3Nq-0) :tv:
 
+[:top:](#)
+
 **Aggregation and Granularity**
 
 Let's start making some more complex plots. The first thing we'll do is create a simple scatter plot to see how some measures are related. I expect that the more items sold, the higher the profit will be, so let’s look at **profit vs quantity**.
@@ -173,6 +181,8 @@ The kind of aggregation you're doing can be selected by right clicking on the pi
 You should see seven dots, one for each value in Market. You’ve increased the granularity, Tableau is aggregating the data over each market now. You get sums of Quantity and Profit for each one. The aggregation hasn't really changed. **It's still the sum of quantity and profit, that sum is just now being calculated at a different granularity**.
 
 ### [Hierarchies](https://www.youtube.com/watch?v=wl_AM-spH68) :tv:
+
+[:top:](#)
 
 **Hierarchies**
 
@@ -328,10 +338,13 @@ Interactive filters like these are one of Tableau's most powerful features. Tabl
 
 ## [Show Me](https://www.youtube.com/watch?v=Jpk99mgmwaA) :tv:
 
+[:top:](#)
+
 From there you can customize the graph. Show Me is usually a good start once you decide what you want to look at or show. Feel free to take some time to play around with the Show Me panel, there are a lot of different plots you can make.
 
 ## [Small Multiples & Dual Axis](https://www.youtube.com/watch?v=bx6MxsoDqsI) :tv:
 
+[:top:](#)
 
 **Small multiples**
 
@@ -366,6 +379,8 @@ You can do a little shortcut by dragging the second measure to the right side of
 **[The slippery slope of dual axis](https://www.perceptualedge.com/articles/visual_business_intelligence/dual-scaled_axes.pdf)**
 
 ## [Groups & Sets](https://www.youtube.com/watch?v=Yb-91NVNgTA) :tv:
+
+[:top:](#)
 
 **Groups and Sets**
 
@@ -423,6 +438,8 @@ The red bars are showing how much money is lost due to the bad products. It look
 You might group items for lots of reasons. **Most often it occurs when you find a certain observations in a histogram or scatterplot, and you want to see how they are related to other parts of your data**.
 
 ## [Calculated Fields](https://www.youtube.com/watch?v=tR-K9Mvd4B0) :tv:
+
+[:top:](#)
 
 **Calculated fields**
 
@@ -506,6 +523,8 @@ There is a lot to learn about calculate fields that's outside the scope of this 
 
 ## [Table Calculations](https://www.youtube.com/watch?v=VJfCNO0J9jY) :tv:
 
+[:top:](#)
+
 **Table Calculations**
 
 Table calculations can be really useful for helping you to compare the data that exists in a plot to other parts of the plot. This is easier to understand by just doing it - so let's look at an example.
@@ -537,4 +556,4 @@ This plot is great for seeing the trend of the data, and that sales are increasi
 
 ### [Next Steps](https://www.youtube.com/watch?v=y46uDftUXHo) :tv:
 
-[Back to Top](#)
+[:top:](#)

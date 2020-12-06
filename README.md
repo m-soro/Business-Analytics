@@ -33,7 +33,7 @@ Learn to use Structured Query Language (SQL) to extract and analyze data stored 
 
 
 
-## [Data Visualization](#) :notebook:
+## [Data Visualization](#Data-Visualization/README.md) :notebook:
 Learn to apply design and visualization principles to create impactful data visualizations, build data dashboards, and tell stories with data.
 
 #### [PROJECT- Build Data Dashboards](#)

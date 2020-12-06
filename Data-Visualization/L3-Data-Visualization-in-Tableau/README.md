@@ -17,7 +17,7 @@ In this section, you will learn how to connect data from multiple sources for us
 ### III. [Worksheets](#worksheets-tv)
 The visuals you create will be stored in worksheets. This is the template we will be working in for this course.
 
-### IV. [Aggregations](#aggretations-tv)
+### IV. [Aggregations](#aggregations-tv)
 Tableau performs aggregations of our data by default. In this section, you will learn more about how to work with different aggregations, as well as how to break your aggregations into a more granular level of the data.
 
 ### V. [Hierarchies](#hierarchies-tv)
@@ -25,16 +25,16 @@ Hierarchies allow you to 'drill' into your data and questions at different level
 
 You can also perform hierarchical calculations in other ways. Imagine you have different companies, with different departments, and teams within those departments. This creates a hierarchy that you might want to analyze at different levels.
 
-### VI. [Marks & Filters](#marks-&-filters-tv)
+### VI. [Marks & Filters](#marks--filters-tv)
 Filtering is one of the most powerful techniques in creating dashboards. This relates to the marks portion of a dashboard, which controls the colors, shapes and other attributes of our data. You can think of this like a WHERE statement in SQL used to filter your data to only the parts you are interested in for a specific question.
 
 ### VII. [Show Me](#show-me-tv)
 The Show Me portion of Tableau controls what your ending visual looks like. There are a lot of options here. In most cases, Tableau will guess what visual you want to create, but sometimes you might have your own ideas for implementation.
 
-### VIII. [Small Multiples & Dual Axis](#small-multiples-&-dual-axis-tv)
+### VIII. [Small Multiples & Dual Axis](#small-multiples--dual-axis-tv)
 Small multiples & dual charts are a way to visualize data that needs to share an axis for comparison purposes. [This](http://www.evolytics.com/blog/tableau-201-how-to-make-small-multiples/) and [this](http://kb.tableau.com/articles/HowTo/dual-axis-bar-chart-multiple-measures) are great articles for explaining how these two parts of Tableau work and why you might use them.
 
-### IX. [Groups & Sets](#groups-&-sets-tv)
+### IX. [Groups & Sets](#groups--sets-tv)
 Groups and sets are two ways to categorize our data within a visualization. The difference between these two can be confusing, but we will see when and why you would use each.
 
 ### X. [Calculated Fields](#calculated-fields-tv)

@@ -7,3 +7,5 @@
 ### [Data Visualization in Tableau](L3-Data-Visualization-in-Tableau/README.md)
 
 ### [Dashboards and Stories](L4-Dashboards-and-Stories/README.md)
+
+### [Project Build Data Dashboard](L5-Project-Build-Data-Dashboard/README.md)

@@ -143,8 +143,8 @@ It can take us up to a week to grade this project, but in most cases it is much 
 
 **[Link to Tableau public gallery](https://public.tableau.com/profile/mark.soro#!/vizhome/BuildDataaDashboardfromBANDUdacityProjectFlightData/Dashboard1-Originairportscancellationreasons)**
 
-**![Project Report](./Misc/flight-delays/project_report.pdf)**
+**[Project Report](./Misc/flight-delays/project_report.pdf)**
 
-**[Download here](#)** :rocket:
+**[Download here](https://github.com/m-soro/Business-Analytics/tree/main/Data-Visualization/L5-Project-Build-Data-Dashboard/Misc/flight-delays)** :rocket:
 
 [:top:](#)

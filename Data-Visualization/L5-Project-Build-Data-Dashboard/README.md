@@ -1,4 +1,6 @@
-# [Build Data Dashboard](https://www.youtube.com/watch?v=AoqtkQwI6b0)
+# [Build a Data Dashboard](https://www.youtube.com/watch?v=AoqtkQwI6b0)
+
+## [Skip to My Project](#my-project)
 
 **Project Description**
 
@@ -125,3 +127,24 @@ You must submit url links for each of your visuals from Tableau Public. If you n
 * Resources: list of Web sites, books, forums, blog posts, GitHub repositories etc that you referred to or used in this submission (Add N/A if you did not use such resources).
 
 It can take us up to a week to grade this project, but in most cases it is much faster. You will receive an email when your submission has been reviewed.
+
+# My Project
+
+### Dashboard 1
+![image](./Misc/001.png)
+### Dashboard 2
+![image](./Misc/002.png)
+### Dashboard 3
+![image](./Misc/003.png)
+### Dashboard 4
+![image](./Misc/004.png)
+### Dashboard 5
+![image](./Misc/005.png)
+
+**[Link to Tableau public gallery](https://public.tableau.com/profile/mark.soro#!/vizhome/BuildDataaDashboardfromBANDUdacityProjectFlightData/Dashboard1-Originairportscancellationreasons)**
+
+**![Project Report](./Misc/flight-delays/project_report.pdf)**
+
+**[Download here](#)** :rocket:
+
+[:top:](#)

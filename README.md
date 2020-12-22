@@ -50,7 +50,6 @@ This section takes data visualizations to another notch. Use Tableau to analyze 
 
 [Project Rubric](Data-Visualization/L5-Project-Build-Data-Dashboard/Misc/rubric4.pdf) :heavy_check_mark:
 
-----
 
 **Acknowlegement**
 

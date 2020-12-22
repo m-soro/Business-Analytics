@@ -50,7 +50,7 @@ This section takes data visualizations to another notch. Use Tableau to analyze 
 
 [Project Rubric](Data-Visualization/L5-Project-Build-Data-Dashboard/Misc/rubric4.pdf) :heavy_check_mark:
 
-
+---
 **Acknowlegement**
 
 Thanks to [Udacity](https://www.udacity.com/) for providing this [scholarship](Welcome-to-the-Nanodegree-Program/scholarship.pdf) course.

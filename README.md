@@ -49,3 +49,9 @@ This section takes data visualizations to another notch. Use Tableau to analyze 
 >In this project, you’ll build interactive dashboards with Tableau and use them to discover and communicate insights from data. You’ll use a dataset of flight delays in the US to visualize the quality of airlines and airports, find the best times to fly, and more.
 
 [Project Rubric](Data-Visualization/L5-Project-Build-Data-Dashboard/Misc/rubric4.pdf) :heavy_check_mark:
+
+----
+
+**Acknowlegement**
+
+Thanks to [Udacity](https://www.udacity.com/) for providing this [scholarship](Welcome-to-the-Nanodegree-Program/scholarship.pdf) course.

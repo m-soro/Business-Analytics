@@ -132,14 +132,28 @@ It can take us up to a week to grade this project, but in most cases it is much 
 
 ### Dashboard 1
 ![image](./Misc/001.png)
+
+![image](./Misc/001.gif)
+
 ### Dashboard 2
 ![image](./Misc/002.png)
+
+![image](./Misc/002.gif)
+
 ### Dashboard 3
 ![image](./Misc/003.png)
+
+![image](./Misc/003.gif)
+
 ### Dashboard 4
 ![image](./Misc/004.png)
+
+![image](./Misc/004.gif)
+
 ### Dashboard 5
 ![image](./Misc/005.png)
+
+![image](./Misc/005.gif)
 
 **[Link to Tableau public gallery](https://public.tableau.com/profile/mark.soro#!/vizhome/BuildDataaDashboardfromBANDUdacityProjectFlightData/Dashboard1-Originairportscancellationreasons)**
 

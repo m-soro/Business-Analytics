@@ -1,18 +1,21 @@
 # Business Analytics
 
-In this program, you’ll learn foundational data skills that apply across functions and industries. You’ll learn to analyze data and build models with Excel, query databases using SQL, and create informative data visualizations with Tableau.
+This program aims to develop foundational data skills. Analyze data using Excel, query a database using SQL and build interactive dashboards and visualizations in Tableau.
 
-
+To successfully complete this course, four mentor reviewed projects are required and must satisfy the project's rubric.
 
 #### [Course Syllabus](https://d20vrrgs8k4bvw.cloudfront.net/documents/en-US/Business+Analytics+Nanodegree+Program+Syllabus+2.0.pdf)
 
 
-
 ## [Welcome to the Program](#) :notebook:
-Meet your instructors and learn how to optimize your classroom. Learn how people use data to answer questions, and find your own insights from a data dashboard.
+
+Introduction to the program about where and how data applies to variety of industries. First project is to interpret a data visualization.
 
 #### [PROJECT - Interpret a Data Visualization](Welcome-to-the-Nanodegree-Program/README.md) :rocket:
+
 >In this project, you’ll explore an interactive data dashboard to uncover insights. You’ll write a short report explaining each insight, and how you found the information to reach your conclusion from the dashboard.
+
+[Project Rubric](Welcome-to-the-Nanodegree-Program/rubric1.mht) :heavy_check_mark:
 
 
 

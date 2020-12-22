@@ -2,7 +2,7 @@
 
 This program aims to develop foundational data skills. Analyze data using Excel, query a database using SQL and build interactive dashboards and visualizations in Tableau.
 
-To successfully complete this course, four mentor reviewed projects are required and must satisfy the project's rubric.
+To successfully complete this course, four mentor reviewed projects are required and one must satisfy the project's rubric.
 
 
 #### [Course Syllabus](https://d20vrrgs8k4bvw.cloudfront.net/documents/en-US/Business+Analytics+Nanodegree+Program+Syllabus+2.0.pdf)
@@ -10,7 +10,7 @@ To successfully complete this course, four mentor reviewed projects are required
 
 ## [Welcome to the Program](#)
 
-Introduction to the program about where and how data applies to variety of industries. First project is to interpret a data visualization.
+Introduction to the program about where and how data applies to a variety of industries. First project is to interpret a data visualization.
 
 #### [PROJECT - Interpret a Data Visualization](Welcome-to-the-Nanodegree-Program/README.md)
 
@@ -21,7 +21,7 @@ Introduction to the program about where and how data applies to variety of indus
 
 ## [Introduction to Data](Introduction-to-Data/README.md)
 
-Using descriptive statistics and visualizations in Excel this section aims to develop and communicate insights discovered from the data. This section also teaches more advanced excel functions, build excel models and statistics analysis. The project at the end of the lesson is to analyze data from NYSE.
+Using descriptive statistics and visualizations in Excel this section aims to develop and communicate insights discovered from the data. This section also teaches more advanced excel functions, builds excel models and statistical analysis. The project at the end of the lesson is to analyze data from NYSE.
 
 
 #### [PROJECT - Analyze NYSE Data](Introduction-to-Data/L9-Project-Analyze-NYSE-Data/README.md)
@@ -42,7 +42,7 @@ Extract and analyze a data set using SQL. Use data gathered from a query result 
 
 
 ## [Data Visualization](Data-Visualization/README.md)
-This section takes data visualizations to another notch. Use Tableau to analyze and visualize large data sets, create informative and dynamic data dashboards. This section makes it easier to bring large datasets in a more readable form in order to present insights to all business areas.
+This section takes data visualizations to another level. Use Tableau to analyze and visualize large data sets, and create informative and dynamic data dashboards. This section makes it easier to visualize large data sets in a more readable form in order to present insights to all business areas.
 
 #### [PROJECT- Build Data Dashboards](Data-Visualization/L5-Project-Build-Data-Dashboard/README.md)
 

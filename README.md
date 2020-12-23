@@ -61,4 +61,4 @@ This section takes data visualizations to another level. Use Tableau to analyze 
 
 **Acknowlegement**
 
-Thanks to :raised_hands: [Udacity](https://www.udacity.com/) :raised_hands: for providing this [scholarship](Welcome-to-the-Nanodegree-Program/scholarship.pdf) course.
+Thanks to :raised_hands: [Udacity](https://www.udacity.com/) :raised_hands: for providing this :trophy: [scholarship](Welcome-to-the-Nanodegree-Program/scholarship.pdf) :trophy: course.

@@ -6,7 +6,7 @@ To successfully complete this course, four mentor reviewed projects are required
 
 Here are some of the reviews I received from Udacity:
 
->*"Congrats on passing this project from the very first attempt! This is something I don’t see often, so you should be really proud of yourself:)"*
+>*"Congrats on passing this project from the very first attempt! This is something I don’t see often, so you should be really proud of yourself :)"*
 >[Full review](Welcome-to-the-Nanodegree-Program/review1.pdf)
 
 >*"Good knowledge of statistics and great analytical skills shown in this work. Please keep up doing this good job!"*

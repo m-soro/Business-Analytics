@@ -52,11 +52,10 @@ This section takes data visualizations to another level. Use Tableau to analyze 
 
 ---
 
-## Certificate of Completion
+## [Certificate of Completion](https://confirm.udacity.com/DCPLKGXW)
 
 ![image](Welcome-to-the-Nanodegree-Program/udacity-business-analytics.jpg)
 
-[Certificate link](https://confirm.udacity.com/DCPLKGXW)
 
 ---
 

@@ -4,10 +4,16 @@ This Udacity program aims to develop foundational data skills. Analyze data usin
 
 To successfully complete this course, four mentor reviewed projects are required and one must satisfy the project's rubric.
 
-Here's a representative review I received from Udacity:
+Here are some of the reviews I received from Udacity:
 
 >*"Congrats on passing this project from the very first attempt! This is something I don’t see often, so you should be really proud of yourself:)"*
+>[Full review](Welcome-to-the-Nanodegree-Program/review1.pdf)
 
+>*"Good knowledge of statistics and great analytical skills shown in this work. Please keep up doing this good job!"*
+>[Full review](Welcome-to-the-Nanodegree-Program/review2.pdf)
+
+>*"Well done coming up with your insights, they are simple yet very informative"*
+>[Full review](Welcome-to-the-Nanodegree-Program/review3.pdf)
 
 #### [Course Syllabus](https://d20vrrgs8k4bvw.cloudfront.net/documents/en-US/Business+Analytics+Nanodegree+Program+Syllabus+2.0.pdf)
 

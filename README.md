@@ -51,12 +51,15 @@ This section takes data visualizations to another level. Use Tableau to analyze 
 [Project Rubric](Data-Visualization/L5-Project-Build-Data-Dashboard/Misc/rubric4.pdf) :heavy_check_mark:
 
 ---
+
 ## Certificate of Completion
 
 ![image](Welcome-to-the-Nanodegree-Program/udacity-business-analytics.jpg)
 
 [Certificate link](https://confirm.udacity.com/DCPLKGXW)
+
 ---
+
 **Acknowlegement**
 
 Thanks to [Udacity](https://www.udacity.com/) for providing this [scholarship](Welcome-to-the-Nanodegree-Program/scholarship.pdf) course.

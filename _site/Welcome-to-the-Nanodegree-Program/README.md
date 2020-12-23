@@ -49,4 +49,4 @@ For each insight:
 
 ## [See it here](https://venngage.net/ps/br2YNur10Ew/interpret-a-data-visualization) :rocket:
 
-[Back to top](#)
+[:top:](#)

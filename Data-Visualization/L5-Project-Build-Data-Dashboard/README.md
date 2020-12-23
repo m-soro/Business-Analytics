@@ -105,7 +105,7 @@ link here: https://www.kaggle.com/datasnaek/youtube-new/data
 
 **Requirements**
 
-Use the Project Rubric to review your project. If you are happy with your submission, then you are ready to submit! If you see room for improvement in any category in which you do not meet specifications, keep working!
+Use the Project [Rubric](./Misc/rubric4.pdf) to review your project. If you are happy with your submission, then you are ready to submit! If you see room for improvement in any category in which you do not meet specifications, keep working!
 
 Your project will be evaluated by a Udacity reviewer according to the same Project Rubric. Your project must "Meet Specifications" in each category in order for your submission to pass.
 

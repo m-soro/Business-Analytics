@@ -6,11 +6,11 @@ To successfully complete this course, four mentor reviewed projects are required
 
 Here are some of the reviews I received from Udacity:
 
->*"Congrats on passing this project from the very first attempt! This is something I don’t see often, so you should be really proud of yourself :)"* [:page_facing_up:](Welcome-to-the-Nanodegree-Program/review1.pdf)
+>*"Congrats on passing this project from the very first attempt! This is something I don’t see often, so you should be really proud of yourself :)". Full review [:point_right:](Welcome-to-the-Nanodegree-Program/review1.pdf)*
 
->*"Good knowledge of statistics and great analytical skills shown in this work. Please keep up doing this good job!"* [:page_facing_up:](Welcome-to-the-Nanodegree-Program/review2.pdf)
+>*"Good knowledge of statistics and great analytical skills shown in this work. Please keep up doing this good job!". Full review  [:point_right:](Welcome-to-the-Nanodegree-Program/review2.pdf)*
 
->*"Well done coming up with your insights, they are simple yet very informative"* [:page_facing_up:](Welcome-to-the-Nanodegree-Program/review3.pdf)
+>*"Well done coming up with your insights, they are simple yet very informative". Full review [:point_right:](Welcome-to-the-Nanodegree-Program/review3.pdf)*
 
 #### [Course Syllabus](https://d20vrrgs8k4bvw.cloudfront.net/documents/en-US/Business+Analytics+Nanodegree+Program+Syllabus+2.0.pdf)
 

@@ -34,14 +34,14 @@ The links are below, under "Choose from these Dashboards." Choose one of these d
 
 For each insight:
 
-- [ ] Provide a static image that shares what you found.
-- [ ] Write a short report explaining each observation and
-- [ ] How you found the information to reach your conclusion from the dashboard.
-- [ ] Altogether (including images), your report should be 1-2 pages.
+- Provide a static image that shares what you found.
+- Write a short report explaining each observation and
+- How you found the information to reach your conclusion from the dashboard.
+- Altogether (including images), your report should be 1-2 pages.
 
 [LinkedIn Top Skills](https://public.tableau.com/profile/matt.chambers#!/vizhome/LinkedInTopSkills2016-MakeoverMonday/LinkedInTopSkills2016-MakeoverMonday)
 
-[Project Rubric](https://review.udacity.com/#!/rubrics/1063/view)
+[Project Rubric](rubric1.pdf)
 
 ## [My Project](https://venngage.net/ps/br2YNur10Ew/interpret-a-data-visualization)
 

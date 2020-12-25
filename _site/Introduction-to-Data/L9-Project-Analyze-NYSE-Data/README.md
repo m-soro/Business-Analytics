@@ -19,7 +19,7 @@ The main goal of this project is for you to demonstrate your ability to:
     * analyze and forecast financial business metrics using Excel or Google Sheets.
     * create visualizations of a business metric and use Excel or Google Sheets to create a financial forecast model.
 
-You will need to create a presentation and spreadsheet to be reviewed. The details of this submission are provided in the last page in this lesson. Pay attention to the details of the [Rubric](https://review.udacity.com/#!/rubrics/2347/view) to assure you have all deliverables. In order to have your presentation reviewed, you will need to save your slides as a PDF. You can save your spreadsheet as a Microsoft Excel workbook or Google spreadsheet.
+You will need to create a presentation and spreadsheet to be reviewed. The details of this submission are provided in the last page in this lesson. Pay attention to the details of the [Rubric](./Misc/rubric2.pdf) to assure you have all deliverables. In order to have your presentation reviewed, you will need to save your slides as a PDF. You can save your spreadsheet as a Microsoft Excel workbook or Google spreadsheet.
 
 ## Understanding the Data
 

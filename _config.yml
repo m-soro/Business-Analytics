@@ -1,7 +1,8 @@
 title: Business Analytics
 description: Mark Soro projects and modules for Business Analytics Nanodegree.
 tagline: Mark Soro projects and modules for Business Analytics Nanodegree.
-image: /Welcome-to-the-Nanodegree-Program/analytics.jpg
+author: Mark Soro
+image: https://m-soro.github.io/Business-Analytics/Welcome-to-the-Nanodegree-Program/udacity-business-analytics.jpg
 show_downloads: false
 google_analytics: G-FGD1M93BQ2
 theme: jekyll-theme-cayman

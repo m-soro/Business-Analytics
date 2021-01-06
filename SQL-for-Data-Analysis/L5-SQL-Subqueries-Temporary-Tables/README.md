@@ -111,14 +111,112 @@ Udacity's
 ```
 
 ### More Subqueries Quizzes
+
 ![image](./Misc/001png)
+
 Above is the ERD for the database again - it might come in handy as you tackle the quizzes below. You should write your solution as a subquery or subqueries, not by finding one solution and copying the output. The importance of this is that it allows your query to be dynamic in answering the question - even if the data changes, you still arrive at the right answer.
 
 1. Provide the name of the sales_rep in each region with the largest amount of total_amt_usd sales.
 
+Udacity's Answer
+
+
+First  find the total amount usd for each sales rep and the region they are located.
+
+>This will be t1 and will be nested inside t2
+```
+  SELECT r.name region, s.name rep, SUM(o.total_amt_usd) total_amt
+  FROM sales_reps s
+  JOIN region r
+  ON s.region_id = r.id
+  JOIN accounts a
+  ON s.id = a.sales_rep_id
+  JOIN orders o
+  ON a.id = o.account_id
+  GROUP BY 1, 2
+```
+
+Next pull the max for each region and use this to pull those rows in the final result.
+
+>This is t2, will be used to pull the max in each region
+```
+  SELECT region, MAX(total_amt) total_amt
+      FROM (SELECT r.name region, s.name rep, SUM(o.total_amt_usd) total_amt
+              FROM sales_reps s
+              JOIN region r
+              ON s.region_id = r.id
+              JOIN accounts a
+              ON s.id = a.sales_rep_id
+              JOIN orders o
+              ON a.id = o.account_id
+      GROUP BY 1, 2) t1
+      GROUP BY 1
+```
+
+Essentially, this is a **JOIN** of these two tables, where the **region** and **amount** match.
+
+
+```
+  SELECT t3.rep, t3.region, t3.total_amt
+  FROM (SELECT region, MAX(total_amt) total_amt
+        FROM (SELECT r.name region, s.name rep, SUM(o.total_amt_usd)        total_amt
+              FROM sales_reps s
+              JOIN region r
+              ON s.region_id = r.id
+              JOIN accounts a
+              ON s.id = a.sales_rep_id
+              JOIN orders o
+              ON a.id = o.account_id
+              GROUP BY 1, 2) t1
+        GROUP BY 1) t2
+  JOIN (SELECT r.name region, s.name rep, SUM(o.total_amt_usd) total_amt
+        FROM sales_reps s
+        JOIN region r
+        ON s.region_id = r.id
+        JOIN accounts a
+        ON s.id = a.sales_rep_id
+        JOIN orders o
+        ON a.id = o.account_id
+        GROUP BY 1,2 ) t3      
+  ON t2.region = t3.region AND t2.total_amt = t3.total_amt
+```
 
 2. For the region with the largest (sum) of sales total_amt_usd, how many total (count) orders were placed?
 
+```
+  SELECT r.name region, SUM(o.total_amt_usd) total_amt
+  FROM region r
+  JOIN sales_reps s
+    ON s.region_id = r.id
+  JOIN accounts a
+    ON a.sales_rep_id = s.id
+  JOIN orders o
+    ON o.account_id = a.id
+  GROUP BY 1
+  ORDER BY 2 DESC
+  LIMIT 1
+```
+
+
+select r.name region, count(o.total) order_count
+from region r
+join sales_reps s
+on s.region_id = r.id
+join accounts a
+on a.sales_rep_id = s.id
+join orders o
+on o.account_id = a.id
+group by 1
+having sum(o.total_amt_usd) = (select r.name region, sum(o.total_amt_usd) total_amt
+from region r
+join sales_reps s
+on s.region_id = r.id
+join accounts a
+on a.sales_rep_id = s.id
+join orders o
+on o.account_id = a.id
+order by 1 desc
+limit 1)
 
 3. How many accounts had more total purchases than the account name which has bought the most standard_qty paper throughout their lifetime as a customer?
 

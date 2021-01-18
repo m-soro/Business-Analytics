@@ -570,8 +570,93 @@ Essentially a **WITH** statement performs the same task as a **Subquery**. There
 
 4. For the customer that spent the most (in total over their lifetime as a customer) **total_amt_usd**, how many **web_events** did they have for each channel?
 
+```
+with t1 as
+(
+   select
+      a.name account,
+      sum(o.total_amt_usd)
+   from
+      orders o
+      join
+         accounts a
+         on o.account_id = a.id
+   group by
+      1
+   order by
+      2 desc limit 1
+)
+select
+   w.channel channel,
+   count(*) event_count
+from
+   web_events w
+   join
+      accounts a
+      on w.account_id = a.id
+where
+   a.name =
+   (
+      select
+         t1.account
+      from
+         t1
+   )
+group by
+   1
+order by
+   2 desc
+```
+
 
 5. What is the lifetime average amount spent in terms of **total_amt_usd** for the top 10 total spending **accounts**?
 
+```
+WITH top_ten AS
+                (
+                  SELECT a.name account, SUM(total_amt_usd) total
+                  FROM orders o
+                  JOIN accounts a
+                  ON o.account_id = a.id
+                  GROUP BY 1
+                  ORDER BY 2 DESC
+                  LIMIT 10
+                )
+SELECT AVG(total)
+FROM top_ten
+```
+
 
 6. What is the lifetime average amount spent in terms of **total_amt_usd**, including only the companies that spent more per order, on average, than the average of all orders.
+
+```
+  WITH avg_all AS
+  (
+    SELECT AVG(total_amt_usd)
+    FROM orders
+  ),
+
+  greater_than_avg_all AS (
+                            SELECT a.name account,
+                            AVG(o.total_amt_usd) average
+                            FROM orders o
+                            JOIN accounts a
+                            ON a.id = o.account_id
+                            GROUP BY 1
+                            HAVING AVG(o.total_amt_usd) > (
+                                                            SELECT *
+                                                            FROM avg_all
+                                                          )
+                            ORDER BY 2 DESC
+                          )
+
+  SELECT AVG(average)
+  FROM greater_than_avg_all
+```
+
+###Recap
+This lesson was the first of the more advanced sequence in writing SQL. Arguably, the advanced features of **Subqueries** and **CTEs** are the most widely used in an analytics role within a company. Being able to break a problem down into the necessary tables and finding a solution using the resulting table is very useful in practice.
+
+If you didn't get the solutions to these queries on the first pass, don't be afraid to come back another time and give them another try. Additionally, you might try coming up with some questions of your own to see if you can find the solution.
+
+The remaining portions of this course may be key to certain analytics roles, but you have now covered all of the main SQL topics you are likely to use on a day to day basis.

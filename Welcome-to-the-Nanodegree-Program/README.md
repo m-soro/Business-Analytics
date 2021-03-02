@@ -1,7 +1,5 @@
 # Interpret a Data Visualization
 
-## [Skip to my Project](#my-project)
-
 ### Introduction
 
 In order for you to see how data is being used across many industries, you will hear from three individuals from greatly differing industries.

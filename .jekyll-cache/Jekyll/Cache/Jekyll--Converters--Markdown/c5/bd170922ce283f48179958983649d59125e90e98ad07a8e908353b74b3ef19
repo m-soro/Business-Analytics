@@ -1,0 +1,85 @@
+I"�<h1 id="business-analytics-nanodegree">Business Analytics Nanodegree</h1>
+
+<p>This Udacity program aims to develop foundational data skills. Analyze data using Excel, query a database using SQL and build interactive dashboards and visualizations in Tableau.</p>
+
+<p>To successfully complete this course, four mentor reviewed projects are required and one must satisfy the project’s rubric.</p>
+
+<p>Here are some of the reviews I received from Udacity:</p>
+
+<blockquote>
+  <p><em>“Congrats on passing this project from the very first attempt! This is something I don’t see often, so you should be really proud of yourself :)”. Full review <a href="Welcome-to-the-Nanodegree-Program/review1.pdf">:point_right:</a></em></p>
+</blockquote>
+
+<blockquote>
+  <p><em>“Good knowledge of statistics and great analytical skills shown in this work. Please keep up doing this good job!”. Full review  <a href="Welcome-to-the-Nanodegree-Program/review2.pdf">:point_right:</a></em></p>
+</blockquote>
+
+<blockquote>
+  <p><em>“Well done coming up with your insights, they are simple yet very informative”. Full review <a href="Welcome-to-the-Nanodegree-Program/review3.pdf">:point_right:</a></em></p>
+</blockquote>
+
+<h4 id="course-syllabus"><a href="https://d20vrrgs8k4bvw.cloudfront.net/documents/en-US/Business+Analytics+Nanodegree+Program+Syllabus+2.0.pdf">Course Syllabus</a></h4>
+
+<h2 id="welcome-to-the-program"><a href="#">Welcome to the Program</a></h2>
+
+<p>Introduction to the program about where and how data applies to a variety of industries. First project is to interpret a data visualization.</p>
+
+<h4 id="dart-project---interpret-a-data-visualization">:dart: PROJECT - Interpret a Data Visualization</h4>
+<p><a href="Welcome-to-the-Nanodegree-Program/index.html#my-project">Project Link</a></p>
+
+<blockquote>
+  <p>In this project, you’ll explore an interactive data dashboard to uncover insights. You’ll write a short report explaining each insight, and how you found the information to reach your conclusion from the dashboard.</p>
+</blockquote>
+
+<p><a href="Welcome-to-the-Nanodegree-Program/rubric1.pdf">Project Rubric</a></p>
+
+<h2 id="introduction-to-data"><a href="Introduction-to-Data/README.md">Introduction to Data</a></h2>
+
+<p>Using descriptive statistics and visualizations in Excel this section aims to develop and communicate insights discovered from the data. This section also teaches more advanced excel functions, builds excel models and statistical analysis. The project at the end of the lesson is to analyze data from NYSE.</p>
+
+<h4 id="dart-project---analyze-nyse-data">:dart: PROJECT - Analyze NYSE Data</h4>
+<p><a href="Introduction-to-Data/L9-Project-Analyze-NYSE-Data/index.html#my-project">Project Link</a></p>
+
+<blockquote>
+  <p>In this project, you’ll use statistics and spreadsheet programs like Excel to analyze data from over 500 companies on the New York Stock Exchange. You’ll also forecast financial metrics based on three possible scenarios for a company of your choice from the NYSE dataset.</p>
+</blockquote>
+
+<p><a href="Introduction-to-Data/L9-Project-Analyze-NYSE-Data/Misc/rubric2.pdf">Project Rubric</a></p>
+
+<h2 id="sql-for-data-analysis"><a href="SQL-for-Data-Analysis/README.md">SQL for Data Analysis</a></h2>
+
+<p>Extract and analyze a data set using SQL. Use data gathered from a query result to find answers to business questions and visualize it to make it easier to understand. The project in this section is to analyze a digital music store in how data gathered from their database may help the company.</p>
+
+<h4 id="dart-project---query-a-digital-music-store-database">:dart: PROJECT - Query a Digital Music Store Database</h4>
+<p><a href="SQL-for-Data-Analysis/L4-Project-Query-Music-Store/index.html#my-project">Project Link</a></p>
+
+<blockquote>
+  <p>In this project, you will query a digital music store database which holds information regarding the store’s media, employees, and customers. You will use the database to help the store gain an understanding of the types of music that are purchased, where customers live, and how the company might optimize their business practices.</p>
+</blockquote>
+
+<p><a href="SQL-for-Data-Analysis/L4-Project-Query-Music-Store/Misc/rubric3.pdf">Project Rubric</a></p>
+
+<h2 id="data-visualization"><a href="Data-Visualization/README.md">Data Visualization</a></h2>
+<p>This section takes data visualizations to another level. Use Tableau to analyze and visualize large data sets, and create informative and dynamic data dashboards. This section makes it easier to visualize large data sets in a more readable form in order to present insights to all business areas.</p>
+
+<h4 id="dart-project--build-data-dashboards">:dart: PROJECT- Build Data Dashboards</h4>
+<p><a href="Data-Visualization/L5-Project-Build-Data-Dashboard/index.html#my-project">Project Link</a></p>
+
+<blockquote>
+  <p>In this project, you’ll build interactive dashboards with Tableau and use them to discover and communicate insights from data. You’ll use a dataset of flight delays in the US to visualize the quality of airlines and airports, find the best times to fly, and more.</p>
+</blockquote>
+
+<p><a href="Data-Visualization/L5-Project-Build-Data-Dashboard/Misc/rubric4.pdf">Project Rubric</a></p>
+
+<hr />
+
+<h2 id="certificate-of-completion"><a href="https://confirm.udacity.com/DCPLKGXW">Certificate of Completion</a></h2>
+
+<p><img src="Welcome-to-the-Nanodegree-Program/udacity-business-analytics.jpg" alt="image" /></p>
+
+<hr />
+
+<p><strong>Acknowledgement</strong></p>
+
+<p>Thanks to :raised_hands: <a href="https://www.udacity.com/">Udacity</a> :raised_hands: for providing this <a href="Welcome-to-the-Nanodegree-Program/scholarship.pdf">scholarship</a> :tada: course.</p>
+:ET

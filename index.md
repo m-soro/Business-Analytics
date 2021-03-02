@@ -24,7 +24,7 @@ Here are some of the reviews I received from Udacity:
 Introduction to the program about where and how data applies to a variety of industries. First project is to interpret a data visualization.
 
 #### :dart: PROJECT - Interpret a Data Visualization
-[:point_right:][Project Link](Welcome-to-the-Nanodegree-Program/index.html#my-project)
+[Project Link](Welcome-to-the-Nanodegree-Program/index.html#my-project)
 
 >In this project, you’ll explore an interactive data dashboard to uncover insights. You’ll write a short report explaining each insight, and how you found the information to reach your conclusion from the dashboard.
 

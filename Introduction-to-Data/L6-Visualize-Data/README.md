@@ -21,7 +21,7 @@ In the following exercise, you'll open a spreadsheet of Financial information co
 
 **What chat to use?**
 
-![image](./Misc/002.png)
+![image](./Misc/002.png){:class="img-responsive"}
 
 #### Exercise: Scatter Plots
 
